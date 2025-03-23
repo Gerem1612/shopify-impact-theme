@@ -40,6 +40,7 @@
         "heading_eQP4z7",
         "button_CJR89y"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -58,6 +59,7 @@
         "image_BQPPYf": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Banniere_Test_Pulmeor.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
