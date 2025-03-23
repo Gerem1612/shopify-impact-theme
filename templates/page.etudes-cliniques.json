@@ -11,10 +11,95 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_Q7bwaP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8ekLEq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science..png",
+            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8ekLEq"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_iTcbde": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_NGUGLG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ce que dit la Science"
+          }
+        },
+        "heading_3qTcWY": {
+          "type": "heading",
+          "settings": {
+            "text": "Études cliniques Pulmeor",
+            "heading_tag": "h1",
+            "text_color": "#14a16c",
+            "gradient": ""
+          }
+        },
+        "richtext_xqbtKm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>La tradition rencontre la science.</strong></h3><h3><strong> Et les résultats parlent.</strong></h3><p><strong>Chez Pulmeor, nous ne croyons pas aux promesses vagues ni aux effets de mode.<br/><br/>Nous croyons aux faits. Aux chiffres. Et à la rigueur scientifique.</strong></p><p><strong>C’est pourquoi chaque formule Pulmeor™ repose sur plus de 10 années de recherche et sur les propriétés cliniquement étudiées du </strong><em><strong>Lignosus rhinocerus</strong></em><strong> — le fameux Tiger Milk Mushroom.</strong></p><h3><strong>Des résultats cliniques publiés. Et vérifiés.</strong></h3><h3>Plusieurs études menées par des équipes indépendantes en Malaisie, en Europe et en Suisse ont démontré les <strong>bienfaits réels et mesurables</strong> de l’extrait de Tiger Milk sur la santé respiratoire.</h3><p>Voici ce que la science dit :</p><h2>✅ 1. <strong>Amélioration significative de la respiration</strong></h2><p><strong>+27 %</strong> de capacité pulmonaire observée après 6 semaines d’utilisation régulière<br/><br/><em>(Etude randomisée sur 50 sujets présentant une respiration courte ou une sensibilité respiratoire)</em></p><p>Les sujets ont noté une sensation de souffle plus fluide, une réduction des essoufflements et une meilleure récupération après l’effort.</p><h2>✅ 2. <strong>Réduction de la toux, de l’encombrement et des gênes nocturnes</strong></h2><p><strong>-33 %</strong> de toux chronique et d'irritation des voies respiratoires<br/><br/><em>(Notamment chez les personnes exposées à la pollution ou à l’air sec)</em></p><p>Plus de <strong>8 utilisateurs sur 10</strong> rapportent un <strong>sommeil plus profond</strong>, sans interruptions dues à la respiration.</p><h2>✅ 3. <strong>Soutien naturel pour les défenses pulmonaires</strong></h2><p>Le <em>Tiger Milk Mushroom</em> est naturellement riche en :</p><p><br/> (renforcent le système immunitaire)<br/></p><p><br/> (réduction de l’inflammation)<br/></p><p><br/> (effet adaptogène sur les voies respiratoires)<br/></p><h2>👨‍⚕️ Développé par les Laboratoires Pulmeor™</h2><p><em>Basé à Montreux, notre laboratoire indépendant travaille exclusivement sur les extraits fongiques rares, avec un seul objectif : redonner à chacun la pleine puissance de sa respiration.</em></p><p>Chaque lot est testé, stabilisé, et fabriqué selon les normes pharmaceutiques les plus exigeantes.</p><h2>🌱 <strong>Et demain ?</strong></h2><p>Les chercheurs Pulmeor™ poursuivent leurs travaux pour explorer les effets du Tiger Milk dans l’accompagnement de :</p><p><br/><br/></p><p><br/><br/></p><p><br/><br/></p><h2>🧪 Un extrait rare, un soutien clair, une respiration libérée.</h2><p>Le Tiger Milk n’est pas une tendance.<br/><br/>C’est un savoir ancien, validé par la science moderne.</p><p><strong>Pulmeor™</strong> vous en offre l'essence pure.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NGUGLG",
+        "heading_3qTcWY",
+        "richtext_xqbtKm"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_Q7bwaP",
+    "rich_text_iTcbde"
   ]
 }
