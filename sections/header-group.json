@@ -20,18 +20,10 @@
             "text": "🚚 Livraison gratuite en France métropolitaine, Suisse, Belgique & Luxembourg",
             "url": ""
           }
-        },
-        "message_A4apYK": {
-          "type": "message",
-          "settings": {
-            "text": "🎁Offre du moment :",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "message_RqNgEy",
-        "message_A4apYK"
+        "message_RqNgEy"
       ],
       "settings": {
         "enable_sticky": false,
