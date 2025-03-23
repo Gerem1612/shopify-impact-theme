@@ -13,12 +13,32 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "message_RqNgEy": {
+          "type": "message",
+          "settings": {
+            "text": "🚚 Livraison gratuite en France métropolitaine, Suisse, Belgique & Luxembourg",
+            "url": ""
+          }
+        },
+        "message_A4apYK": {
+          "type": "message",
+          "settings": {
+            "text": "🎁Offre du moment :",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message_RqNgEy",
+        "message_A4apYK"
+      ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#14a16c",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
