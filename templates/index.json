@@ -20,14 +20,14 @@
           "type": "heading",
           "settings": {
             "text": "Le cadeau de la nature pour des poumons en bonne santé",
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         },
         "button_CJR89y": {
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "lg",
+            "size": "xl",
             "text": "COMMANDER MAINTENANT",
             "url": "",
             "background": "#14a16c",
