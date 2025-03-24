@@ -88,6 +88,15 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "newsletter_w7d3yF": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Soyez informez des nouveaux produits",
+            "content": "<p>Inscrivez-vous en entrant votre email pour recevoir en exclusivité les offres promotionnels de Pulmeor®</p>"
+          }
+        },
         "text_jq4P8t": {
           "type": "text",
           "settings": {
@@ -105,6 +114,7 @@
         }
       },
       "block_order": [
+        "newsletter_w7d3yF",
         "text_jq4P8t",
         "links"
       ],
