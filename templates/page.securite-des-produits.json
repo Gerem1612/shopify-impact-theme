@@ -39,31 +39,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_AgxKPL": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "image_m4kKXF",
-        "image_AgxKPL"
+        "image_m4kKXF"
       ],
       "settings": {
         "full_width": true,
@@ -76,10 +55,50 @@
         "background": "#F2F2F2",
         "background_gradient": ""
       }
+    },
+    "rich_text_XweMhj": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_F99mnR": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_XAinp4": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zh7UMn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_F99mnR",
+        "heading_XAinp4",
+        "richtext_zh7UMn"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_J6GtEc"
+    "slideshow_J6GtEc",
+    "rich_text_XweMhj"
   ]
 }
