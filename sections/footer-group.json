@@ -92,15 +92,8 @@
           "type": "text",
           "settings": {
             "title": "A PROPOS DE NOUS",
-            "content": "<p>Spécialisés dans le <strong>soutien naturel de la santé pulmonaire</strong>, nous allions les <strong>principes actifs de la nature</strong> à la <strong>rigueur scientifique moderne</strong>, pour développer des formules à base de plantes et de champignons médicinaux, reconnues pour leur efficacité et leur sécurité.</p><p></p>",
+            "content": "<p>Pulmeor® est spécialisé dans le soutien naturel de la santé pulmonaire pour les personnes.</p><p> Guidés par la science et alimentés par la nature, nos compléments à base de plantes répondent à un large éventail de problèmes respiratoires. </p><p></p>",
             "enable_follow_on_shop": true
-          }
-        },
-        "links_FrWe8G": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true
           }
         },
         "links": {
@@ -113,7 +106,6 @@
       },
       "block_order": [
         "text_jq4P8t",
-        "links_FrWe8G",
         "links"
       ],
       "custom_css": [],
