@@ -96,6 +96,13 @@
             "enable_follow_on_shop": true
           }
         },
+        "links_FrWe8G": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -106,6 +113,7 @@
       },
       "block_order": [
         "text_jq4P8t",
+        "links_FrWe8G",
         "links"
       ],
       "custom_css": [],
