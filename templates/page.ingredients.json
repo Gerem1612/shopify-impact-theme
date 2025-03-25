@@ -172,6 +172,46 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "slideshow_NgVfkY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YFFa8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ingredients_image_avec_benefices.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YFFa8z"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -180,6 +220,7 @@
     "rich_text_xN6tUU",
     "slideshow_F3W8Jg",
     "rich_text_Jn8dz3",
-    "rich_text_n3Njfd"
+    "rich_text_n3Njfd",
+    "slideshow_NgVfkY"
   ]
 }
