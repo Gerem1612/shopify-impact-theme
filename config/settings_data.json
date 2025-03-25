@@ -37,6 +37,8 @@
     "heading_apparition": "split_fade",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
+    "cart_type": "popover",
+    "cart_icon": "shopping_cart",
     "social_facebook": "http://pulmeor.com",
     "social_twitter": "http://pulmeor.com",
     "social_instagram": "http://pulmeor.com",
