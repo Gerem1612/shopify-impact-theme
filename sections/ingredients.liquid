@@ -1,0 +1,1350 @@
+{% liquid
+  assign heading = section.settings.heading
+  assign heading_size = section.settings.heading_size
+  assign heading_weight = section.settings.heading_weight
+  assign heading_color = section.settings.heading_color
+  assign heading_size_mobile = section.settings.heading_size_mobile
+
+  assign text = section.settings.text
+    assign text_size = section.settings.text_size
+    assign text_weight = section.settings.text_weight
+    assign text_color = section.settings.text_color
+    assign text_size_mobile = section.settings.text_size_mobile
+
+    assign tag_border_width = section.settings.tag_border_width
+    assign tag_border_color = section.settings.tag_border_color
+    assign tag_border_radius = section.settings.tag_border_radius
+    assign tag_border_style = section.settings.tag_border_style
+    assign tag_size = section.settings.tag_size
+    assign tag_weight = section.settings.tag_weight
+    assign tag_color = section.settings.tag_color
+    assign tag_size_mobile = section.settings.tag_size_mobile
+    assign tag_background = section.settings.tag_background
+
+
+    assign button_text = section.settings.button_text
+    assign button_link = section.settings.button_link
+    assign button_text_size = section.settings.button_text_size
+    assign button_text_weight = section.settings.button_text_weight
+    assign button_text_color = section.settings.button_text_color
+    assign button_text_size_mobile = section.settings.button_text_size_mobile
+    assign button_background = section.settings.button_background
+    assign button_border_width = section.settings.button_border_width
+    assign button_border_color = section.settings.button_border_color
+    assign button_border_radius = section.settings.button_border_radius
+    assign button_border_style = section.settings.button_border_style
+
+
+    assign card_border_radius = section.settings.card_border_radius
+    assign card_border_width = section.settings.card_border_width
+    assign card_border_color = section.settings.card_border_color
+    assign card_border_style = section.settings.card_border_style
+    assign card_background = section.settings.card_background
+
+
+    assign card_heading_size = section.settings.card_heading_size
+    assign card_heading_weight = section.settings.card_heading_weight
+    assign card_heading_color = section.settings.card_heading_color
+    assign card_heading_size_mobile = section.settings.card_heading_size_mobile
+
+    assign card_text_size = section.settings.card_text_size
+    assign card_text_weight = section.settings.card_text_weight
+    assign card_text_color = section.settings.card_text_color
+    assign card_text_size_mobile = section.settings.card_text_size_mobile
+    assign card_image_border_radius = section.settings.card_image_border_radius
+    assign card_image_border_width = section.settings.card_image_border_width
+    assign card_image_border_color = section.settings.card_image_border_color
+    assign card_image_border_style = section.settings.card_image_border_style
+
+    assign enable_navigation = section.settings.enable_navigation
+    assign navigation_color = section.settings.navigation_color
+    assign navigation_background = section.settings.navigation_background
+
+    assign layout_background = section.settings.layout_background
+    assign layout_margin_top = section.settings.layout_margin_top
+    assign layout_margin_bottom = section.settings.layout_margin_bottom
+%}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<style>
+
+
+  .section-{{ section.id }} {
+    
+    margin-top: {{ layout_margin_top}}px;
+    margin-bottom: {{  layout_margin_bottom}}px;
+  }
+
+  .section-{{ section.id }}-settings {
+    margin: 0 auto;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .ingredients-body-{{ section.id }} {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 40px;
+  }
+
+  .ingredients-heading-{{ section.id }} {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .ingredients-heading-{{ section.id }} * {
+    margin: 0;
+    font-size: {{  heading_size_mobile }}px;
+    color: {{  heading_color }};
+    font-weight: {{  heading_weight }};
+    line-height: 130%;
+    text-transform: unset;
+  }
+
+   .ingredients-text-{{ section.id }} {
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .ingredients-text-{{ section.id }} * {
+    margin: 0;
+    font-size: {{  text_size_mobile}}px;
+    color: {{ text_color }};
+    font-weight: {{ text_weight }};
+    line-height: 150%;
+    text-transform: unset;
+  }
+
+  .ingredients-items-{{ section.id }} {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .ingredients-item-{{ section.id }} {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    font-size: {{ tag_size_mobile }}px;
+    font-weight: {{ tag_weight }};
+    line-height: 100%;
+    text-align: center;
+    text-transform: unset;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: {{ tag_border_radius }}px;
+    color: {{ tag_color }};
+    border: {{ tag_border_width}}px {{ tag_border_style }} {{ tag_border_color }};
+    background-color: {{ tag_background}};
+    transition: all 0.25s ease 0s;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .ingredients-item-{{ section.id }}.active {
+    opacity: 1;
+    transition: all 0.25s ease 0s;
+  }
+
+  .ingredients-item-{{ section.id }}:hover {
+    opacity: 1;
+    color: {{ tag_background }};
+    background-color: {{ tag_color }};
+    transition: all 0.25s ease 0s;
+  }
+
+  .ingredients-button-{{ section.id }} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 0;
+    margin-top: 0px;
+    font-size: {{ button_text_size_mobile }}px;
+    font-weight: {{ button_text_weight }};
+    line-height: 100%;
+    text-align: center;
+    text-transform: unset;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: {{ button_border_radius }}px;
+    color: {{ button_text_color }};
+    border: {{ button_border_width }}px {{ button_border_style }} {{ button_border_color}};
+    background-color: {{ button_background }};
+    transition: all 0.25s ease 0s;
+  }
+
+  .ingredients-button-{{ section.id }}:hover {
+    color: {{ button_background }};
+    background-color: {{  button_text_color}};
+    transition: all 0.25s ease 0s;
+  }
+
+  .ingredients-slider-wrapper-{{ section.id }} {
+    min-width: 0;
+  }
+
+  .ingredients-slider-{{ section.id }} {
+    max-width: 100%;
+    margin: 0px auto;
+  }
+
+  .ingredients-slider-{{ section.id }} .swiper-wrapper {
+    align-items: stretch !important;
+  }
+
+  .ingredients-card-{{ section.id }} {
+    padding: 20px 20px;
+    border-radius: {{ card_border_radius }}px;
+    border: {{ card_border_width }}px {{ card_border_style }} {{ card_border_color }};
+    background-color: {{ card_background}};
+    box-sizing: border-box !important;
+    height: auto !important;
+  }
+
+  .ingredients-image-{{ section.id }} img,
+  .ingredients-image-{{ section.id }} svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ingredients-title-{{ section.id }} {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: {{ card_heading_size_mobile}}px;
+    color: {{ card_heading_color}};
+    font-weight: {{ card_heading_weight }};
+    line-height: 130%;
+    text-transform: unset;
+  }
+
+  .ingredients-card-text-{{ section.id }} {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .ingredients-card-text-{{ section.id }} * {
+    margin: 0;
+    font-size: {{ card_text_size_mobile }}px;
+    color: {{ card_text_color }};
+    font-weight: {{ card_text_weight }};
+    line-height: 130%;
+    text-transform: unset;
+  }
+
+  .ingredients-image-{{ section.id }} {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 80%;
+    border-radius: {{ card_image_border_radius }}%;
+    border: {{ card_image_border_width }}px {{ card_image_border_style }} {{  card_image_border_color}};
+    overflow: hidden;
+  }
+
+  .ingredients-image-{{ section.id }} img,
+  .ingredients-image-{{ section.id }} svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ingredients-image-{{ section.id }} svg {
+    background-color: #f5f5f5;
+  }
+
+  .ingredients-navigation-{{ section.id }} {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .ingredients-btn-prev-{{ section.id }},
+  .ingredients-btn-next-{{ section.id }} {
+    position: static;
+    z-index: 2;
+    width: 46px;
+    height: 46px;
+    border: 0px solid #2f222b;
+    border-radius: 50%;
+    background: {{  navigation_background }};
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+
+  .ingredients-btn-prev-{{ section.id }} {
+    left: 0px !important;
+  }
+
+  .ingredients-btn-next-{{ section.id }} {
+    right: 0px !important;
+  }
+
+  .ingredients-btn-prev-{{ section.id }} svg,
+  .ingredients-btn-next-{{ section.id }} svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .ingredients-btn-next-{{ section.id }} svg {
+    margin-left: 3px;
+  }
+
+  .ingredients-btn-prev-{{ section.id }} svg {
+    transform: rotate(180deg);
+  }
+
+  .ingredients-btn-prev-{{ section.id }} svg path,
+  .ingredients-btn-next-{{ section.id }} svg path {
+    fill: {{ navigation_color }};
+    transition: all 0.3s ease 0s;
+  }
+
+  {% comment %} .ingredients-btn-prev-{{ section.id }}:hover,
+  .ingredients-btn-next-{{ section.id }}:hover {
+    transition: all 0.3s ease 0s;
+    border: 0px solid #2f222b;
+    background: #2f222b;
+  } {% endcomment %}
+
+  .ingredients-btn-prev-{{ section.id }}:hover svg path,
+  .ingredients-btn-next-{{ section.id }}:hover svg path {
+    fill: {{ navigation_color }};
+    transition: all 0.3s ease 0s;
+  }
+
+  .ingredients-btn-prev-{{ section.id }}.swiper-button-disabled,
+  .ingredients-btn-next-{{ section.id }}.swiper-button-disabled {
+    opacity: 0.3;
+  }
+
+  .ingredients-pagination-{{ section.id }} {
+    position: static !important;
+    width: 100%;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ingredients-pagination-{{ section.id }} .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: {{ navigation_background }};
+    opacity: 0.6;
+    transition: all 0.25s ease 0s;
+  }
+
+  .ingredients-pagination-{{ section.id }} .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+    transition: all 0.25s ease 0s;
+  }
+
+  @media(min-width: 1024px) {
+
+    .section-{{ section.id }} {
+      margin-top: {{ layout_margin_top}}px;
+      margin-bottom: {{ layout_margin_bottom }}px;
+    }
+
+    .section-{{ section.id }}-settings {
+      padding: 0 5rem;
+      padding-top: 52px;
+      padding-bottom: 52px;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+
+    .ingredients-body-{{ section.id }} {
+      grid-template-columns: calc(56% - 30px) calc(44% - 30px);
+      gap: 60px;
+    }
+
+    .ingredients-heading-{{ section.id }} {
+      margin-top: 0px;
+      text-align: left;
+    }
+
+    .ingredients-heading-{{ section.id }} * {
+      font-size: {{ heading_size }}px;
+    }
+
+    .ingredients-text-{{ section.id }} {
+      margin-top: 24px;
+      text-align: left;
+    }
+
+    .ingredients-text-{{ section.id }} *{
+      font-size: {{ text_size }}px;
+    }
+
+    .ingredients-items-{{ section.id }} {
+      margin-top: 16px;
+      justify-content: start;
+      gap: 16px;
+    }
+
+    .ingredients-item-{{ section.id }} {
+      padding: 8px 14px;
+      font-size: {{ tag_size }}px;
+    }
+
+    .ingredients-button-{{ section.id }} {
+      margin-top: 32px;
+      padding: 20px 40px;
+      font-size: {{ button_text_size }}px;
+    }
+
+    .ingredients-slider-{{ section.id }} {
+      max-width: 100%;
+    }
+
+    .ingredients-card-{{ section.id }} {
+      padding: 20px 20px;
+    }
+
+    .ingredients-title-{{ section.id }} {
+      text-align: center;
+      font-size: {{ card_heading_size }}px;
+    }
+
+    .ingredients-card-text-{{ section.id }} {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .ingredients-card-text-{{ section.id }} * {
+      font-size: {{ card_text_size}}px;
+    }
+
+    .ingredients-image-{{ section.id }} {
+      max-width: 80%;
+    }
+
+    .ingredients-navigation-{{ section.id }} {
+      margin-top: -20px;
+      gap: 40px;
+    }
+
+    .ingredients-btn-prev-{{ section.id }},
+    .ingredients-btn-next-{{ section.id }} {
+      height: 46px;
+      width: 46px;
+    }
+
+    .ingredients-btn-prev-{{ section.id }} svg,
+    .ingredients-btn-next-{{ section.id }} svg {
+      height: 14px;
+      width: 14px;
+    }
+
+    .ingredients-pagination-{{ section.id }} .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+    }
+  }
+</style>
+<style>
+  .section-{{ section.id }}-settings {
+    max-width: 110rem;
+  }
+</style>
+
+<style>
+  .ingredients-button-{{ section.id }} {
+     margin-left: auto;
+     margin-right: auto;
+   }
+</style>
+
+<style>
+  @media(min-width: 1024px) {
+   .ingredients-button-{{ section.id }} {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-image-{{ section.id }} {
+   aspect-ratio: 12/12;
+  }
+</style>
+
+<style>
+  @media(min-width: 1024px) {
+    .ingredients-image-{{ section.id }} {
+     aspect-ratio: 12/12;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-image-{{ section.id }} {
+     margin-left: auto;
+     margin-right: auto;
+   }
+</style>
+
+<style>
+  @media(min-width: 1024px) {
+   .ingredients-image-{{ section.id }} {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-btn-prev-{{ section.id }},
+  .ingredients-btn-next-{{ section.id }} {
+    display: none;
+  }
+</style>
+
+<style>
+  @media(min-width: 1024px) {
+    .ingredients-btn-prev-{{ section.id }},
+    .ingredients-btn-next-{{ section.id }} {
+      display: flex;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-pagination-{{ section.id }} {
+    display: flex !important;
+  }
+</style>
+
+<style>
+  @media(min-width: 1024px) {
+    .ingredients-pagination-{{ section.id }} {
+      display: none !important;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-text-top-{{ section.id }} {
+    display: none;
+  }
+
+  .ingredients-text-bottom-{{ section.id }} {
+    display: block;
+  }
+
+  @media(min-width: 1024px) {
+    .ingredients-text-top-{{ section.id }} {
+      display: block;
+    }
+
+    .ingredients-text-bottom-{{ section.id }} {
+      display: none;
+    }
+  }
+</style>
+
+<style>
+  .ingredients-button-top-{{ section.id }} {
+    display: none;
+  }
+
+  .ingredients-button-bottom-{{ section.id }} {
+    display: block;
+  }
+
+  @media(min-width: 1024px) {
+    .ingredients-button-top-{{ section.id }} {
+      display: block;
+    }
+
+    .ingredients-button-bottom-{{ section.id }} {
+      display: none;
+    }
+  }
+</style>
+
+<div
+  class="section-{{ section.id }} ingredients-{{ section.id }}"
+  style="background-color: {{ layout_background }}; background-image: ;"
+>
+  <div class="section-{{ section.id }}-settings">
+    <div class="ingredients-body-{{ section.id }}">
+      <div class="ingredients-content-{{ section.id }}">
+        {% if heading != blank %}
+        <div class="ingredients-heading-{{ section.id }}">
+            <h2>{{ heading }}</h2>
+        </div>
+        {% endif %}
+        {% if text != blank %}
+        <div class="ingredients-text-{{ section.id }} ingredients-text-top-{{ section.id }}">
+          {{text}}
+        </div>
+    {% endif %}
+
+        <div class="ingredients-items-{{ section.id }}">
+            {%  for block in section.blocks %}
+                {% if block.type == "item" %}
+                    <p class="ingredients-item-{{ section.id }}">{{ block.settings.tag }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+        {% if button_text != blank %}
+        <a href="{{ button_link }}" class="ingredients-button-{{ section.id }} ingredients-button-top-{{ section.id }}">
+          {{ button_text }}
+        </a>
+    {% endif %}
+      </div>
+      <div class="ingredients-slider-wrapper-{{ section.id }}">
+        <div class="ingredients-slider-{{ section.id }} swiper ">
+          <div
+            class="swiper-wrapper"
+            >
+                {% for block in section.blocks %}
+                    {% if block.type == "card" %}
+            <div
+              class="ingredients-card-{{ section.id }} swiper-slide"
+              
+            >
+              <h3 class="ingredients-title-{{ section.id }}"> {{ block.settings.title }}</h3>
+
+              <div class="ingredients-card-text-{{ section.id }}">
+                {{ block.settings.text }}
+              </div>
+
+              <div class="ingredients-image-{{ section.id }}">
+                {% if block.settings.image != blank %}
+                <img
+                  src="{{ block.settings.image | img_url: 'master' }}"
+                  alt=""
+                  lazy="loading"
+                >
+                {% else %}
+                    {{ 'product-3' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+              </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+            
+          </div>
+        
+        </div>
+        <div class="ingredients-navigation-{{ section.id }}">
+        {% if enable_navigation %}
+          <button
+            class="ingredients-btn-prev-{{ section.id }}"
+            
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="307.046px"
+              height="307.046px"
+              viewBox="0 0 307.046 307.046"
+              style="enable-background:new 0 0 307.046 307.046;"
+              xml:space="preserve"
+            >
+              <path d="M281.828,142.427L144.002,4.597c-6.129-6.129-16.07-6.129-22.199,0l-11.101,11.101c-6.133,6.133-6.133,16.076,0,22.201
+                  l92.071,92.077H36.321c-8.668,0-15.701,7.035-15.701,15.701v15.699c0,8.664,7.033,15.701,15.701,15.701h166.445l-92.063,92.059
+                  c-6.133,6.136-6.133,16.086,0,22.209l11.101,11.101c6.129,6.136,16.07,6.136,22.199,0l137.826-137.831
+                  C287.959,158.487,287.959,148.556,281.828,142.427z"></path>
+            </svg>
+          </button>
+        {% endif %}
+          <div class="ingredients-pagination-{{ section.id }} swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+            
+          </div>
+        {% if enable_navigation %}
+          <button
+            class="ingredients-btn-next-{{ section.id }} swiper-button-disabled"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="307.046px"
+              height="307.046px"
+              viewBox="0 0 307.046 307.046"
+              style="enable-background:new 0 0 307.046 307.046;"
+              xml:space="preserve"
+            >
+              <path d="M281.828,142.427L144.002,4.597c-6.129-6.129-16.07-6.129-22.199,0l-11.101,11.101c-6.133,6.133-6.133,16.076,0,22.201
+                  l92.071,92.077H36.321c-8.668,0-15.701,7.035-15.701,15.701v15.699c0,8.664,7.033,15.701,15.701,15.701h166.445l-92.063,92.059
+                  c-6.133,6.136-6.133,16.086,0,22.209l11.101,11.101c6.129,6.136,16.07,6.136,22.199,0l137.826-137.831
+                  C287.959,158.487,287.959,148.556,281.828,142.427z"></path>
+            </svg>
+          </button>
+        {% endif %}
+        </div>
+      </div>
+
+      {% if text != blank %}
+      <div class="ingredients-text-{{ section.id }} ingredients-text-bottom-{{ section.id }}">
+        {{text}}
+      </div>
+    {% endif %}
+    {% if button_text != blank %}
+      <a href="{{ button_link }}" class="ingredients-button-{{ section.id }} ingredients-button-bottom-{{ section.id }}">
+        {{ button_text}}
+      </a>
+    {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+    "name": "PC - Ingredient #1",
+    "settings": [
+        {
+            "type": "header",
+            "content": "This section is a property of PeakConversion",
+            "info": "Do not sell or reproduce. contact us at franklinjounda@gmail.com for more info"
+        },
+        {
+            "type": "header",
+            "content": "Heading Settings"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "High quality ingredients"
+        },
+        {
+            "type": "range",
+            "id": "heading_size",
+            "label": "Heading Size",
+            "default": 38,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "heading_weight",
+            "label": "Heading Weight",
+            "default": "bold",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading Color",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "heading_size_mobile",
+            "label": "Heading Size Mobile",
+            "default": 28,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "header",
+            "content": "Text Settings"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+        },
+        {
+            "type": "range",
+            "id": "text_size",
+            "label": "Text Size",
+            "default": 18,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "text_weight",
+            "label": "Text Weight",
+            "default": "normal",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text Color",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "text_size_mobile",
+            "label": "Text Size Mobile",
+            "default": 16,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "header",
+            "content": "Tag Settings"
+        },
+        {
+            "type": "range",
+            "id": "tag_border_width",
+            "label": "Tag Border Width",
+            "default": 1,
+            "min": 0,
+            "max": 10,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "tag_border_color",
+            "label": "Tag Border Color",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "tag_border_radius",
+            "label": "Tag Border Radius",
+            "default": 40,
+            "min": 0,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "tag_border_style",
+            "label": "Tag Border Style",
+            "default": "solid",
+            "options": [
+                { "value": "solid", "label": "Solid" },
+                { "value": "dashed", "label": "Dashed" },
+                { "value": "dotted", "label": "Dotted" }
+            ]
+        },
+        {
+            "type": "range",
+            "id": "tag_size",
+            "label": "Tag Size",
+            "default": 16,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "tag_weight",
+            "label": "Tag Weight",
+            "default": "normal",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "tag_color",
+            "label": "Tag Color",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "tag_size_mobile",
+            "label": "Tag Size Mobile",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "tag_background",
+            "label": "Tag Background",
+            "default": "#ffffff"
+        },
+        {
+            "type": "header",
+            "content": "Button Settings"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "ORDER NOW"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "range",
+            "id": "button_text_size",
+            "label": "Button Text Size",
+            "default": 16,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "button_text_weight",
+            "label": "Button Text Weight",
+            "default": "bold",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "button_text_color",
+            "label": "Button Text Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "range",
+            "id": "button_text_size_mobile",
+            "label": "Button Text Size Mobile",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "button_background",
+            "label": "Button Background",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "button_border_width",
+            "label": "Button Border Width",
+            "default": 1,
+            "min": 0,
+            "max": 10,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "button_border_color",
+            "label": "Button Border Color",
+            "default": "#333"
+        },
+        {
+            "type": "range",
+            "id": "button_border_radius",
+            "label": "Button Border Radius",
+            "default": 100,
+            "min": 0,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "button_border_style",
+            "label": "Button Border Style",
+            "default": "solid",
+            "options": [
+                { "value": "solid", "label": "Solid" },
+                { "value": "dashed", "label": "Dashed" },
+                { "value": "dotted", "label": "Dotted" }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Card Settings"
+        },
+        {
+            "type": "range",
+            "id": "card_border_radius",
+            "label": "Card Border Radius",
+            "default": 40,
+            "min": 0,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "card_border_width",
+            "label": "Card Border Width",
+            "default": 1,
+            "min": 0,
+            "max": 10,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "card_border_color",
+            "label": "Card Border Color",
+            "default": "#333"
+        },
+        {
+            "type": "select",
+            "id": "card_border_style",
+            "label": "Card Border Style",
+            "default": "solid",
+            "options": [
+                { "value": "solid", "label": "Solid" },
+                { "value": "dashed", "label": "Dashed" },
+                { "value": "dotted", "label": "Dotted" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "card_background",
+            "label": "Card Background",
+            "default": "#ffffff"
+        },
+        {
+            "type": "range",
+            "id": "card_heading_size",
+            "label": "Card Heading Size",
+            "default": 34,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "card_heading_weight",
+            "label": "Card Heading Weight",
+            "default": "bold",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "card_heading_color",
+            "label": "Card Heading Color",
+            "default": "#000000"
+        },
+        {
+            "type": "range",
+            "id": "card_heading_size_mobile",
+            "label": "Card Heading Size Mobile",
+            "default": 30,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "card_text_size",
+            "label": "Card Text Size",
+            "default": 14,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "select",
+            "id": "card_text_weight",
+            "label": "Card Text Weight",
+            "default": "normal",
+            "options": [
+                { "value": "normal", "label": "Normal" },
+                { "value": "bold", "label": "Bold" }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "card_text_color",
+            "label": "Card Text Color",
+            "default": "#000000"
+        },
+        {
+            "type": "range",
+            "id": "card_text_size_mobile",
+            "label": "Card Text Size Mobile",
+            "default": 12,
+            "min": 10,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "card_image_border_radius",
+            "label": "Card Image Border Radius",
+            "default": 50,
+            "min": 0,
+            "max": 100,
+            "unit": "%"
+        },
+        {
+            "type": "range",
+            "id": "card_image_border_width",
+            "label": "Card Image Border Width",
+            "default": 6,
+            "min": 0,
+            "max": 10,
+            "unit": "px"
+        },
+        {
+            "type": "color",
+            "id": "card_image_border_color",
+            "label": "Card Image Border Color",
+            "default": "#333"
+        },
+        {
+            "type": "select",
+            "id": "card_image_border_style",
+            "label": "Card Image Border Style",
+            "default": "solid",
+            "options": [
+                { "value": "solid", "label": "Solid" },
+                { "value": "dashed", "label": "Dashed" },
+                { "value": "dotted", "label": "Dotted" }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Navigation Settings"
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_navigation",
+            "label": "Enable Navigation",
+            "default": true
+        },
+        {
+            "type": "color",
+            "id": "navigation_color",
+            "label": "Navigation Color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "color",
+            "id": "navigation_background",
+            "label": "Navigation Background",
+            "default": "#333"
+        },
+        {
+            "type": "header",
+            "content": "Layout Settings"
+        },
+        {
+            "type": "color",
+            "id": "layout_background",
+            "label": "Layout Background",
+            "default": "#fefefe"
+        },
+        {
+            "type": "range",
+            "id": "layout_margin_top",
+            "label": "Layout Margin Top",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "layout_margin_bottom",
+            "label": "Layout Margin Bottom",
+            "default": 0,
+            "min": 0,
+            "max": 100,
+            "unit": "px"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "item",
+            "name": "tag",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "tag",
+                    "label": "Tag",
+                    "default": "New"
+                }
+            ]
+        },
+        {
+            "type": "card",
+            "name": "ingredient",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Ingredient"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "PC - Ingredient #1",
+            "blocks": [
+                {
+                    "type": "item",
+                    "settings": {
+                        "tag": "New"
+                    }
+                },
+                {
+                    "type": "item",
+                    "settings": {
+                        "tag": "Organic"
+                    }
+                },
+                {
+                    "type": "item",
+                    "settings": {
+                        "tag": "Fresh"
+                    }
+                },
+                {
+                    "type": "card",
+                    "settings": {
+                        "image": "",
+                        "title": "Ingredient 1",
+                        "text": "<p>Description of ingredient 1.</p>"
+                    }
+                },
+                {
+                    "type": "card",
+                    "settings": {
+                        "image": "",
+                        "title": "Ingredient 2",
+                        "text": "<p>Description of ingredient 2.</p>"
+                    }
+                },
+                {
+                    "type": "card",
+                    "settings": {
+                        "image": "",
+                        "title": "Ingredient 3",
+                        "text": "<p>Description of ingredient 3.</p>"
+                    }
+                },
+                {
+                    "type": "item",
+                    "settings": {
+                        "tag": "Natural"
+                    }
+                },
+                {
+                    "type": "item",
+                    "settings": {
+                        "tag": "Vegan"
+                    }
+                },
+                {
+                    "type": "card",
+                    "settings": {
+                        "image": "",
+                        "title": "Ingredient 4",
+                        "text": "<p>Description of ingredient 4.</p>"
+                    }
+                },
+                {
+                    "type": "card",
+                    "settings": {
+                        "image": "",
+                        "title": "Ingredient 5",
+                        "text": "<p>Description of ingredient 5.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}
+{%  endschema %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  function initProductIngredients2() {
+    const ingredientsItemstemplate20473171444041__01c10ba74c094cfda18d7943e67f9b13 = document.querySelectorAll(
+      '.ingredients-item-{{ section.id }}'
+    );
+
+    ingredientsItemstemplate20473171444041__01c10ba74c094cfda18d7943e67f9b13.forEach((item, index) => {
+      item.addEventListener('click', function () {
+        const clickedIndex = index;
+
+        slider.slideTo(clickedIndex);
+
+        updateActiveIngredientsItem(clickedIndex);
+      });
+    });
+
+    function updateActiveIngredientsItem(index) {
+      ingredientsItemstemplate20473171444041__01c10ba74c094cfda18d7943e67f9b13.forEach((item) => {
+        item.classList.remove('active');
+      });
+      ingredientsItemstemplate20473171444041__01c10ba74c094cfda18d7943e67f9b13[index].classList.add('active');
+    }
+
+    const slider = new Swiper('.ingredients-slider-{{ section.id }}', {
+      speed: 300,
+      spaceBetween: 20,
+      pagination: {
+        el: '.ingredients-pagination-{{ section.id }}',
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.ingredients-btn-next-{{ section.id }}',
+        prevEl: '.ingredients-btn-prev-{{ section.id }}',
+      },
+      on: {
+        slideChange: function () {
+          updateActiveIngredientsItem(this.activeIndex);
+        },
+      },
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initProductIngredients2);
+
+  if (Shopify.designMode) {
+    document.addEventListener('shopify:section:unload', initProductIngredients2);
+    document.addEventListener('shopify:section:load', initProductIngredients2);
+  }
+</script>
