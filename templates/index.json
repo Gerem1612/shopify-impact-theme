@@ -183,13 +183,13 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
+        "text": "NETTOYER | REVITALISER | RENFORCER | PROTEGER |",
+        "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(310deg, rgba(255, 255, 255, 1) 15%, rgba(8, 163, 96, 1) 50%, rgba(255, 255, 255, 1) 100%)",
         "text_color": "",
         "text_gradient": ""
       }
@@ -200,7 +200,7 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "+ 245 890",
+            "title": "+ 245 894",
             "subheading": "",
             "content": "<h1><strong>clients nous ont déjà fait confiance </strong></h1>",
             "button_text": "",
@@ -217,8 +217,8 @@
             "content": "<h2><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h2>",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 5
           }
         }
       },
