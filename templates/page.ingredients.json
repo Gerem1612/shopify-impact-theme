@@ -150,6 +150,28 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_n3Njfd": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_fHQXpL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>6 Propriétés curatives respiratoires</h1>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_fHQXpL"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -157,6 +179,7 @@
     "main",
     "rich_text_xN6tUU",
     "slideshow_F3W8Jg",
-    "rich_text_Jn8dz3"
+    "rich_text_Jn8dz3",
+    "rich_text_n3Njfd"
   ]
 }
