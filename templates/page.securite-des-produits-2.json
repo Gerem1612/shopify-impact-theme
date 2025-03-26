@@ -71,14 +71,31 @@
           "settings": {
             "image": "shopify://shop_images/lignosus2024_icon-productsafety_worldleadinglabtests.png",
             "width_mode": "custom",
-            "max_width": 100,
-            "mobile_max_width": 400
+            "max_width": 250,
+            "mobile_max_width": 130
+          }
+        },
+        "heading_XLMQXn": {
+          "type": "heading",
+          "settings": {
+            "text": "Des tests de laboratoire à la pointe du progrès",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NEyCdj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong><br/>Lignosus a été testé par des laboratoires de renommée mondiale, reconnus comme la norme mondiale en matière de qualité et d’intégrité.<br/><br/>Cela garantit que Lignosus a fait l’objet d’un contrôle de qualité rigoureux, depuis les matières premières jusqu’au produit fini, confirmant ainsi sa sécurité pour la consommation humaine.</strong></p>"
           }
         }
       },
       "block_order": [
         "richtext_UHLCiQ",
-        "image_CBCAXW"
+        "image_CBCAXW",
+        "heading_XLMQXn",
+        "richtext_NEyCdj"
       ],
       "settings": {
         "full_width": true,
