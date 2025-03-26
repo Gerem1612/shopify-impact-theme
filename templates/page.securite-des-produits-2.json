@@ -72,7 +72,7 @@
         "richtext_mCnVGW": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Nous sommes fiers de nos produits.</h1><h1><br/>Votre sécurité est notre priorité.</h1>"
+            "content": "<h1>Nous sommes fiers de nos produits. Votre sécurité est notre priorité.</h1>"
           }
         }
       },
