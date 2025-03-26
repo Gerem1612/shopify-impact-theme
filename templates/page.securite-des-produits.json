@@ -59,31 +59,14 @@
     "rich_text_XweMhj": {
       "type": "rich-text",
       "blocks": {
-        "subheading_F99mnR": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_XAinp4": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_zh7UMn": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<h1>Nous sommes fiers de nos produits.                <br/>                                 </h1><h1>              Votre sécurité est notre priorité.</h1>"
           }
         }
       },
       "block_order": [
-        "subheading_F99mnR",
-        "heading_XAinp4",
         "richtext_zh7UMn"
       ],
       "settings": {
