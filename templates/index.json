@@ -102,7 +102,7 @@
             "title": "+ 245 894",
             "subheading": "",
             "content": "<h1><strong>clients nous ont déjà fait confiance </strong></h1>",
-            "button_text": "ACHETER",
+            "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 2.6
@@ -113,8 +113,8 @@
           "settings": {
             "title": "+ 658 710",
             "subheading": "",
-            "content": "<h1><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h1>",
-            "button_text": "DECOUVRIR",
+            "content": "<h2><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h2>",
+            "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 5
@@ -137,7 +137,7 @@
         "heading_text_color": "#14a16c",
         "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(20, 161, 108, 1) 50%, rgba(26, 26, 26, 0) 100%)",
         "text_color": "#14a16c",
-        "button_background": "#14a16c",
+        "button_background": "",
         "button_text_color": ""
       }
     },
@@ -157,62 +157,56 @@
         "text_gradient": ""
       }
     },
-    "media_with_text_TJk94e": {
-      "type": "media-with-text",
+    "faq": {
+      "type": "faq",
       "blocks": {
-        "image_EHNTnk": {
-          "type": "image",
+        "166442457738b23caf-0": {
+          "type": "item",
           "settings": {
-            "image": "shopify://shop_images/lignosus2024_image-earth_hand.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Pulmeor®",
-            "content": "<p>Notre engagement en faveur de la planète</p>",
-            "link_text": "En savoir plus",
-            "link_url": "",
-            "background": "#14a16c",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#4b4848",
-            "button_text_color": "#ffffff"
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
           }
         },
-        "image_gVG64y": {
-          "type": "image",
+        "166442457738b23caf-1": {
+          "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Stripe_Climate_150x150_c29a1b5a-58e4-4136-a97b-1b54fa14d37f.png",
-            "media_width": 30,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/lignosus2024_image-eden_people_planet.png",
-            "icon_width": 120,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Nous œuvrons dans les pays en développement pour reconstruire les paysages naturels détruits par la déforestation.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#4b4848",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
           }
         }
       },
       "block_order": [
-        "image_EHNTnk",
-        "image_gVG64y"
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2"
       ],
       "settings": {
         "full_width": false,
-        "spacing": "small"
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
@@ -221,6 +215,6 @@
     "slideshow",
     "impact-text",
     "scrolling-text",
-    "media_with_text_TJk94e"
+    "faq"
   ]
 }
