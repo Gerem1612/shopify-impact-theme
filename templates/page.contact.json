@@ -20,9 +20,9 @@
       "type": "contact",
       "settings": {
         "full_width": true,
-        "subheading": "Contactez nous !",
-        "title": "Nous sommes disponible pour toutes vos interrogations, demandes détaillés et personnelles.",
-        "content": "<p>Notre service client est ouvert 7J/7, de 9h à 18h. </p>",
+        "subheading": "",
+        "title": "Contactez nous !",
+        "content": "<h4>Nous sommes disponible pour toutes vos interrogations, demandes détaillés et personnelles.</h4><p>Notre service client est ouvert 7J/7, de 9h à 18h (hors jours fériés en France métropolitaine)</p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
