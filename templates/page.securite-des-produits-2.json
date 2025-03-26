@@ -201,8 +201,9 @@
         "card_TzPA8n": {
           "type": "card",
           "settings": {
-            "title": "",
-            "text": "<p>Description of ingredient 5.</p>"
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_peanutfree.png",
+            "title": "Sans arachides",
+            "text": "<p>Pulmeor est fier de détenir l’assurance Peanut-Free, qui garantit l’absence totale d’ingrédients à base d’arachides.</p>"
           }
         }
       },
