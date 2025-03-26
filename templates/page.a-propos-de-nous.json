@@ -1,0 +1,286 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_7iEp3Q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MNAtcH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ingredients_Pulmeor.png",
+            "mobile_image": "shopify://shop_images/Ingredients_mobile.png",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MNAtcH"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_xN6tUU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4fMW7K": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "#000000",
+            "gradient": ""
+          }
+        },
+        "richtext_mCnVGW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>Force de la nature</strong></h1><h1></h1><h3><em>Libérez votre souffle, naturellement.</em></h3><p><strong>Pulmeor</strong> puise dans la <strong>puissance ancestrale</strong> du <em>Lignosus rhinocerus</em>, un champignon médicinal rare et précieux, originaire de Malaisie, un pays d'Asie.</p><p>🌿 <strong>Un trésor de la nature</strong> au service de votre <strong>bien-être respiratoire</strong>.</p><p><strong>Respirez mieux. Vivez pleinement.</strong><br/><br/>Parce que la nature a déjà tout prévu,  chez Pulmeor, nous avons choisi de l’écouter.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4fMW7K",
+        "richtext_mCnVGW"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_F3W8Jg": {
+      "type": "slideshow",
+      "blocks": {
+        "image_UNpcbq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Photo_Tiger_Milk_Champignon.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UNpcbq"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_Jn8dz3": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_88VNLP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Le champignon \"lait de tigre\" (Tiger Milk)</strong></h2><p><em>Le joyau caché de la forêt tropicale avec plus de 400 ans d'histoire de guérison respiratoire</em></p><ul><li>Un champignon comestible rare qui soutient la santé respiratoire depuis 400 ans.</li><li>Membre de la même famille de champignons que le Lingzhi ou le champignon Reishi.</li><li>Pousse uniquement à partir d'un tubercule souterrain, ce qui la rend rare..</li><li>Le tubercule est de couleur blanche et riche en (1,3)-(1,6)-Beta-D-Glucan..</li><li>Contient des composés bioactifs clés qui soulagent efficacement les symptômes respiratoires tels que la toux, l'asthme, la sinusite, la bronchite, le rhume, etc..</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_88VNLP"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_n3Njfd": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_fHQXpL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>6 Propriétés curatives respiratoires</h1>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_fHQXpL"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_TXBfiF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6iTYHz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Benefices_ingredients_6b2c5987-870c-4934-b8aa-8f5797178b65.png",
+            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6iTYHz"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "media_with_text_9WJC86": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VNQ6UF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lignosus2024_image-earth_hand.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 24,
+            "subheading": "",
+            "title": "Pulmeor®",
+            "content": "<p>Membre actif de la cause climatique, aux côtés de nombreuses ONG</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#14a16c",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_RX9GyN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stripe_Climate_1500_x_1500_px.png",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/lignosus2024_image-eden_people_planet.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Nous œuvrons dans les pays en développement pour reconstruire les paysages naturels détruits par la déforestation.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VNQ6UF",
+        "image_RX9GyN"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "slideshow_7iEp3Q",
+    "main",
+    "rich_text_xN6tUU",
+    "slideshow_F3W8Jg",
+    "rich_text_Jn8dz3",
+    "rich_text_n3Njfd",
+    "slideshow_TXBfiF",
+    "media_with_text_9WJC86"
+  ]
+}
