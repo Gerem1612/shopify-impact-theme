@@ -176,6 +176,101 @@
         "text_color": ""
       }
     },
+    "images_with_text_scrolling_AY86Ma": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_6KMmxL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Banniere_Test_Pulmeor.png",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "1. Une solution 100 % naturelle",
+            "content": "<p>Pulmeor est formulé exclusivement à partir d’ingrédients d’origine naturelle, sans ajout de substances artificielles.<br/><br/>Un choix respectueux de votre corps, en harmonie avec les besoins de votre système respiratoire.</p>"
+          }
+        },
+        "item_tNrtw7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Photo_Tiger_Milk_Champignon.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "2. Cultivé dans un sol vivant, certifié biologique",
+            "content": "<p>Le champignon Lignosus utilisé dans Pulmeor est cultivé en pleine terre, dans une ferme certifiée biologique en Malaisie. <br/><br/>Aucun procédé en laboratoire, aucun substrat synthétique : uniquement la force de la nature.</p>"
+          }
+        },
+        "item_HYBEpC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/raw.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "3. Un dosage précis et optimal",
+            "content": "<p>Chaque dose de Pulmeor contient 500 mg de Lignosus biologique, un dosage étudié pour soutenir efficacement la santé pulmonaire, sans excès ni sous-dosage.<br/><br/>La justesse au service des résultats.</p>"
+          }
+        },
+        "item_fRteUx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_26_mars_2025_02_14_48.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "4. S'attaquer aux symptômes respiratoires et à leurs causes profondes",
+            "content": "<p>L'ingrédient clé, le champignon tigré, bloque de manière unique les protéines responsables de l'hypersensibilité respiratoire, réduisant ainsi l'irritation des voies respiratoires et améliorant la fonction pulmonaire, ce que d'autres compléments ne peuvent pas faire.</p>"
+          }
+        },
+        "item_Pmzeae": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/images2023-006.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "5. Soutenu scientifiquement",
+            "content": "<p>Notre ingrédient clé, le champignon du lait de tigre, a prouvé son efficacité dans des études cliniques publiées.<br/><br/>Vous pouvez explorer la recherche <a href=\"https://pubmed.ncbi.nlm.nih.gov/34083710/\" target=\"_blank\" title=\"https://pubmed.ncbi.nlm.nih.gov/34083710/\">ici.</a></p>"
+          }
+        },
+        "item_LTW7rG": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "6. De vraies personnes, de vrais résultats",
+            "content": "<p>Plus de 200 000 personnes dans le monde ont bénéficié d'une meilleure santé respiratoire grâce à Pulmeor. <br/><br/>Consultez les témoignages vérifiés de nos clients sur le site Web de la Commission européenne. </p>"
+          }
+        },
+        "item_NWDjNc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/images2023-008.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "7. Une fabrication aux normes les plus strictes",
+            "content": "<p>Les produits Pulmeor sont fabriqués à partir de champignon tigré biologique dans une usine certifiée GMP, HACCP, Halal et biologique, ISO 22000 & ISO 9001</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_6KMmxL",
+        "item_tNrtw7",
+        "item_HYBEpC",
+        "item_fRteUx",
+        "item_Pmzeae",
+        "item_LTW7rG",
+        "item_NWDjNc"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "media_with_text_9WJC86": {
       "type": "media-with-text",
       "blocks": {
@@ -233,55 +328,6 @@
         "full_width": false,
         "spacing": "small"
       }
-    },
-    "images_with_text_scrolling_AY86Ma": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_6KMmxL": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "item_tNrtw7": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "item_HYBEpC": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_6KMmxL",
-        "item_tNrtw7",
-        "item_HYBEpC"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": true,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -291,7 +337,7 @@
     "slideshow_F3W8Jg",
     "rich_text_Jn8dz3",
     "rich_text_n3Njfd",
-    "media_with_text_9WJC86",
-    "images_with_text_scrolling_AY86Ma"
+    "images_with_text_scrolling_AY86Ma",
+    "media_with_text_9WJC86"
   ]
 }
