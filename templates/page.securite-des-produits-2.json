@@ -60,25 +60,15 @@
     "rich_text_xN6tUU": {
       "type": "rich-text",
       "blocks": {
-        "heading_4fMW7K": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1",
-            "text_color": "#000000",
-            "gradient": ""
-          }
-        },
-        "richtext_mCnVGW": {
+        "richtext_UHLCiQ": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Nous sommes fiers de nos produits.                      </h1><h1>Votre sécurité est notre priorité.</h1>"
+            "content": "<h1>Nous sommes fiers de nos produits.                 <br/>                                             </h1><h1>Votre sécurité est notre priorité.</h1>"
           }
         }
       },
       "block_order": [
-        "heading_4fMW7K",
-        "richtext_mCnVGW"
+        "richtext_UHLCiQ"
       ],
       "settings": {
         "full_width": true,
@@ -87,6 +77,143 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "ingredients_LxEAM8": {
+      "type": "ingredients",
+      "blocks": {
+        "item_7V38r6": {
+          "type": "item",
+          "settings": {
+            "tag": "New"
+          }
+        },
+        "item_TyRdx9": {
+          "type": "item",
+          "settings": {
+            "tag": "Organic"
+          }
+        },
+        "item_Gr7RBG": {
+          "type": "item",
+          "settings": {
+            "tag": "Fresh"
+          }
+        },
+        "card_KBdUHg": {
+          "type": "card",
+          "settings": {
+            "title": "Ingredient 1",
+            "text": "<p>Description of ingredient 1.</p>"
+          }
+        },
+        "card_hExUCr": {
+          "type": "card",
+          "settings": {
+            "title": "Ingredient 2",
+            "text": "<p>Description of ingredient 2.</p>"
+          }
+        },
+        "card_4N4hD4": {
+          "type": "card",
+          "settings": {
+            "title": "Ingredient 3",
+            "text": "<p>Description of ingredient 3.</p>"
+          }
+        },
+        "item_p6dqjG": {
+          "type": "item",
+          "settings": {
+            "tag": "Natural"
+          }
+        },
+        "item_H47jJV": {
+          "type": "item",
+          "settings": {
+            "tag": "Vegan"
+          }
+        },
+        "card_VTKtKz": {
+          "type": "card",
+          "settings": {
+            "title": "Ingredient 4",
+            "text": "<p>Description of ingredient 4.</p>"
+          }
+        },
+        "card_TzPA8n": {
+          "type": "card",
+          "settings": {
+            "title": "Ingredient 5",
+            "text": "<p>Description of ingredient 5.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_7V38r6",
+        "item_TyRdx9",
+        "item_Gr7RBG",
+        "card_KBdUHg",
+        "card_hExUCr",
+        "card_4N4hD4",
+        "item_p6dqjG",
+        "item_H47jJV",
+        "card_VTKtKz",
+        "card_TzPA8n"
+      ],
+      "settings": {
+        "heading": "High quality ingredients",
+        "heading_size": 38,
+        "heading_weight": "bold",
+        "heading_color": "#333",
+        "heading_size_mobile": 28,
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "text_size": 18,
+        "text_weight": "normal",
+        "text_color": "#333",
+        "text_size_mobile": 16,
+        "tag_border_width": 1,
+        "tag_border_color": "#333",
+        "tag_border_radius": 40,
+        "tag_border_style": "solid",
+        "tag_size": 16,
+        "tag_weight": "normal",
+        "tag_color": "#333",
+        "tag_size_mobile": 14,
+        "tag_background": "#ffffff",
+        "button_text": "ORDER NOW",
+        "button_link": "",
+        "button_text_size": 16,
+        "button_text_weight": "bold",
+        "button_text_color": "#ffffff",
+        "button_text_size_mobile": 14,
+        "button_background": "#333",
+        "button_border_width": 1,
+        "button_border_color": "#333",
+        "button_border_radius": 100,
+        "button_border_style": "solid",
+        "card_border_radius": 40,
+        "card_border_width": 1,
+        "card_border_color": "#333",
+        "card_border_style": "solid",
+        "card_background": "#ffffff",
+        "card_heading_size": 34,
+        "card_heading_weight": "bold",
+        "card_heading_color": "#000000",
+        "card_heading_size_mobile": 30,
+        "card_text_size": 14,
+        "card_text_weight": "normal",
+        "card_text_color": "#000000",
+        "card_text_size_mobile": 12,
+        "card_image_border_radius": 50,
+        "card_image_border_width": 6,
+        "card_image_border_color": "#333",
+        "card_image_border_style": "solid",
+        "enable_navigation": true,
+        "navigation_color": "#ffffff",
+        "navigation_background": "#333",
+        "layout_background": "#fefefe",
+        "layout_margin_top": 0,
+        "layout_margin_bottom": 0
       }
     },
     "slideshow_F3W8Jg": {
@@ -128,38 +255,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "rich_text_Jn8dz3": {
-      "type": "rich-text",
-      "blocks": {
-        "image_WVzzLh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/lignosus2024_icon-productsafety_worldleadinglabtests.png",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
-        "richtext_88VNLP": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Des tests de laboratoire à la pointe du progrès<br/>Lignosus a été testé par des laboratoires de renommée mondiale, reconnus comme la norme mondiale en matière de qualité et d’intégrité.<br/><br/>Cela garantit que Lignosus a fait l’objet d’un contrôle de qualité rigoureux, depuis les matières premières jusqu’au produit fini, confirmant ainsi sa sécurité pour la consommation humaine.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "image_WVzzLh",
-        "richtext_88VNLP"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "slideshow_TXBfiF": {
@@ -239,8 +334,8 @@
     "slideshow_7iEp3Q",
     "main",
     "rich_text_xN6tUU",
+    "ingredients_LxEAM8",
     "slideshow_F3W8Jg",
-    "rich_text_Jn8dz3",
     "slideshow_TXBfiF",
     "media_with_text_9WJC86"
   ]
