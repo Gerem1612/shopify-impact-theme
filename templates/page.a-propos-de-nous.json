@@ -72,7 +72,7 @@
         "richtext_mCnVGW": {
           "type": "richtext",
           "settings": {
-            "content": "<h1><strong>Force de la nature</strong></h1><h1></h1><h3><em>Libérez votre souffle, naturellement.</em></h3><p><strong>Pulmeor</strong> puise dans la <strong>puissance ancestrale</strong> du <em>Lignosus rhinocerus</em>, un champignon médicinal rare et précieux, originaire de Malaisie, un pays d'Asie.</p><p>🌿 <strong>Un trésor de la nature</strong> au service de votre <strong>bien-être respiratoire</strong>.</p><p><strong>Respirez mieux. Vivez pleinement.</strong><br/><br/>Parce que la nature a déjà tout prévu,  chez Pulmeor, nous avons choisi de l’écouter.</p><p></p>"
+            "content": "<h1><strong>Le choix naturel pour votre santé pulmonaire</strong></h1><p><strong>Pulmeor</strong> est la seule marque dédiée à fournir un soutien naturel, ciblé et efficace pour votre respiration.<br/><br/>Nous offrons une solution unique de bien-être respiratoire pour ceux qui veulent respirer pleinement, naturellement.</p><h1><strong>Parce que chaque respiration compte</strong></h1><p>Nous croyons qu’une bonne respiration est la base d’une vie équilibrée.<br/><br/>C’est pourquoi <strong>Pulmeor</strong> vous accompagne à chaque étape, pour vous aider à mieux respirer au quotidien.</p><h1><strong>Guidé par la science, nourri par la nature</strong></h1><p>Nos compléments à base de plantes agissent en profondeur pour soulager un large éventail de troubles respiratoires : essoufflement, toux persistante, allergies saisonnières, et bien plus.</p><p>En s’attaquant aux causes racines, <strong>Pulmeor</strong> combine la sagesse de la nature avec les données les plus récentes de la recherche scientifique.</p><h1><strong>La référence en santé pulmonaire naturelle</strong></h1><p>Approuvé par des milliers de personnes dans le monde, <strong>Pulmeor</strong> s’est imposé comme une solution fiable, naturelle et accessible pour retrouver une respiration libre et apaisée.</p><p><strong>Ne laissez plus les difficultés respiratoires freiner votre élan.</strong><br/><br/>Essayez Pulmeor aujourd’hui — et ressentez la différence à chaque souffle.</p><h1>7 raisons d'essayer Pulmeor® aujourd'hui !</h1>"
           }
         }
       },
@@ -117,6 +117,7 @@
       "block_order": [
         "image_UNpcbq"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -142,6 +143,7 @@
       "block_order": [
         "richtext_88VNLP"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -164,6 +166,7 @@
       "block_order": [
         "richtext_fHQXpL"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -171,47 +174,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "slideshow_TXBfiF": {
-      "type": "slideshow",
-      "blocks": {
-        "image_6iTYHz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Benefices_ingredients_6b2c5987-870c-4934-b8aa-8f5797178b65.png",
-            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_6iTYHz"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
       }
     },
     "media_with_text_9WJC86": {
@@ -280,7 +242,6 @@
     "slideshow_F3W8Jg",
     "rich_text_Jn8dz3",
     "rich_text_n3Njfd",
-    "slideshow_TXBfiF",
     "media_with_text_9WJC86"
   ]
 }
