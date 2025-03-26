@@ -102,7 +102,7 @@
             "title": "+ 245 894",
             "subheading": "",
             "content": "<h1><strong>clients nous ont déjà fait confiance </strong></h1>",
-            "button_text": "",
+            "button_text": "ACHETER",
             "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 2.6
@@ -113,8 +113,8 @@
           "settings": {
             "title": "+ 658 710",
             "subheading": "",
-            "content": "<h2><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h2>",
-            "button_text": "",
+            "content": "<h1><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h1>",
+            "button_text": "DECOUVRIR",
             "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 5
@@ -137,7 +137,7 @@
         "heading_text_color": "#14a16c",
         "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(20, 161, 108, 1) 50%, rgba(26, 26, 26, 0) 100%)",
         "text_color": "#14a16c",
-        "button_background": "",
+        "button_background": "#14a16c",
         "button_text_color": ""
       }
     },
@@ -155,59 +155,6 @@
         "background_gradient": "linear-gradient(310deg, rgba(0, 163, 65, 1), rgba(202, 202, 202, 0.99) 50%, rgba(0, 163, 65, 1) 100%)",
         "text_color": "#ffffff",
         "text_gradient": ""
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "media_with_text_TJk94e": {
@@ -274,7 +221,6 @@
     "slideshow",
     "impact-text",
     "scrolling-text",
-    "faq",
     "media_with_text_TJk94e"
   ]
 }
