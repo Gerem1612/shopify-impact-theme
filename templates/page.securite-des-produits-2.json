@@ -65,10 +65,20 @@
           "settings": {
             "content": "<h1>Nous sommes fiers de nos produits.                 <br/>                                             </h1><h1>Votre sécurité est notre priorité.</h1>"
           }
+        },
+        "image_CBCAXW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_worldleadinglabtests.png",
+            "width_mode": "custom",
+            "max_width": 100,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
-        "richtext_UHLCiQ"
+        "richtext_UHLCiQ",
+        "image_CBCAXW"
       ],
       "settings": {
         "full_width": true,
