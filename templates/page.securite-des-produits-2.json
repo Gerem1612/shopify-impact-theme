@@ -184,10 +184,22 @@
             "tag": "Sans produits laitiers"
           }
         },
-        "item_H47jJV": {
+        "item_8QV6AT": {
           "type": "item",
           "settings": {
-            "tag": "Vegan"
+            "tag": "Sans arachides"
+          }
+        },
+        "item_gd8bTR": {
+          "type": "item",
+          "settings": {
+            "tag": "Sans OGM"
+          }
+        },
+        "item_HgFLig": {
+          "type": "item",
+          "settings": {
+            "tag": "Sans conservateurs"
           }
         },
         "card_VTKtKz": {
@@ -205,6 +217,22 @@
             "title": "Sans arachides",
             "text": "<p>Pulmeor est fier de détenir l’assurance Peanut-Free, qui garantit l’absence totale d’ingrédients à base d’arachides.</p>"
           }
+        },
+        "card_RzUAbg": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_nongmo.png",
+            "title": "Sans OGM",
+            "text": "<h1><strong>Le certificat « Organisme génétiquement modifié » (OGM) est délivré à une entreprise dont il est prouvé qu’elle ne fabrique et ne produit que des produits exempts d’OGM.<br/><br/>Cela signifie que tous les produits finis sont fabriqués à partir de matières premières biologiques et qu’aucun organisme génétiquement modifié n’a été détecté.</strong></h1>"
+          }
+        },
+        "card_hxttNj": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_nopreservatives.png",
+            "title": "Sans conservateurs",
+            "text": "<p>Cela permet de s’assurer que les produits sont fabriqués sans ajout de conservateurs, de colorants ou d’arômes artificiels, ce qui garantit qu’ils sont sans danger pour la consommation à long terme et la santé humaine.</p>"
+          }
         }
       },
       "block_order": [
@@ -215,9 +243,13 @@
         "card_hExUCr",
         "card_4N4hD4",
         "item_p6dqjG",
-        "item_H47jJV",
+        "item_8QV6AT",
+        "item_gd8bTR",
+        "item_HgFLig",
         "card_VTKtKz",
-        "card_TzPA8n"
+        "card_TzPA8n",
+        "card_RzUAbg",
+        "card_hxttNj"
       ],
       "settings": {
         "heading": "Nos garanties et engagements",
