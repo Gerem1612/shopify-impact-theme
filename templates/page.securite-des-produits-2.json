@@ -89,13 +89,40 @@
           "settings": {
             "content": "<p><strong><br/>Lignosus a été testé par des laboratoires de renommée mondiale, reconnus comme la norme mondiale en matière de qualité et d’intégrité.<br/><br/>Cela garantit que Lignosus a fait l’objet d’un contrôle de qualité rigoureux, depuis les matières premières jusqu’au produit fini, confirmant ainsi sa sécurité pour la consommation humaine.</strong></p>"
           }
+        },
+        "image_TwNitr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_naturalingredients.png",
+            "width_mode": "custom",
+            "max_width": 160,
+            "mobile_max_width": 130
+          }
+        },
+        "heading_7mh7hH": {
+          "type": "heading",
+          "settings": {
+            "text": "Ingrédients naturels",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_BeA798": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Cela indique que le produit est fabriqué à partir d’ingrédients naturels, sans pesticides, sans additifs et sans produits chimiques, qui sont 100 % sûrs pour la consommation humaine.</strong></p>"
+          }
         }
       },
       "block_order": [
         "richtext_UHLCiQ",
         "image_CBCAXW",
         "heading_XLMQXn",
-        "richtext_NEyCdj"
+        "richtext_NEyCdj",
+        "image_TwNitr",
+        "heading_7mh7hH",
+        "richtext_BeA798"
       ],
       "settings": {
         "full_width": true,
@@ -112,46 +139,49 @@
         "item_7V38r6": {
           "type": "item",
           "settings": {
-            "tag": "New"
+            "tag": "Végétalien"
           }
         },
         "item_TyRdx9": {
           "type": "item",
           "settings": {
-            "tag": "Organic"
+            "tag": "Sans gluten"
           }
         },
         "item_Gr7RBG": {
           "type": "item",
           "settings": {
-            "tag": "Fresh"
+            "tag": "Sans oeuf"
           }
         },
         "card_KBdUHg": {
           "type": "card",
           "settings": {
-            "title": "Ingredient 1",
-            "text": "<p>Description of ingredient 1.</p>"
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_vegan.png",
+            "title": "Végétalien",
+            "text": "<p>Cela indique que le produit est compatible avec le mode de vie végétalien.</p>"
           }
         },
         "card_hExUCr": {
           "type": "card",
           "settings": {
-            "title": "Ingredient 2",
-            "text": "<p>Description of ingredient 2.</p>"
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_glutenfree.png",
+            "title": "Sans gluten",
+            "text": "<p>La certification « sans gluten » indique que le produit a été testé et vérifié pour ne pas contenir de traces de gluten ou seulement une quantité minimale (20 ppm), conformément à la réglementation de la Food and Drug Administration des États-Unis.</p>"
           }
         },
         "card_4N4hD4": {
           "type": "card",
           "settings": {
-            "title": "Ingredient 3",
-            "text": "<p>Description of ingredient 3.</p>"
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_eggfree.png",
+            "title": "Sans oeuf",
+            "text": "<p>Pulmeor est certifié sans œuf, ce qui signifie qu’il ne contient aucun ingrédient à base d’œuf.</p>"
           }
         },
         "item_p6dqjG": {
           "type": "item",
           "settings": {
-            "tag": "Natural"
+            "tag": "Sans produits laitiers"
           }
         },
         "item_H47jJV": {
@@ -163,14 +193,15 @@
         "card_VTKtKz": {
           "type": "card",
           "settings": {
-            "title": "Ingredient 4",
-            "text": "<p>Description of ingredient 4.</p>"
+            "image": "shopify://shop_images/lignosus2024_icon-productsafety_dairyfree.png",
+            "title": "Sans produits laitiers",
+            "text": "<p>Pulmeor est certifié sans produits laitiers, ce qui vous assure qu’il ne contient aucun ingrédient laitier.</p>"
           }
         },
         "card_TzPA8n": {
           "type": "card",
           "settings": {
-            "title": "Ingredient 5",
+            "title": "",
             "text": "<p>Description of ingredient 5.</p>"
           }
         }
@@ -188,12 +219,12 @@
         "card_TzPA8n"
       ],
       "settings": {
-        "heading": "High quality ingredients",
+        "heading": "Nos garanties et engagements",
         "heading_size": 38,
         "heading_weight": "bold",
         "heading_color": "#333",
         "heading_size_mobile": 28,
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "text": "",
         "text_size": 18,
         "text_weight": "normal",
         "text_color": "#333",
@@ -207,13 +238,13 @@
         "tag_color": "#333",
         "tag_size_mobile": 14,
         "tag_background": "#ffffff",
-        "button_text": "ORDER NOW",
-        "button_link": "",
+        "button_text": "ACHETER MAINTENANT",
+        "button_link": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
         "button_text_size": 16,
         "button_text_weight": "bold",
         "button_text_color": "#ffffff",
         "button_text_size_mobile": 14,
-        "button_background": "#333",
+        "button_background": "#14a16c",
         "button_border_width": 1,
         "button_border_color": "#333",
         "button_border_radius": 100,
