@@ -31,7 +31,7 @@
         "richtext_3cxAWx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>En savoir plus sur nous et nos produits.</p>"
+            "content": "<h3>En savoir plus sur nous et nos produits.</h3><p>Pour toutes autres demandes, contactez nous via le formulaire sur la page <a href=\"/pages/contact\" title=\"Contact\">contact</a> de notre site web.</p>"
           }
         }
       },
