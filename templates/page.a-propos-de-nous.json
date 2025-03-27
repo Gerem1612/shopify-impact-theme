@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Ingredients_Pulmeor.png",
-            "mobile_image": "shopify://shop_images/Ingredients_mobile.png",
+            "mobile_image": "shopify://shop_images/A_propos_de_Pulmeor_1.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
