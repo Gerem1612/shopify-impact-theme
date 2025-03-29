@@ -170,6 +170,16 @@
     "producttab1_nkeK7i": {
       "type": "producttab1",
       "blocks": {
+        "tab_EBYfUN": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "time",
+            "question": "What is your question?",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        },
         "tab_XhzAgi": {
           "type": "tab",
           "settings": {
@@ -227,6 +237,7 @@
         }
       },
       "block_order": [
+        "tab_EBYfUN",
         "tab_XhzAgi",
         "tab_4VnaUt",
         "tab_ynd3Qp",
@@ -240,7 +251,7 @@
         "subtitle_color": "#121212",
         "subtitle_font_size": 10,
         "title": "",
-        "title_font_size": 10,
+        "title_font_size": 22,
         "title_color": "#121212",
         "arrow_size": 14,
         "arrow_color": "#121212",
