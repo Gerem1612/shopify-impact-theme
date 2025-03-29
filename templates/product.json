@@ -84,7 +84,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -219,7 +219,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -259,8 +259,74 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "producttab1_nkeK7i": {
+      "type": "producttab1",
+      "blocks": {
+        "tab_XhzAgi": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "heart",
+            "question": "Product description",
+            "answer": "",
+            "answer_html": "{{ product.description }}"
+          }
+        },
+        "tab_4VnaUt": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "truck",
+            "question": "Shipping",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        },
+        "tab_ynd3Qp": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "return_arrow",
+            "question": "Returns",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_XhzAgi",
+        "tab_4VnaUt",
+        "tab_ynd3Qp"
+      ],
+      "settings": {
+        "close_other": false,
+        "open_default": false,
+        "subtitle": "rtbrtb",
+        "subtitle_color": "#121212",
+        "subtitle_font_size": 10,
+        "title": "rtbb",
+        "title_font_size": 10,
+        "title_color": "#121212",
+        "arrow_size": 14,
+        "arrow_color": "#121212",
+        "icon_width": 22,
+        "text_color": "#121212",
+        "question_font_size": 13,
+        "answer_color": "#121212",
+        "answer_font_size": 12,
+        "border_color": "#f2f2f2",
+        "background-color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_x_desktop": 0,
+        "padding_x": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "button_padding_y": 10
       }
     }
   },
@@ -270,6 +336,7 @@
     "main",
     "related-products",
     "slideshow_bNcEd3",
-    "slideshow_CNtLfz"
+    "slideshow_CNtLfz",
+    "producttab1_nkeK7i"
   ]
 }
