@@ -9,6 +9,85 @@
  */
 {
   "sections": {
+    "video_bmYKnx": {
+      "type": "video",
+      "blocks": {
+        "heading_GrPF7V": {
+          "type": "heading",
+          "settings": {
+            "text": "Le cadeau de la nature pour des poumons en bonne santé",
+            "heading_tag": "h2"
+          }
+        },
+        "button_LkpWLD": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "COMMANDER MAINTENANT",
+            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
+            "background": "#14a16c",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GrPF7V",
+        "button_LkpWLD"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "slideshow_89zcP7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rBka3A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
+            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rBka3A"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -28,35 +107,9 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -84,11 +137,7 @@
         "title",
         "badges",
         "price",
-        "rating",
-        "payment_terms",
         "separator",
-        "description",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "text_3nwRWp"
@@ -98,7 +147,7 @@
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
+        "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
@@ -133,42 +182,45 @@
         "product_card_text_color": ""
       }
     },
-    "video_bmYKnx": {
-      "type": "video",
+    "slideshow_bNcEd3": {
+      "type": "slideshow",
       "blocks": {
-        "heading_GrPF7V": {
-          "type": "heading",
+        "image_cHMPhc": {
+          "type": "image",
           "settings": {
-            "text": "Le cadeau de la nature pour des poumons en bonne santé",
-            "heading_tag": "h2"
-          }
-        },
-        "button_LkpWLD": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "COMMANDER MAINTENANT",
-            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
-            "background": "#14a16c",
-            "text_color": "#ffffff"
+            "image": "shopify://shop_images/Benefices_ingredients_mobile_fb725ef3-d83f-40c5-917a-950d34950848.png",
+            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_GrPF7V",
-        "button_LkpWLD"
+        "image_cHMPhc"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "slideshow_CNtLfz": {
@@ -213,9 +265,11 @@
     }
   },
   "order": [
+    "video_bmYKnx",
+    "slideshow_89zcP7",
     "main",
     "related-products",
-    "video_bmYKnx",
+    "slideshow_bNcEd3",
     "slideshow_CNtLfz"
   ]
 }
