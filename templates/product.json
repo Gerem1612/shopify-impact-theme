@@ -47,6 +47,47 @@
         "overlay_opacity": 30
       }
     },
+    "slideshow_89zcP7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rBka3A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
+            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rBka3A"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -147,47 +188,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "slideshow_89zcP7": {
-      "type": "slideshow",
-      "blocks": {
-        "image_rBka3A": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
-            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_rBka3A"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
       }
     },
     "producttab1_nkeK7i": {
@@ -418,17 +418,188 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
+    },
+    "press_U9BJrf": {
+      "type": "press",
+      "blocks": {
+        "quote_BQ4zXF": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_Pkh4Cf": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_FPy6FB": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_BQ4zXF",
+        "quote_Pkh4Cf",
+        "quote_FPy6FB"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "testimonials_AE66xf": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_zbVtWd": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_LYLxB8": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_bqG74C": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_zbVtWd",
+        "testimonial_LYLxB8",
+        "testimonial_bqG74C"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "logo_list_Acd3KB": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kEwadL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kXhgBQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_AgaKpa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kT7W36": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kEwadL",
+        "logo_kXhgBQ",
+        "logo_AgaKpa",
+        "logo_kT7W36"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h1><strong>Soutenu par :</strong></h1>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "video_bmYKnx",
+    "slideshow_89zcP7",
     "main",
     "image_with_text_overlay_a4PFQE",
-    "slideshow_89zcP7",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
     "slideshow_bNcEd3",
-    "slideshow_CNtLfz"
+    "slideshow_CNtLfz",
+    "press_U9BJrf",
+    "testimonials_AE66xf",
+    "logo_list_Acd3KB"
   ]
 }
