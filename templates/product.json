@@ -47,47 +47,6 @@
         "overlay_opacity": 30
       }
     },
-    "slideshow_89zcP7": {
-      "type": "slideshow",
-      "blocks": {
-        "image_rBka3A": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
-            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_rBka3A"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -165,6 +124,47 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "slideshow_89zcP7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rBka3A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
+            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rBka3A"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
     "producttab1_nkeK7i": {
@@ -371,8 +371,8 @@
   },
   "order": [
     "video_bmYKnx",
-    "slideshow_89zcP7",
     "main",
+    "slideshow_89zcP7",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
