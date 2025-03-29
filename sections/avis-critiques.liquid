@@ -1,6 +1,612 @@
+{% comment %}
+  Section: Avis-Critiques
+  Description: Section d'avis clients filtrable par catégories avec configuration complète depuis l'éditeur de thème
+{% endcomment %}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Avis-Critiques",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Titre principal",
+      "default": "Lisez les critiques qui mentionnent:"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Couleur principale",
+      "default": "#00a67c"
+    },
+    {
+      "type": "select",
+      "id": "default_tab",
+      "label": "Onglet actif par défaut",
+      "options": [
+        {
+          "value": "all",
+          "label": "Tous"
+        },
+        {
+          "value": "tab1",
+          "label": "Onglet 1"
+        },
+        {
+          "value": "tab2",
+          "label": "Onglet 2"
+        },
+        {
+          "value": "tab3",
+          "label": "Onglet 3"
+        }
+      ],
+      "default": "all"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Onglet",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_name",
+          "label": "Nom de l'onglet",
+          "default": "Nouvel onglet"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Mettre en surbrillance",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "review",
+      "name": "Avis client",
+      "settings": [
+        {
+          "type": "select",
+          "id": "tab_id",
+          "label": "Onglet parent",
+          "options": [
+            {
+              "value": "all",
+              "label": "Tous"
+            },
+            {
+              "value": "tab1",
+              "label": "Onglet 1"
+            },
+            {
+              "value": "tab2",
+              "label": "Onglet 2"
+            },
+            {
+              "value": "tab3",
+              "label": "Onglet 3"
+            }
+          ],
+          "default": "all"
+        },
+        {
+          "type": "image_picker",
+          "id": "reviewer_image",
+          "label": "Photo du client"
+        },
+        {
+          "type": "text",
+          "id": "review_title",
+          "label": "Titre de l'avis",
+          "default": "Titre de l'avis client"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Note (étoiles)",
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Nom du client",
+          "default": "Nom du client"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_age",
+          "label": "Âge du client",
+          "default": "30"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_location",
+          "label": "Pays/Ville du client",
+          "default": "France"
+        },
+        {
+          "type": "textarea",
+          "id": "review_content",
+          "label": "Contenu de l'avis (aperçu)",
+          "default": "Contenu court de l'avis..."
+        },
+        {
+          "type": "textarea",
+          "id": "full_review",
+          "label": "Avis complet",
+          "default": "Contenu complet de l'avis qui s'affichera lorsque l'utilisateur clique sur 'en savoir plus'..."
+        },
+        {
+          "type": "url",
+          "id": "review_link",
+          "label": "Lien (optionnel)"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Texte du bouton",
+          "default": "en savoir plus"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Avis-Critiques",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Tous"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Environnement",
+            "highlight": true
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "tab_id": "all",
+            "review_title": "Un excellent produit pour les personnes soucieuses de leur santé !",
+            "reviewer_name": "Sophie",
+            "reviewer_age": "28",
+            "reviewer_location": "France",
+            "review_content": "J'utilise ce produit depuis plusieurs mois et j'ai remarqué une nette amélioration...",
+            "button_text": "en savoir plus"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
+
+<div class="reviews-tabs-section" id="reviews-tabs-section-{{ section.id }}">
+  <h2 class="reviews-heading" style="color: {{ section.settings.primary_color }};">{{ section.settings.heading }}</h2>
+  
+  <div class="tabs-container">
+    <div class="tabs-rows">
+      {% assign tabs = section.blocks | where: "type", "tab" %}
+      {% for tab in tabs %}
+        {% if forloop.first %}
+          {% assign tab_id = 'all' %}
+        {% else %}
+          {% assign tab_id = 'tab' | append: forloop.index %}
+        {% endif %}
+        {% assign is_active = false %}
+        {% if forloop.first and section.settings.default_tab == 'all' %}
+          {% assign is_active = true %}
+        {% endif %}
+        {% assign tab_index = 'tab' | append: forloop.index %}
+        {% if section.settings.default_tab == tab_index %}
+          {% assign is_active = true %}
+        {% endif %}
+        
+        <button class="tab-button {% if tab.settings.highlight %}highlight{% endif %} {% if is_active %}active{% endif %}" 
+                data-category="{{ tab_id }}"
+                style="{% if tab.settings.highlight or is_active %}background-color: {{ section.settings.primary_color }}; color: white;{% endif %}">
+          {{ tab.settings.tab_name }}
+        </button>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div class="reviews-container">
+    {% assign tabs = section.blocks | where: "type", "tab" %}
+    {% for tab in tabs %}
+      {% if forloop.first %}
+        {% assign tab_id = 'all' %}
+      {% else %}
+        {% assign tab_id = 'tab' | append: forloop.index %}
+      {% endif %}
+      {% assign is_active = false %}
+      {% if forloop.first and section.settings.default_tab == 'all' %}
+        {% assign is_active = true %}
+      {% endif %}
+      {% assign tab_index = 'tab' | append: forloop.index %}
+      {% if section.settings.default_tab == tab_index %}
+        {% assign is_active = true %}
+      {% endif %}
+      
+      <div class="reviews-category {% if is_active %}active{% endif %}" data-category="{{ tab_id }}">
+        <div class="reviews-grid">
+          {% assign reviews = section.blocks | where: "type", "review" | where: "settings.tab_id", tab_id %}
+          {% for review in reviews %}
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-image" style="border-color: {{ section.settings.primary_color }};">
+                  {% if review.settings.reviewer_image %}
+                    {{ review.settings.reviewer_image | image_url: width: 240 | image_tag: loading: 'lazy', height: '120', width: '120' }}
+                  {% else %}
+                    {{ 'user.png' | asset_url | image_tag: loading: 'lazy', height: '120', width: '120' }}
+                  {% endif %}
+                </div>
+                <div class="review-title">
+                  <h3>{{ review.settings.review_title }}</h3>
+                  <div class="review-stars">
+                    {% for i in (1..5) %}
+                      <span class="star" style="color: {% if i <= review.settings.rating %}#ffcc00{% else %}#e0e0e0{% endif %};">★</span>
+                    {% endfor %}
+                  </div>
+                  <div class="reviewer-info">
+                    <span class="reviewer-name">{{ review.settings.reviewer_name }},</span>
+                    <span class="reviewer-age" style="color: {{ section.settings.primary_color }};">Ans {{ review.settings.reviewer_age }}</span>
+                    <span class="reviewer-location">{{ review.settings.reviewer_location }}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="review-content">
+                <p>{{ review.settings.review_content }}</p>
+              </div>
+              <div class="review-footer">
+                <a href="{% if review.settings.review_link %}{{ review.settings.review_link }}{% else %}#review-modal-{{ review.id }}{% endif %}" 
+                   class="read-more-btn {% unless review.settings.review_link %}review-modal-trigger{% endunless %}"
+                   style="background-color: {{ section.settings.primary_color }};">
+                  {{ review.settings.button_text }}
+                </a>
+              </div>
+            </div>
+            
+            {% unless review.settings.review_link %}
+            <div id="review-modal-{{ review.id }}" class="review-modal">
+              <div class="review-modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                  <h3>{{ review.settings.review_title }}</h3>
+                  <div class="review-stars">
+                    {% for i in (1..5) %}
+                      <span class="star" style="color: {% if i <= review.settings.rating %}#ffcc00{% else %}#e0e0e0{% endif %};">★</span>
+                    {% endfor %}
+                  </div>
+                  <div class="reviewer-info">
+                    <span class="reviewer-name">{{ review.settings.reviewer_name }},</span>
+                    <span class="reviewer-age" style="color: {{ section.settings.primary_color }};">Ans {{ review.settings.reviewer_age }}</span>
+                    <span class="reviewer-location">{{ review.settings.reviewer_location }}</span>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-image">
+                    {% if review.settings.reviewer_image %}
+                      {{ review.settings.reviewer_image | image_url: width: 240 | image_tag: loading: 'lazy', height: '120', width: '120' }}
+                    {% else %}
+                      {{ 'user.png' | asset_url | image_tag: loading: 'lazy', height: '120', width: '120' }}
+                    {% endif %}
+                  </div>
+                  <div class="modal-text">
+                    <p>{{ review.settings.full_review }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+#reviews-tabs-section-{{ section.id }} {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviews-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#reviews-tabs-section-{{ section.id }} .tabs-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#reviews-tabs-section-{{ section.id }} .tabs-rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#reviews-tabs-section-{{ section.id }} .tab-button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#reviews-tabs-section-{{ section.id }} .tab-button:hover {
+  background-color: {{ section.settings.primary_color | color_lighten: 20 }};
+  color: white;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviews-category {
+  display: none;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviews-category.active {
+  display: block;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#reviews-tabs-section-{{ section.id }} .review-header {
+  display: flex;
+  padding: 20px;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  border: 3px solid {{ section.settings.primary_color }};
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-title {
+  flex: 1;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-stars {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-info {
+  font-size: 14px;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-name {
+  font-weight: bold;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-age {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#reviews-tabs-section-{{ section.id }} .reviewer-location {
+  display: block;
+  color: #666;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-content {
+  padding: 0 20px;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-footer {
+  padding: 15px 20px;
+  text-align: right;
+}
+
+#reviews-tabs-section-{{ section.id }} .read-more-btn {
+  display: inline-block;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#reviews-tabs-section-{{ section.id }} .read-more-btn:hover {
+  background-color: {{ section.settings.primary_color | color_darken: 10 }};
+}
+
+/* Modal styles */
+#reviews-tabs-section-{{ section.id }} .review-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow: auto;
+}
+
+#reviews-tabs-section-{{ section.id }} .review-modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#reviews-tabs-section-{{ section.id }} .close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#reviews-tabs-section-{{ section.id }} .modal-header {
+  margin-bottom: 20px;
+}
+
+#reviews-tabs-section-{{ section.id }} .modal-body {
+  display: flex;
+}
+
+#reviews-tabs-section-{{ section.id }} .modal-image {
+  width: 120px;
+  margin-right: 20px;
+}
+
+#reviews-tabs-section-{{ section.id }} .modal-image img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid {{ section.settings.primary_color }};
+}
+
+#reviews-tabs-section-{{ section.id }} .modal-text {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  #reviews-tabs-section-{{ section.id }} .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #reviews-tabs-section-{{ section.id }} .review-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #reviews-tabs-section-{{ section.id }} .reviewer-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  #reviews-tabs-section-{{ section.id }} .modal-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #reviews-tabs-section-{{ section.id }} .modal-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var sectionId = '{{ section.id }}';
+    var tabButtons = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .tab-button');
+    var reviewsCategories = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .reviews-category');
+    var modalTriggers = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal-trigger');
+    var modals = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal');
+    var closeButtons = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .close-modal');
+    
+    // Fonction pour activer un onglet
+    function activateTab(button) {
+      var primaryColor = '{{ section.settings.primary_color }}';
+      var category = button.getAttribute('data-category');
+      
+      // Réinitialiser tous les boutons
+      tabButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+        if (!btn.classList.contains('highlight')) {
+          btn.style.backgroundColor = '#f2f2f2';
+          btn.style.color = '';
+        }
+      });
+      
+      // Réinitialiser toutes les catégories
+      reviewsCategories.forEach(function(cat) {
+        cat.classList.remove('active');
+      });
+      
+      // Activer le bouton et la catégorie sélectionnés
+      button.classList.add('active');
+      button.style.backgroundColor = primaryColor;
+      button.style.color = 'white';
+      
+      document.querySelector('#reviews-tabs-section-' + sectionId + ' .reviews-category[data-category="' + category + '"]').classList.add('active');
+    }
+    
+    // Ajouter des écouteurs d'événements aux boutons d'onglet
+    tabButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        activateTab(this);
+      });
+    });
+    
+    // Gestion des modaux pour "en savoir plus"
+    modalTriggers.forEach(function(trigger) {
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        var modalId = this.getAttribute('href');
+        document.querySelector(modalId).style.display = 'block';
+      });
+    });
+    
+    closeButtons.forEach(function(closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        this.closest('.review-modal').style.display = 'none';
+      });
+    });
+    
+    // Fermer le modal si l'utilisateur clique en dehors du contenu
+    window.addEventListener('click', function(event) {
+      modals.forEach(function(modal) {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
