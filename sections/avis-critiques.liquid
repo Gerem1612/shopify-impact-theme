@@ -270,6 +270,7 @@
               <div class="review-footer">
                 <a href="{% if review.settings.review_link %}{{ review.settings.review_link }}{% else %}#review-modal-{{ review.id }}{% endif %}" 
                    class="read-more-btn {% unless review.settings.review_link %}review-modal-trigger{% endunless %}"
+                   data-modal="review-modal-{{ review.id }}"
                    style="background-color: {{ section.settings.primary_color }};">
                   {{ review.settings.button_text }}
                 </a>
@@ -547,9 +548,50 @@
     var sectionId = '{{ section.id }}';
     var tabButtons = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .tab-button');
     var reviewsCategories = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .reviews-category');
-    var modalTriggers = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal-trigger');
-    var modals = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal');
-    var closeButtons = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .close-modal');
+    
+    // Fonction pour initialiser les événements des modaux
+    function initModalEvents() {
+      var modalTriggers = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal-trigger');
+      var modals = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal');
+      var closeButtons = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .close-modal');
+      
+      // Réinitialiser les événements pour éviter les duplications
+      modalTriggers.forEach(function(trigger) {
+        trigger.removeEventListener('click', openModal);
+        trigger.addEventListener('click', openModal);
+      });
+      
+      closeButtons.forEach(function(closeBtn) {
+        closeBtn.removeEventListener('click', closeModal);
+        closeBtn.addEventListener('click', closeModal);
+      });
+      
+      // Fermer le modal si l'utilisateur clique en dehors du contenu
+      window.removeEventListener('click', windowCloseModal);
+      window.addEventListener('click', windowCloseModal);
+    }
+    
+    // Fonction pour ouvrir un modal
+    function openModal(e) {
+      e.preventDefault();
+      var modalId = this.getAttribute('data-modal');
+      document.getElementById(modalId).style.display = 'block';
+    }
+    
+    // Fonction pour fermer un modal depuis le bouton fermer
+    function closeModal() {
+      this.closest('.review-modal').style.display = 'none';
+    }
+    
+    // Fonction pour fermer un modal depuis la fenêtre
+    function windowCloseModal(event) {
+      var modals = document.querySelectorAll('#reviews-tabs-section-' + sectionId + ' .review-modal');
+      modals.forEach(function(modal) {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
     
     // Fonction pour activer un onglet
     function activateTab(button) {
@@ -575,7 +617,16 @@
       button.style.backgroundColor = primaryColor;
       button.style.color = 'white';
       
-      document.querySelector('#reviews-tabs-section-' + sectionId + ' .reviews-category[data-category="' + category + '"]').classList.add('active');
+      // Activer la catégorie correspondante
+      var activeCategory = document.querySelector('#reviews-tabs-section-' + sectionId + ' .reviews-category[data-category="' + category + '"]');
+      if (activeCategory) {
+        activeCategory.classList.add('active');
+        
+        // Réinitialiser les événements de modaux après le changement d'onglet
+        setTimeout(function() {
+          initModalEvents();
+        }, 100);
+      }
     }
     
     // Ajouter des écouteurs d'événements aux boutons d'onglet
@@ -585,28 +636,7 @@
       });
     });
     
-    // Gestion des modaux pour "en savoir plus"
-    modalTriggers.forEach(function(trigger) {
-      trigger.addEventListener('click', function(e) {
-        e.preventDefault();
-        var modalId = this.getAttribute('href');
-        document.querySelector(modalId).style.display = 'block';
-      });
-    });
-    
-    closeButtons.forEach(function(closeBtn) {
-      closeBtn.addEventListener('click', function() {
-        this.closest('.review-modal').style.display = 'none';
-      });
-    });
-    
-    // Fermer le modal si l'utilisateur clique en dehors du contenu
-    window.addEventListener('click', function(event) {
-      modals.forEach(function(modal) {
-        if (event.target == modal) {
-          modal.style.display = 'none';
-        }
-      });
-    });
+    // Initialiser les événements des modaux au chargement
+    initModalEvents();
   });
 </script>
