@@ -72,6 +72,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "text_3nwRWp": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -84,7 +90,8 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "text_3nwRWp"
       ],
       "settings": {
         "full_width": true,
@@ -125,10 +132,49 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "video_bmYKnx": {
+      "type": "video",
+      "blocks": {
+        "heading_GrPF7V": {
+          "type": "heading",
+          "settings": {
+            "text": "Le cadeau de la nature pour des poumons en bonne santé",
+            "heading_tag": "h1"
+          }
+        },
+        "button_LkpWLD": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "COMMANDER MAINTENANT",
+            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
+            "background": "#14a16c",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GrPF7V",
+        "button_LkpWLD"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "video_bmYKnx"
   ]
 }
