@@ -1,0 +1,341 @@
+{% comment %}
+  Section: Avis clients par catégorie
+  Description: Une section d'avis clients filtrable par catégories
+{% endcomment %}
+
+<div class="reviews-tabs-section">
+  <h2 class="reviews-heading">Lisez les critiques qui mentionnent:</h2>
+  
+  <div class="tabs-container">
+    <div class="tabs-row">
+      <button class="tab-button active" data-category="all">Tous</button>
+      <button class="tab-button" data-category="asthme">Asthme</button>
+      <button class="tab-button" data-category="bpco">BPCO / Pneumonie</button>
+      <button class="tab-button" data-category="bronchite">Bronchite</button>
+      <button class="tab-button" data-category="congestion">Congestion</button>
+      <button class="tab-button highlight" data-category="environnement">Environnement</button>
+      <button class="tab-button" data-category="fumeur">Fumeur</button>
+      <button class="tab-button" data-category="goutte">Goutte post-nasale</button>
+      <button class="tab-button" data-category="mucus">Mucus</button>
+      <button class="tab-button" data-category="respiration">Respiration</button>
+    </div>
+    <div class="tabs-row">
+      <button class="tab-button" data-category="rhume">Rhume et grippe / Allergies</button>
+      <button class="tab-button" data-category="sifflante">Sifflante</button>
+      <button class="tab-button" data-category="sinus">Sinus</button>
+      <button class="tab-button" data-category="soutien">Soutien à la santé pulmonaire</button>
+      <button class="tab-button" data-category="toux">Toux</button>
+      <button class="tab-button" data-category="voies">Voies respiratoires ouvertes</button>
+    </div>
+  </div>
+  
+  <div class="reviews-container">
+    <!-- Section pour les avis - catégorie Environnement (active par défaut) -->
+    <div class="reviews-category active" data-category="environnement">
+      <div class="reviews-grid">
+        <!-- Avis 1 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-image">
+              <img src="{{ 'reviewer-1.jpg' | asset_url }}" alt="Ain Hadi">
+            </div>
+            <div class="review-title">
+              <h3>Un excellent produit pour les gens comme moi qui vivent dans un endroit très pollué !</h3>
+              <div class="review-stars">
+                {% for i in (1..5) %}
+                  <span class="star">★</span>
+                {% endfor %}
+              </div>
+              <div class="reviewer-info">
+                <span class="reviewer-name">Ain Hadi,</span>
+                <span class="reviewer-age">Ans 31</span>
+                <span class="reviewer-location">Indonésie</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            <p>Il semble aider tant que je ne fais pas quelque chose qui aggrave ma...</p>
+          </div>
+          <div class="review-footer">
+            <a href="#" class="read-more-btn">en savoir plus</a>
+          </div>
+        </div>
+        
+        <!-- Avis 2 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-image">
+              <img src="{{ 'reviewer-2.jpg' | asset_url }}" alt="Cassandra">
+            </div>
+            <div class="review-title">
+              <h3>Plus de problèmes respiratoires, même dans les jours de smog !</h3>
+              <div class="review-stars">
+                {% for i in (1..5) %}
+                  <span class="star">★</span>
+                {% endfor %}
+              </div>
+              <div class="reviewer-info">
+                <span class="reviewer-name">Cassandra,</span>
+                <span class="reviewer-age">Ans 30</span>
+                <span class="reviewer-location">Dubai</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            <p>J'ai commencé à prendre ces produits après avoir déménagé à Dubai parce...</p>
+          </div>
+          <div class="review-footer">
+            <a href="#" class="read-more-btn">en savoir plus</a>
+          </div>
+        </div>
+        
+        <!-- Avis 3 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-image">
+              <img src="{{ 'reviewer-3.jpg' | asset_url }}" alt="Mohd Zain">
+            </div>
+            <div class="review-title">
+              <h3>Je travaille dans une verrerie et après cinq ans, j'avais l'impression que mes poumons étaient bouchés...</h3>
+              <div class="review-stars">
+                {% for i in (1..5) %}
+                  <span class="star">★</span>
+                {% endfor %}
+              </div>
+              <div class="reviewer-info">
+                <span class="reviewer-name">Mohd Zain,</span>
+                <span class="reviewer-age">Ans 51</span>
+                <span class="reviewer-location">Malaisie</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            <p>Je travaille professionnellement dans une usine de verre et après vingt ans,...</p>
+          </div>
+          <div class="review-footer">
+            <a href="#" class="read-more-btn">en savoir plus</a>
+          </div>
+        </div>
+        
+        <!-- Avis 4 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-image">
+              <img src="{{ 'reviewer-4.jpg' | asset_url }}" alt="Justin W.">
+            </div>
+            <div class="review-title">
+              <h3>Travaille dans des environnements poussiéreux. Prenez ce produit pour protéger vos poumons.</h3>
+              <div class="review-stars">
+                {% for i in (1..5) %}
+                  <span class="star">★</span>
+                {% endfor %}
+              </div>
+              <div class="reviewer-info">
+                <span class="reviewer-name">Justin W.,</span>
+                <span class="reviewer-age">Ans 29</span>
+                <span class="reviewer-location">États-Unis</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            <p>Je travaille souvent dans des environnements poussiéreux. Je garde...</p>
+          </div>
+          <div class="review-footer">
+            <a href="#" class="read-more-btn">en savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Les mêmes structures pour les autres catégories -->
+    <div class="reviews-category" data-category="all">
+      <!-- Répéter la même structure d'avis pour "Tous" -->
+    </div>
+    
+    <div class="reviews-category" data-category="asthme">
+      <!-- Répéter la même structure d'avis pour "Asthme" -->
+    </div>
+    
+    <!-- Continuer pour toutes les autres catégories -->
+  </div>
+</div>
+
+<style>
+.reviews-tabs-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.reviews-heading {
+  text-align: center;
+  color: #00a67c;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tabs-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tabs-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab-button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #e0e0e0;
+}
+
+.tab-button.active, .tab-button.highlight {
+  background-color: #00a67c;
+  color: white;
+}
+
+.reviews-category {
+  display: none;
+}
+
+.reviews-category.active {
+  display: block;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.review-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.review-header {
+  display: flex;
+  padding: 20px;
+}
+
+.reviewer-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  border: 3px solid #00a67c;
+}
+
+.reviewer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review-title {
+  flex: 1;
+}
+
+.review-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.review-stars {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.reviewer-info {
+  font-size: 14px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+}
+
+.reviewer-age {
+  color: #00a67c;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.reviewer-location {
+  display: block;
+  color: #666;
+}
+
+.review-content {
+  padding: 0 20px;
+}
+
+.review-footer {
+  padding: 15px 20px;
+  text-align: right;
+}
+
+.read-more-btn {
+  display: inline-block;
+  background-color: #00a67c;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .review-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .reviewer-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const reviewsCategories = document.querySelectorAll('.reviews-category');
+    
+    tabButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+        
+        // Désactiver tous les boutons et catégories
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        reviewsCategories.forEach(cat => cat.classList.remove('active'));
+        
+        // Activer le bouton et la catégorie sélectionnés
+        this.classList.add('active');
+        document.querySelector(`.reviews-category[data-category="${category}"]`).classList.add('active');
+      });
+    });
+  });
+</script>
