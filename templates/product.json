@@ -177,7 +177,7 @@
             "icon": "heart",
             "image": "shopify://shop_images/Icon-Anti-Tumor.png",
             "question": "Avantages",
-            "answer": "",
+            "answer": "<ul><li>Favorise la respiration<br/></li><li>Nettoie et désintoxique les poumons<br/></li><li>Soulage la toux et les mucosités<br/></li><li>Soulage la congestion nasale<br/></li><li>Soutien naturel à la BPCO<br/></li><li>Favorise une production saine de mucus<br/></li><li>Soutien naturel de l’asthme<br/>Renforcement de l’immunité des fumeurs de longue durée<br/></li><li>Apaise les allergies respiratoires<br/>Soulage les symptômes des sinus<br/></li><li>Favorise une fonction pulmonaire saine<br/></li><li>Favorise un système immunitaire sain</li></ul>",
             "answer_html": "{{ product.description }}"
           }
         },
