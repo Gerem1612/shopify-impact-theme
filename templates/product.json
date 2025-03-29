@@ -160,6 +160,104 @@
         "input_text_color": ""
       }
     },
+    "producttab1_nkeK7i": {
+      "type": "producttab1",
+      "blocks": {
+        "tab_XhzAgi": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "heart",
+            "question": "Product description",
+            "answer": "",
+            "answer_html": "{{ product.description }}"
+          }
+        },
+        "tab_4VnaUt": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "truck",
+            "question": "Shipping",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        },
+        "tab_ynd3Qp": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "return_arrow",
+            "question": "Returns",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_XhzAgi",
+        "tab_4VnaUt",
+        "tab_ynd3Qp"
+      ],
+      "settings": {
+        "close_other": true,
+        "open_default": false,
+        "subtitle": "",
+        "subtitle_color": "#121212",
+        "subtitle_font_size": 10,
+        "title": "",
+        "title_font_size": 10,
+        "title_color": "#121212",
+        "arrow_size": 14,
+        "arrow_color": "#121212",
+        "icon_width": 22,
+        "text_color": "#121212",
+        "question_font_size": 13,
+        "answer_color": "#121212",
+        "answer_font_size": 12,
+        "border_color": "#f2f2f2",
+        "background-color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_x_desktop": 0,
+        "padding_x": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "button_padding_y": 10
+      }
+    },
+    "rich_text_pXMXPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yK36NB": {
+          "type": "heading",
+          "settings": {
+            "text": "SOUTIEN NATUREL DE LA SANTÉ RESPIRATOIRE LE MIEUX NOTÉ",
+            "heading_tag": "h1",
+            "text_color": "#14a16c",
+            "gradient": ""
+          }
+        },
+        "richtext_7MBYmB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>La santé respiratoire est extrêmement importante pour la santé et le bien-être général. </strong></h3><h3><strong>                                                          C’est pourquoi nous avons développé champignon Lait Tigre Organique Lignosus pour aider à soutenir votre santé respiratoire de la meilleure façon possible.</strong></h3><h4>Notre formule améliore les fonctions pulmonaires et aide à soulager les symptômes respiratoires.<br/> </h4><ul><li>Ouvre les voies respiratoires<br/></li><li> Améliore la respiration<br/></li><li> Soulage la toux et le flegme<br/></li><li> Soulage la congestion nasale<br/></li><li> Soulage les symptômes de l’asthme<br/> </li><li>Améliore les allergies respiratoires<br/></li><li> Améliore efficacement la santé des poumons<br/></li><li> Renforce le système immunitaire du corps<br/></li><li> Nettoie et détoxifie les poumons<br/> Soutient la santé des poumons et des sinus<br/> </li><li>Stimule la production saine de mucus<br/></li><li> Soutient la défense contre les rhumes et les infections respiratoires<br/><br/>*AVERTISSEMENT : Ces déclarations n’ont pas été évaluées par la Food and Drug Administration. Les résultats individuels peuvent varier.<br/><br/>Avantages</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yK36NB",
+        "richtext_7MBYmB"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -262,163 +360,16 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
-    },
-    "producttab1_nkeK7i": {
-      "type": "producttab1",
-      "blocks": {
-        "tab_XhzAgi": {
-          "type": "tab",
-          "settings": {
-            "svg_color": "#121212",
-            "icon": "heart",
-            "question": "Product description",
-            "answer": "",
-            "answer_html": "{{ product.description }}"
-          }
-        },
-        "tab_4VnaUt": {
-          "type": "tab",
-          "settings": {
-            "svg_color": "#121212",
-            "icon": "truck",
-            "question": "Shipping",
-            "answer": "<p>This is an answer</p>",
-            "answer_html": ""
-          }
-        },
-        "tab_ynd3Qp": {
-          "type": "tab",
-          "settings": {
-            "svg_color": "#121212",
-            "icon": "return_arrow",
-            "question": "Returns",
-            "answer": "<p>This is an answer</p>",
-            "answer_html": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_XhzAgi",
-        "tab_4VnaUt",
-        "tab_ynd3Qp"
-      ],
-      "settings": {
-        "close_other": false,
-        "open_default": false,
-        "subtitle": "rtbrtb",
-        "subtitle_color": "#121212",
-        "subtitle_font_size": 10,
-        "title": "rtbb",
-        "title_font_size": 10,
-        "title_color": "#121212",
-        "arrow_size": 14,
-        "arrow_color": "#121212",
-        "icon_width": 22,
-        "text_color": "#121212",
-        "question_font_size": 13,
-        "answer_color": "#121212",
-        "answer_font_size": 12,
-        "border_color": "#f2f2f2",
-        "background-color": "#ffffff",
-        "padding_top": 12,
-        "padding_bottom": 12,
-        "padding_x_desktop": 0,
-        "padding_x": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "button_padding_y": 10
-      }
-    },
-    "producttab2_bbewwR": {
-      "type": "producttab2",
-      "blocks": {
-        "tab_nxyVJH": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Product Description",
-            "content": "<p>Description</p>",
-            "product_description": true
-          }
-        },
-        "tab_yVLJjW": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Shipping",
-            "content": "<p>This is an answer</p>",
-            "product_description": false
-          }
-        },
-        "tab_k3KyJg": {
-          "type": "tab",
-          "settings": {
-            "icon": "none",
-            "header": "Returns",
-            "content": "<p>This is an answer</p>",
-            "product_description": false
-          }
-        }
-      },
-      "block_order": [
-        "tab_nxyVJH",
-        "tab_yVLJjW",
-        "tab_k3KyJg"
-      ],
-      "settings": {
-        "tabs_position": "below_buy",
-        "btns_gap": 20,
-        "btns_gap_mobile": 20,
-        "button_line_thickness": 2,
-        "bts_padding_vertical": 0,
-        "button_padding_horizontal": 0,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "icon_size": 20,
-        "icon_size_mobile": 20,
-        "btns_text_custom": false,
-        "btns_text_font": "josefin_sans_n4",
-        "btns_text_size": 14,
-        "btns_text_size_mobile": 14,
-        "btns_text_height": 130,
-        "content_custom": false,
-        "content_font": "josefin_sans_n4",
-        "content_size": 12,
-        "content_size_mobile": 13,
-        "content_height": 170,
-        "content_mt": 16,
-        "btns_bg_color": "",
-        "btns_bg_hover_color": "",
-        "btns_border_color": "#000000",
-        "btns_border_hover_color": "#121212",
-        "btns_text_color": "#121212",
-        "btns_text_hover_color": "#121212",
-        "tabs_line_color": "#121212",
-        "content_color": "#121212",
-        "icon_color": "#121212",
-        "icon_hover_color": "#121212",
-        "background_color": "#FCFAF7",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 12,
-        "padding_bottom": 12,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "content_width": 120,
-        "border_thickness": 0
-      }
     }
   },
   "order": [
     "video_bmYKnx",
     "slideshow_89zcP7",
     "main",
+    "producttab1_nkeK7i",
+    "rich_text_pXMXPC",
     "related-products",
     "slideshow_bNcEd3",
-    "slideshow_CNtLfz",
-    "producttab1_nkeK7i",
-    "producttab2_bbewwR"
+    "slideshow_CNtLfz"
   ]
 }
