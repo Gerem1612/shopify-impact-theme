@@ -257,7 +257,7 @@
         "tab_jfAhNp"
       ],
       "settings": {
-        "close_other": true,
+        "close_other": false,
         "open_default": false,
         "subtitle": "",
         "subtitle_color": "#121212",
