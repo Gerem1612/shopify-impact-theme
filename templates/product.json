@@ -50,10 +50,22 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_NTREap": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #FFD109;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n   4.8/5 Basé sur 548 avis certifiés\n  </span>\n</div>\n\n</body>\n</html>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
             "heading_tag": "h1"
+          }
+        },
+        "text_BcdmzT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complément naturel pour les poumons le mieux noté pour les adultes et les enfants</p>"
           }
         },
         "badges": {
@@ -90,23 +102,18 @@
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center; /* Zorgt voor verticale uitlijning */\n            justify-content: space-around; /* Verdeelt ruimte gelijkmatig */\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative; /* Needed for z-index to take effect */\n            z-index: 1; /* Adjust as necessary */\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center; /* Zorgt dat icoon en tekst uitgelijnd zijn */\n            font-size: 12px; /* Basis grootte voor tekst */\n            line-height: 15px;\n        }\n        .icon-text34 img {\n            width: 25px; /* Basis icoongrootte */\n            height: 25px; /* Basis icoongrootte */\n            margin-right: 8px; /* Ruimte tussen icoon en tekst */\n        }\n\n        /* Verbergt <br> standaard, toont op kleinere schermen */\n        br {\n            display: none;\n        }\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n        }\n\n        /* Aanpassingen voor desktopschermen (groter dan 768px) */\n        @media (min-width: 768px) {\n            .icon-text34 {\n                font-size: 14px; /* Grotere tekstgrootte */\n                line-height: 20px;\n            }\n            .icon-text34 img {\n                width: 30px; /* Grotere icoongrootte */\n                height: 30px; /* Grotere icoongrootte */\n                margin-right: 10px; /* Meer ruimte tussen icoon en tekst */\n            }\n        }\n    </style>\n</head>\n<body>\n\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE\n</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant\n</p>\n    </div>\n</div>\n\n</body>\n</html>"
           }
-        },
-        "text_3nwRWp": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
+        "liquid_NTREap",
         "title",
+        "text_BcdmzT",
         "badges",
         "price",
         "separator",
         "quantity_selector",
         "buy_buttons",
-        "liquid_VhpNn9",
-        "text_3nwRWp"
+        "liquid_VhpNn9"
       ],
       "settings": {
         "full_width": true,
@@ -124,6 +131,21 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "image_with_text_overlay_a4PFQE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Visuel_benefices_Pulmeor_court_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "slideshow_89zcP7": {
@@ -283,6 +305,7 @@
         "heading_yK36NB",
         "richtext_7MBYmB"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -399,6 +422,7 @@
   "order": [
     "video_bmYKnx",
     "main",
+    "image_with_text_overlay_a4PFQE",
     "slideshow_89zcP7",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
