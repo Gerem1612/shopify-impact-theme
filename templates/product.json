@@ -270,7 +270,7 @@
         "text_color": "#14a16c",
         "question_font_size": 20,
         "answer_color": "#121212",
-        "answer_font_size": 18,
+        "answer_font_size": 13,
         "border_color": "#f2f2f2",
         "background-color": "#ffffff",
         "padding_top": 12,
