@@ -175,6 +175,7 @@
           "settings": {
             "svg_color": "#121212",
             "icon": "heart",
+            "image": "shopify://shop_images/Icon-Anti-Tumor.png",
             "question": "Avantages",
             "answer": "",
             "answer_html": "{{ product.description }}"
@@ -185,6 +186,7 @@
           "settings": {
             "svg_color": "#121212",
             "icon": "truck",
+            "image": "shopify://shop_images/Icon-Anti-Oxidant.png",
             "question": "Ingrédients",
             "answer": "<p>This is an answer</p>",
             "answer_html": ""
@@ -195,6 +197,7 @@
           "settings": {
             "svg_color": "#121212",
             "icon": "return_arrow",
+            "image": "shopify://shop_images/Icon-Anti-Asthmatic.png",
             "question": "Comment consommer ?",
             "answer": "<p>This is an answer</p>",
             "answer_html": ""
@@ -205,6 +208,7 @@
           "settings": {
             "svg_color": "#121212",
             "icon": "time",
+            "image": "shopify://shop_images/Icon-Anti-Microbial.png",
             "question": "Sécurité des produits",
             "answer": "<p>Test de laboratoire SGS | Test de sécurité du produit passé avec succès par rapport aux marques de sécurité.<br/><br/>Test des allergènes\tSans Gluten • Sans Produits Laitiers • Sans Oeufs • Sans Arachides •<br/><br/>Autres: Biologique • Ingrédients cliniquement prouvés • Convient aux végétaliens • Sans conservateurs • Sans OGM • Fabriqué dans une usine certifiée GMP</p>",
             "answer_html": ""
@@ -215,6 +219,7 @@
           "settings": {
             "svg_color": "#121212",
             "icon": "time",
+            "image": "shopify://shop_images/Icon-Anti-Illness.png",
             "question": "Expédition",
             "answer": "<p>Nous avons le plaisir d’offrir une livraison gratuite pour toutes les commandes dans le monde entier.<br/><br/>Expédition normale : Pour notre option d’expédition régulière gratuite, prévoyez un délai de livraison d’environ 7 jours ouvrables. Nous vous remercions de votre compréhension et vous recommandons de prévoir un délai supplémentaire pour cette méthode d’expédition.<br/><br/>Expédition express : Pour une livraison plus rapide, choisissez notre option d’expédition express, qui prend généralement 3 à 4 jours ouvrables. Mieux encore, si vous achetez 6 boîtes ou plus, nous vous ferons bénéficier de l’option d’expédition express sans frais supplémentaires.<br/><br/>Veuillez noter que les délais de livraison peuvent parfois varier en fonction de votre situation géographique et de circonstances imprévues. Votre satisfaction reste notre priorité absolue et nous nous engageons à ce que votre commande vous parvienne dans les meilleurs délais.</p>",
             "answer_html": ""
