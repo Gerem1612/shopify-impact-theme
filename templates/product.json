@@ -202,72 +202,22 @@
         "background_gradient": ""
       }
     },
-    "testimonials_AE66xf": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_zbVtWd": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_LYLxB8": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_bqG74C": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_zbVtWd",
-        "testimonial_LYLxB8",
-        "testimonial_bqG74C"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "Testimonials",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
         "liquid_NTREap": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #FFD109;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n   4.8/5 Basé sur 548 avis certifiés\n  </span>\n</div>\n\n</body>\n</html>"
+          }
+        },
+        "trustoo_io_reviews_star_rating_widget_qcjBwm": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "star_size": 20,
+            "font_size": 16,
+            "block_aligment": "left"
           }
         },
         "title": {
@@ -321,6 +271,7 @@
       },
       "block_order": [
         "liquid_NTREap",
+        "trustoo_io_reviews_star_rating_widget_qcjBwm",
         "title",
         "text_BcdmzT",
         "badges",
@@ -536,35 +487,6 @@
         "background_gradient": ""
       }
     },
-    "1743353349831d7ca3": {
-      "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_star_rating_widget_a3PfxJ": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "star_size": 20,
-            "font_size": 16,
-            "block_aligment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_star_rating_widget_a3PfxJ"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "174335336512796468": {
       "type": "apps",
       "blocks": {
@@ -589,6 +511,22 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "1743354028910fe231": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -597,13 +535,12 @@
     "image_with_text_overlay_a4PFQE",
     "slideshow_bNcEd3",
     "slideshow_89zcP7",
-    "testimonials_AE66xf",
     "main",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
     "slideshow_CNtLfz",
-    "1743353349831d7ca3",
-    "174335336512796468"
+    "174335336512796468",
+    "1743354028910fe231"
   ]
 }
