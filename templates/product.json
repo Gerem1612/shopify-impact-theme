@@ -47,6 +47,64 @@
         "overlay_opacity": 30
       }
     },
+    "logo_list_Acd3KB": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kEwadL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kXhgBQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_AgaKpa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kT7W36": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kEwadL",
+        "logo_kXhgBQ",
+        "logo_AgaKpa",
+        "logo_kT7W36"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h1><strong>Soutenu par:</strong></h1>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "slideshow_89zcP7": {
       "type": "slideshow",
       "blocks": {
@@ -528,68 +586,11 @@
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
-    },
-    "logo_list_Acd3KB": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_kEwadL": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480.jpg",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_kXhgBQ": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_AgaKpa": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_kT7W36": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_kEwadL",
-        "logo_kXhgBQ",
-        "logo_AgaKpa",
-        "logo_kT7W36"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "<h1><strong>Soutenu par :</strong></h1>",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
-        "text_color": "#1a1a1a",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
     }
   },
   "order": [
     "video_bmYKnx",
+    "logo_list_Acd3KB",
     "slideshow_89zcP7",
     "main",
     "image_with_text_overlay_a4PFQE",
@@ -599,7 +600,6 @@
     "slideshow_bNcEd3",
     "slideshow_CNtLfz",
     "press_U9BJrf",
-    "testimonials_AE66xf",
-    "logo_list_Acd3KB"
+    "testimonials_AE66xf"
   ]
 }
