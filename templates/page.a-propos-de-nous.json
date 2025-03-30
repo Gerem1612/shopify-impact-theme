@@ -329,6 +329,33 @@
         "full_width": false,
         "spacing": "small"
       }
+    },
+    "image_with_text_overlay_b4MnMK": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_x3xPM7": {
+          "type": "heading",
+          "settings": {
+            "text": "Guidé par la nature, validé par la science.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x3xPM7"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -339,6 +366,7 @@
     "rich_text_Jn8dz3",
     "rich_text_n3Njfd",
     "images_with_text_scrolling_AY86Ma",
-    "media_with_text_9WJC86"
+    "media_with_text_9WJC86",
+    "image_with_text_overlay_b4MnMK"
   ]
 }
