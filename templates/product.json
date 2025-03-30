@@ -573,6 +573,46 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "slideshow_trQyXq": {
+      "type": "slideshow",
+      "blocks": {
+        "image_UiXkek": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Soutenu par la nature, confirmé par la science.",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UiXkek"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -590,6 +630,7 @@
     "174335336512796468",
     "1743354028910fe231",
     "rich_text_jx94H8",
-    "custom_html_Gdbh8T"
+    "custom_html_Gdbh8T",
+    "slideshow_trQyXq"
   ]
 }
