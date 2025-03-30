@@ -120,6 +120,47 @@
         "overlay_opacity": 0
       }
     },
+    "slideshow_bNcEd3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_cHMPhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Benefices_ingredients_mobile_fb725ef3-d83f-40c5-917a-950d34950848.png",
+            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cHMPhc"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
     "slideshow_89zcP7": {
       "type": "slideshow",
       "blocks": {
@@ -159,6 +200,65 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "testimonials_AE66xf": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_zbVtWd": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_LYLxB8": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_bqG74C": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_zbVtWd",
+        "testimonial_LYLxB8",
+        "testimonial_bqG74C"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "main": {
@@ -396,47 +496,6 @@
         "product_card_text_color": ""
       }
     },
-    "slideshow_bNcEd3": {
-      "type": "slideshow",
-      "blocks": {
-        "image_cHMPhc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Benefices_ingredients_mobile_fb725ef3-d83f-40c5-917a-950d34950848.png",
-            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_cHMPhc"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "slideshow_CNtLfz": {
       "type": "slideshow",
       "blocks": {
@@ -477,63 +536,58 @@
         "background_gradient": ""
       }
     },
-    "testimonials_AE66xf": {
-      "type": "testimonials",
+    "1743353349831d7ca3": {
+      "type": "apps",
       "blocks": {
-        "testimonial_zbVtWd": {
-          "type": "testimonial",
+        "trustoo_io_reviews_star_rating_widget_a3PfxJ": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_LYLxB8": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_bqG74C": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "star_size": 20,
+            "font_size": 16,
+            "block_aligment": "left"
           }
         }
       },
       "block_order": [
-        "testimonial_zbVtWd",
-        "testimonial_LYLxB8",
-        "testimonial_bqG74C"
+        "trustoo_io_reviews_star_rating_widget_a3PfxJ"
       ],
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
-        "subheading": "",
-        "title": "Testimonials",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "174335336512796468": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_review_widget_h7c4jN": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_review_widget_h7c4jN"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     }
   },
@@ -548,6 +602,8 @@
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
-    "slideshow_CNtLfz"
+    "slideshow_CNtLfz",
+    "1743353349831d7ca3",
+    "174335336512796468"
   ]
 }
