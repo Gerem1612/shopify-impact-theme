@@ -182,7 +182,7 @@
         "liquid_CzdGpj": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% if product.available == false and product.tags contains 'viral' %}\n  <div style=\"\n    border: 1px solid #d14d72; \n    color: #d14d72; \n    text-align: center; \n    padding: 10px 15px; \n    font-weight: bold; \n    font-size: 14px; \n    text-transform: uppercase; \n    max-width: 100%; \n    margin-bottom: 20px;\n    letter-spacing: 0.5px;\n    font-family: sans-serif;\">\n    3X OUT OF STOCK | VIRAL PRODUCT\n  </div>\n{% endif %}"
+            "liquid": "{% comment %}\n  OUT OF STOCK BANNER - Add this to your product template\n{% endcomment %}\n\n{% assign out_of_stock_count = 0 %}\n{% if product.available == false %}\n  {% for variant in product.variants %}\n    {% if variant.available == false %}\n      {% assign out_of_stock_count = out_of_stock_count | plus: 1 %}\n    {% endif %}\n  {% endfor %}\n{% endif %}\n\n{% if out_of_stock_count >= 3 and product.tags contains 'viral' %}\n  <div class=\"viral-product-banner\">\n    3X OUT OF STOCK | VIRAL PRODUCT\n  </div>\n\n  <style>\n    .viral-product-banner {\n      border: 1px solid #d14d72;\n      color: #d14d72;\n      text-align: center;\n      padding: 10px 15px;\n      font-weight: bold;\n      font-size: 14px;\n      text-transform: uppercase;\n      max-width: 100%;\n      margin-bottom: 20px;\n      letter-spacing: 0.5px;\n      font-family: sans-serif;\n    }\n  </style>\n{% endif %}"
           }
         },
         "liquid_NTREap": {
