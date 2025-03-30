@@ -14,21 +14,21 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_RqNgEy": {
+        "message_QBtaWg": {
           "type": "message",
           "settings": {
-            "text": "🚚 Livraison gratuite en France métropolitaine, Suisse, Belgique & Luxembourg",
+            "text": "AVRIL 2025 : NOUVELLE FORMULE DISPONIBLE !",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message_RqNgEy"
+        "message_QBtaWg"
       ],
       "settings": {
-        "enable_sticky": false,
-        "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "enable_sticky": true,
+        "text_size": "text-base",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#14a16c",
         "background_gradient": "",

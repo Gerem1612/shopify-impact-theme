@@ -47,6 +47,21 @@
         "overlay_opacity": 30
       }
     },
+    "scrolling_text_krqdEt": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Mieux respirer |    Santé améliorée | Liberté retrouvée |  Sommeil apaisé | Immunité boostée   | Bien-être durable | Vitalité renforcée | Sérénité retrouvée |",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 9,
+        "background": "#14a16c",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
     "logo_list_Acd3KB": {
       "type": "logo-list",
       "blocks": {
@@ -531,6 +546,7 @@
   },
   "order": [
     "video_bmYKnx",
+    "scrolling_text_krqdEt",
     "logo_list_Acd3KB",
     "image_with_text_overlay_a4PFQE",
     "slideshow_bNcEd3",
