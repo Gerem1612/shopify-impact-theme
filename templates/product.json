@@ -477,57 +477,6 @@
         "background_gradient": ""
       }
     },
-    "press_U9BJrf": {
-      "type": "press",
-      "blocks": {
-        "quote_BQ4zXF": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
-            "show_rating": true,
-            "rating": 4
-          }
-        },
-        "quote_Pkh4Cf": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
-            "show_rating": true,
-            "rating": 4
-          }
-        },
-        "quote_FPy6FB": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Write some content about what they says about your store.",
-            "show_rating": true,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "quote_BQ4zXF",
-        "quote_Pkh4Cf",
-        "quote_FPy6FB"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "testimonials_AE66xf": {
       "type": "testimonials",
       "blocks": {
@@ -592,14 +541,13 @@
     "video_bmYKnx",
     "logo_list_Acd3KB",
     "image_with_text_overlay_a4PFQE",
+    "slideshow_bNcEd3",
     "slideshow_89zcP7",
+    "testimonials_AE66xf",
     "main",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
-    "slideshow_bNcEd3",
-    "slideshow_CNtLfz",
-    "press_U9BJrf",
-    "testimonials_AE66xf"
+    "slideshow_CNtLfz"
   ]
 }
