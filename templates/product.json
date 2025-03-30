@@ -105,6 +105,21 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_overlay_a4PFQE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Visuel_benefices_Pulmeor_court_1_1_b62eff4b-0daa-4951-bded-00b76be6855c.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "slideshow_89zcP7": {
       "type": "slideshow",
       "blocks": {
@@ -231,21 +246,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "image_with_text_overlay_a4PFQE": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Visuel_benefices_Pulmeor_court_1_1_b62eff4b-0daa-4951-bded-00b76be6855c.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "producttab1_nkeK7i": {
@@ -591,9 +591,9 @@
   "order": [
     "video_bmYKnx",
     "logo_list_Acd3KB",
+    "image_with_text_overlay_a4PFQE",
     "slideshow_89zcP7",
     "main",
-    "image_with_text_overlay_a4PFQE",
     "producttab1_nkeK7i",
     "rich_text_pXMXPC",
     "related-products",
