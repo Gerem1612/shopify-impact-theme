@@ -581,7 +581,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
-            "content_max_width": 780,
+            "content_max_width": 620,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
