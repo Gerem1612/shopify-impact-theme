@@ -284,7 +284,7 @@
         "full_width": false,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 35,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
