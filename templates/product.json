@@ -281,7 +281,7 @@
         "liquid_VhpNn9"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 65,
         "desktop_media_layout": "carousel_thumbnails_left",
