@@ -47,21 +47,6 @@
         "overlay_opacity": 30
       }
     },
-    "scrolling_text_krqdEt": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Mieux respirer |    Santé améliorée | Liberté retrouvée |  Sommeil apaisé | Immunité boostée   | Bien-être durable | Vitalité renforcée | Sérénité retrouvée |",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 9,
-        "background": "#14a16c",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
-      }
-    },
     "logo_list_Acd3KB": {
       "type": "logo-list",
       "blocks": {
@@ -218,14 +203,14 @@
             "heading_tag": "h1"
           }
         },
-        "separator_d7E6cC": {
+        "separator_U6LUrf": {
           "type": "separator",
           "settings": {}
         },
         "text_BcdmzT": {
           "type": "text",
           "settings": {
-            "text": "<h4><em>Complément naturel pour les poumons le mieux noté pour les adultes.</em></h4>"
+            "text": "<h6><em>Résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
           }
         },
         "separator_P9RGxm": {
@@ -273,12 +258,18 @@
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center; /* Zorgt voor verticale uitlijning */\n            justify-content: space-around; /* Verdeelt ruimte gelijkmatig */\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative; /* Needed for z-index to take effect */\n            z-index: 1; /* Adjust as necessary */\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center; /* Zorgt dat icoon en tekst uitgelijnd zijn */\n            font-size: 12px; /* Basis grootte voor tekst */\n            line-height: 15px;\n        }\n        .icon-text34 img {\n            width: 25px; /* Basis icoongrootte */\n            height: 25px; /* Basis icoongrootte */\n            margin-right: 8px; /* Ruimte tussen icoon en tekst */\n        }\n\n        /* Verbergt <br> standaard, toont op kleinere schermen */\n        br {\n            display: none;\n        }\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n        }\n\n        /* Aanpassingen voor desktopschermen (groter dan 768px) */\n        @media (min-width: 768px) {\n            .icon-text34 {\n                font-size: 14px; /* Grotere tekstgrootte */\n                line-height: 20px;\n            }\n            .icon-text34 img {\n                width: 30px; /* Grotere icoongrootte */\n                height: 30px; /* Grotere icoongrootte */\n                margin-right: 10px; /* Meer ruimte tussen icoon en tekst */\n            }\n        }\n    </style>\n</head>\n<body>\n\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE\n</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant\n</p>\n    </div>\n</div>\n\n</body>\n</html>"
           }
+        },
+        "liquid_nQ3Ui7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\"Stock </div>\n</div>"
+          }
         }
       },
       "block_order": [
         "liquid_CzdGpj",
         "title",
-        "separator_d7E6cC",
+        "separator_U6LUrf",
         "text_BcdmzT",
         "separator_P9RGxm",
         "liquid_NTREap",
@@ -287,7 +278,8 @@
         "separator",
         "quantity_selector",
         "buy_buttons",
-        "liquid_VhpNn9"
+        "liquid_VhpNn9",
+        "liquid_nQ3Ui7"
       ],
       "settings": {
         "full_width": true,
@@ -305,6 +297,21 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "scrolling_text_krqdEt": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Mieux respirer |    Santé améliorée | Liberté retrouvée |  Sommeil apaisé | Immunité boostée   | Bien-être durable | Vitalité renforcée | Sérénité retrouvée |",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 9,
+        "background": "#14a16c",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
       }
     },
     "producttab1_nkeK7i": {
@@ -614,12 +621,12 @@
   },
   "order": [
     "video_bmYKnx",
-    "scrolling_text_krqdEt",
     "logo_list_Acd3KB",
     "image_with_text_overlay_YPa6E9",
     "image_with_text_overlay_a4PFQE",
     "slideshow_bNcEd3",
     "main",
+    "scrolling_text_krqdEt",
     "producttab1_nkeK7i",
     "slideshow_89zcP7",
     "rich_text_pXMXPC",
