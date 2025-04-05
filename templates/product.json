@@ -223,6 +223,10 @@
             "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🧘 Améliore le bien-être respiratoire</p>"
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
         "liquid_nQ3Ui7": {
           "type": "liquid",
           "settings": {
@@ -239,10 +243,6 @@
           "settings": {
             "show_taxes_notice": false
           }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -273,10 +273,10 @@
         "text_BcdmzT",
         "separator_P9RGxm",
         "liquid_NTREap",
+        "separator",
         "liquid_nQ3Ui7",
         "badges",
         "price",
-        "separator",
         "quantity_selector",
         "buy_buttons",
         "liquid_VhpNn9"
