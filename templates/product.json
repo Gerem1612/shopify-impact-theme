@@ -210,7 +210,7 @@
         "text_BcdmzT": {
           "type": "text",
           "settings": {
-            "text": "<h6><em>Résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
+            "text": "<h6><em>1 gélule par jour suffit, et les résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
           }
         },
         "separator_P9RGxm": {
@@ -287,7 +287,7 @@
         "desktop_media_width": 65,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails",
+        "mobile_carousel_control": "dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": false,
