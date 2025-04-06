@@ -9,6 +9,144 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_YPa6E9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rQCJat": {
+          "type": "heading",
+          "settings": {
+            "text": "Guidé par la nature, validé par la science.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQCJat"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_CzdGpj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"border: 1px solid #14A16C; color: #14A16C; text-align: center; padding: 10px 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px;\">\n  3X EN RUPTURE | PRODUIT VIRAL\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "separator_U6LUrf": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_BcdmzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em>1 gélule par jour suffit, et les résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
+          }
+        },
+        "separator_P9RGxm": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_NTREap": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🧘 Améliore le bien-être respiratoire</p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_nQ3Ui7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock bientôt épuisé</div>\n</div>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#14a16c",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_VhpNn9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center; /* Zorgt voor verticale uitlijning */\n            justify-content: space-around; /* Verdeelt ruimte gelijkmatig */\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative; /* Needed for z-index to take effect */\n            z-index: 1; /* Adjust as necessary */\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center; /* Zorgt dat icoon en tekst uitgelijnd zijn */\n            font-size: 10px; /* Taille réduite pour le texte (modifiée) */\n            line-height: 13px; /* Réduit (modifiée) */\n        }\n        .icon-text34 img {\n            width: 20px; /* Taille réduite pour les icônes (modifiée) */\n            height: 20px; /* Taille réduite pour les icônes (modifiée) */\n            margin-right: 6px; /* Moins d'espace entre l'icône et le texte (modifiée) */\n        }\n        /* Verbergt <br> standaard, toont op kleinere schermen */\n        br {\n            display: none;\n        }\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n        }\n        /* Aanpassingen voor desktopschermen (groter dan 768px) */\n        @media (min-width: 768px) {\n            .icon-text34 {\n                font-size: 12px; /* Taille du texte sur grand écran (modifiée) */\n                line-height: 16px; /* Réduit (modifiée) */\n            }\n            .icon-text34 img {\n                width: 25px; /* Taille réduite des icônes sur grand écran (modifiée) */\n                height: 25px; /* Taille réduite des icônes sur grand écran (modifiée) */\n                margin-right: 8px; /* Espace réduit (modifiée) */\n            }\n        }\n    </style>\n</head>\n<body>\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant</p>\n    </div>\n</div>\n</body>\n</html>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_CzdGpj",
+        "title",
+        "separator_U6LUrf",
+        "text_BcdmzT",
+        "separator_P9RGxm",
+        "liquid_NTREap",
+        "separator",
+        "liquid_nQ3Ui7",
+        "badges",
+        "price",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_VhpNn9"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 65,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "video_bmYKnx": {
       "type": "video",
       "blocks": {
@@ -121,33 +259,6 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_YPa6E9": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_rQCJat": {
-          "type": "heading",
-          "settings": {
-            "text": "Guidé par la nature, validé par la science.",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rQCJat"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
-      }
-    },
     "slideshow_bNcEd3": {
       "type": "slideshow",
       "blocks": {
@@ -187,117 +298,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "liquid_CzdGpj": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"border: 1px solid #14A16C; color: #14A16C; text-align: center; padding: 10px 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px;\">\n  3X EN RUPTURE | PRODUIT VIRAL\n</div>"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h1"
-          }
-        },
-        "separator_U6LUrf": {
-          "type": "separator",
-          "settings": {}
-        },
-        "text_BcdmzT": {
-          "type": "text",
-          "settings": {
-            "text": "<h6><em>1 gélule par jour suffit, et les résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
-          }
-        },
-        "separator_P9RGxm": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_NTREap": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🧘 Améliore le bien-être respiratoire</p>"
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_nQ3Ui7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock bientôt épuisé</div>\n</div>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#14a16c",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "liquid_VhpNn9": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center; /* Zorgt voor verticale uitlijning */\n            justify-content: space-around; /* Verdeelt ruimte gelijkmatig */\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative; /* Needed for z-index to take effect */\n            z-index: 1; /* Adjust as necessary */\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center; /* Zorgt dat icoon en tekst uitgelijnd zijn */\n            font-size: 10px; /* Taille réduite pour le texte (modifiée) */\n            line-height: 13px; /* Réduit (modifiée) */\n        }\n        .icon-text34 img {\n            width: 20px; /* Taille réduite pour les icônes (modifiée) */\n            height: 20px; /* Taille réduite pour les icônes (modifiée) */\n            margin-right: 6px; /* Moins d'espace entre l'icône et le texte (modifiée) */\n        }\n        /* Verbergt <br> standaard, toont op kleinere schermen */\n        br {\n            display: none;\n        }\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n        }\n        /* Aanpassingen voor desktopschermen (groter dan 768px) */\n        @media (min-width: 768px) {\n            .icon-text34 {\n                font-size: 12px; /* Taille du texte sur grand écran (modifiée) */\n                line-height: 16px; /* Réduit (modifiée) */\n            }\n            .icon-text34 img {\n                width: 25px; /* Taille réduite des icônes sur grand écran (modifiée) */\n                height: 25px; /* Taille réduite des icônes sur grand écran (modifiée) */\n                margin-right: 8px; /* Espace réduit (modifiée) */\n            }\n        }\n    </style>\n</head>\n<body>\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant</p>\n    </div>\n</div>\n</body>\n</html>"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_CzdGpj",
-        "title",
-        "separator_U6LUrf",
-        "text_BcdmzT",
-        "separator_P9RGxm",
-        "liquid_NTREap",
-        "separator",
-        "liquid_nQ3Ui7",
-        "badges",
-        "price",
-        "quantity_selector",
-        "buy_buttons",
-        "liquid_VhpNn9"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_fixed_add_to_cart": true,
-        "desktop_media_width": 65,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "dots",
-        "enable_video_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "scrolling_text_krqdEt": {
