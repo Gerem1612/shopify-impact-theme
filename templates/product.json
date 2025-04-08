@@ -159,6 +159,7 @@
         },
         "button_LkpWLD": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "lg",
@@ -173,7 +174,6 @@
         "heading_GrPF7V",
         "button_LkpWLD"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -621,10 +621,10 @@
     }
   },
   "order": [
-    "image_with_text_overlay_YPa6E9",
-    "main",
     "video_bmYKnx",
     "logo_list_Acd3KB",
+    "image_with_text_overlay_YPa6E9",
+    "main",
     "image_with_text_overlay_a4PFQE",
     "slideshow_bNcEd3",
     "scrolling_text_krqdEt",
