@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_YPa6E9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rQCJat": {
+          "type": "heading",
+          "settings": {
+            "text": "Guidé par la nature, validé par la science.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQCJat"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
     "video_bmYKnx": {
       "type": "video",
       "blocks": {
@@ -36,6 +63,7 @@
         "heading_GrPF7V",
         "button_LkpWLD"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -359,35 +387,8 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "image_with_text_overlay_YPa6E9": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_rQCJat": {
-          "type": "heading",
-          "settings": {
-            "text": "Guidé par la nature, validé par la science.",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rQCJat"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
       }
     },
     "slideshow_bNcEd3": {
@@ -679,6 +680,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_YPa6E9",
     "video_bmYKnx",
     "logo_list_Acd3KB",
     "image_with_text_overlay_a4PFQE",
@@ -687,7 +689,6 @@
     "main",
     "rich_text_pXMXPC",
     "slideshow_kRJtLk",
-    "image_with_text_overlay_YPa6E9",
     "slideshow_bNcEd3",
     "scrolling_text_krqdEt",
     "producttab1_nkeK7i",
