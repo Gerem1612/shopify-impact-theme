@@ -121,31 +121,44 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_YPa6E9": {
-      "type": "image-with-text-overlay",
+    "slideshow_CNtLfz": {
+      "type": "slideshow",
       "blocks": {
-        "heading_rQCJat": {
-          "type": "heading",
+        "image_NwypMt": {
+          "type": "image",
           "settings": {
-            "text": "Guidé par la nature, validé par la science.",
-            "heading_tag": "h1"
+            "image": "shopify://shop_images/654ae7cd-ce5f-453c-8adc-b9fe3711d329.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-end text-end",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "title": "La force de la nature",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_rQCJat"
+        "image_NwypMt"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
         "image_size": "auto",
-        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
     "main": {
@@ -257,6 +270,33 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "image_with_text_overlay_YPa6E9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rQCJat": {
+          "type": "heading",
+          "settings": {
+            "text": "Guidé par la nature, validé par la science.",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQCJat"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
       }
     },
     "slideshow_bNcEd3": {
@@ -504,46 +544,6 @@
         "product_card_text_color": ""
       }
     },
-    "slideshow_CNtLfz": {
-      "type": "slideshow",
-      "blocks": {
-        "image_NwypMt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/654ae7cd-ce5f-453c-8adc-b9fe3711d329.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-end text-end",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "title": "La force de la nature",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_NwypMt"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "174335336512796468": {
       "type": "apps",
       "blocks": {
@@ -618,12 +618,42 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "press_i76YMm": {
+      "type": "press",
+      "blocks": {
+        "quote_cinj7x": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Enfin un complément qui soulage efficacement la toux persistante, l'asthme, les mucosités et libère l'encombrement pulmonaire",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_cinj7x"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
     "video_bmYKnx",
     "logo_list_Acd3KB",
     "image_with_text_overlay_a4PFQE",
+    "press_i76YMm",
     "slideshow_CNtLfz",
     "main",
     "image_with_text_overlay_YPa6E9",
