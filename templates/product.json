@@ -301,6 +301,28 @@
         "input_text_color": ""
       }
     },
+    "rich_text_pXMXPC": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_rUTakK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Déjà adopté par des milliers de personnes</h1><h3>Pulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.</h3><h2>Respirez mieux. Vivez pleinement.<br/><br/></h2>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_rUTakK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_kRJtLk": {
       "type": "slideshow",
       "blocks": {
@@ -556,32 +578,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
-      }
-    },
-    "rich_text_pXMXPC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_yK36NB": {
-          "type": "heading",
-          "settings": {
-            "text": "Déjà adopté par des milliers de personnesPulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.Respirez mieux. Vivez pleinement.",
-            "heading_tag": "h1",
-            "text_color": "#14a16c",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_yK36NB"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "related-products": {
