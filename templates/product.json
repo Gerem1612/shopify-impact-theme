@@ -121,6 +121,35 @@
         "overlay_opacity": 0
       }
     },
+    "press_i76YMm": {
+      "type": "press",
+      "blocks": {
+        "quote_cinj7x": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Enfin un complément qui soulage efficacement la toux persistante, l'asthme, les mucosités et libère l'encombrement pulmonaire",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_cinj7x"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "slideshow_CNtLfz": {
       "type": "slideshow",
       "blocks": {
@@ -270,6 +299,46 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "slideshow_kRJtLk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AKdEpa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avis_Critiques_Pulmeor.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AKdEpa"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "image_with_text_overlay_YPa6E9": {
@@ -495,22 +564,15 @@
         "heading_yK36NB": {
           "type": "heading",
           "settings": {
-            "text": "SOUTIEN NATUREL DE LA SANTÉ RESPIRATOIRE LE MIEUX NOTÉ",
+            "text": "Déjà adopté par des milliers de personnesPulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.Respirez mieux. Vivez pleinement.",
             "heading_tag": "h1",
             "text_color": "#14a16c",
             "gradient": ""
           }
-        },
-        "richtext_7MBYmB": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3><strong>La santé respiratoire est extrêmement importante pour la santé et le bien-être général. </strong></h3><h3><strong>                                                          C’est pourquoi nous avons développé champignon Lait Tigre Organique Lignosus pour aider à soutenir votre santé respiratoire de la meilleure façon possible.</strong></h3><h4>Notre formule améliore les fonctions pulmonaires et aide à soulager les symptômes respiratoires.<br/> </h4><ul><li>Ouvre les voies respiratoires<br/></li><li> Améliore la respiration<br/></li><li> Soulage la toux et le flegme<br/></li><li> Soulage la congestion nasale<br/></li><li> Soulage les symptômes de l’asthme<br/> </li><li>Améliore les allergies respiratoires<br/></li><li> Améliore efficacement la santé des poumons<br/></li><li> Renforce le système immunitaire du corps<br/></li><li> Nettoie et détoxifie les poumons<br/> Soutient la santé des poumons et des sinus<br/> </li><li>Stimule la production saine de mucus<br/></li><li> Soutient la défense contre les rhumes et les infections respiratoires<br/><br/>*AVERTISSEMENT : Ces déclarations n’ont pas été évaluées par la Food and Drug Administration. Les résultats individuels peuvent varier.<br/><br/>Avantages</li></ul>"
-          }
         }
       },
       "block_order": [
-        "heading_yK36NB",
-        "richtext_7MBYmB"
+        "heading_yK36NB"
       ],
       "disabled": true,
       "settings": {
@@ -618,35 +680,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "press_i76YMm": {
-      "type": "press",
-      "blocks": {
-        "quote_cinj7x": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Enfin un complément qui soulage efficacement la toux persistante, l'asthme, les mucosités et libère l'encombrement pulmonaire",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "quote_cinj7x"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
     }
   },
   "order": [
@@ -656,12 +689,13 @@
     "press_i76YMm",
     "slideshow_CNtLfz",
     "main",
+    "rich_text_pXMXPC",
+    "slideshow_kRJtLk",
     "image_with_text_overlay_YPa6E9",
     "slideshow_bNcEd3",
     "scrolling_text_krqdEt",
     "producttab1_nkeK7i",
     "slideshow_89zcP7",
-    "rich_text_pXMXPC",
     "related-products",
     "174335336512796468",
     "1743354028910fe231",
