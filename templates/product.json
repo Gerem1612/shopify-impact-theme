@@ -118,6 +118,7 @@
         "logo_AgaKpa",
         "logo_kT7W36"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
