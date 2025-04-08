@@ -9,6 +9,118 @@
  */
 {
   "sections": {
+    "video_bmYKnx": {
+      "type": "video",
+      "blocks": {
+        "heading_GrPF7V": {
+          "type": "heading",
+          "settings": {
+            "text": "Le cadeau de la nature pour des poumons en bonne santé",
+            "heading_tag": "h0"
+          }
+        },
+        "button_LkpWLD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "COMMANDER MAINTENANT",
+            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
+            "background": "#14a16c",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GrPF7V",
+        "button_LkpWLD"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "logo_list_Acd3KB": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kEwadL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kXhgBQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_AgaKpa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kT7W36": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kEwadL",
+        "logo_kXhgBQ",
+        "logo_AgaKpa",
+        "logo_kT7W36"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "image_with_text_overlay_a4PFQE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "image_with_text_overlay_YPa6E9": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -145,118 +257,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "video_bmYKnx": {
-      "type": "video",
-      "blocks": {
-        "heading_GrPF7V": {
-          "type": "heading",
-          "settings": {
-            "text": "Le cadeau de la nature pour des poumons en bonne santé",
-            "heading_tag": "h0"
-          }
-        },
-        "button_LkpWLD": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "COMMANDER MAINTENANT",
-            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
-            "background": "#14a16c",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GrPF7V",
-        "button_LkpWLD"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "logo_list_Acd3KB": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_kEwadL": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_kXhgBQ": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_AgaKpa": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_kT7W36": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_kEwadL",
-        "logo_kXhgBQ",
-        "logo_AgaKpa",
-        "logo_kT7W36"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
-        "text_color": "#1a1a1a",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "image_with_text_overlay_a4PFQE": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "slideshow_bNcEd3": {
@@ -623,16 +623,16 @@
   "order": [
     "video_bmYKnx",
     "logo_list_Acd3KB",
-    "image_with_text_overlay_YPa6E9",
-    "main",
     "image_with_text_overlay_a4PFQE",
+    "slideshow_CNtLfz",
+    "main",
+    "image_with_text_overlay_YPa6E9",
     "slideshow_bNcEd3",
     "scrolling_text_krqdEt",
     "producttab1_nkeK7i",
     "slideshow_89zcP7",
     "rich_text_pXMXPC",
     "related-products",
-    "slideshow_CNtLfz",
     "174335336512796468",
     "1743354028910fe231",
     "rich_text_jx94H8",
