@@ -307,7 +307,7 @@
         "richtext_rUTakK": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Déjà adopté par des milliers de personnes</h1><h3>Pulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.</h3><h2>Respirez mieux. Vivez pleinement.<br/><br/></h2>"
+            "content": "<h1>Déjà adopté par des milliers de personnes</h1><h4>Pulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.</h4><h2>Respirez mieux. Vivez pleinement.<br/><br/></h2>"
           }
         }
       },
