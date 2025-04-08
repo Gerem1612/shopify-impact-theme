@@ -390,7 +390,7 @@
         "liquid_CzdGpj": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"border: 1px solid #14A16C; color: #14A16C; text-align: center; padding: 10px 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px;\">\n  3X EN RUPTURE | PRODUIT VIRAL\n</div>"
+            "liquid": "<div style=\"border: 1px solid #14A16C; color: #14A16C; text-align: center; padding: 10px 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px;\">\n L'ORIGINAL (EXCLUSIVITE)\n</div>"
           }
         },
         "title": {
@@ -455,6 +455,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_X7DE4A": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"pulmeor-disclaimer-banner\">\n  <div class=\"disclaimer-container\">\n    <div class=\"disclaimer-icon\">⚠️</div>\n    <div class=\"disclaimer-content\">\n      <h3>ATTENTION : PRODUIT ORIGINAL PULMEOR</h3>\n      <p>Face à la recrudescence des copies, les produits Pulmeor à base de Tiger Milk pour la santé pulmonaire vendus sur ce site sont les SEULS originaux et certifiés.</p>\n      <p><strong>MISE EN GARDE :</strong> Toutes les copies en circulation sur internet ou en magasin sont des contrefaçons non certifiées et non testées en laboratoire.</p>\n      <p>Seuls les achats effectués sur <strong>pulmeor.com</strong> garantissent l'authenticité et l'efficacité de nos produits pour votre santé pulmonaire.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .pulmeor-disclaimer-banner {\n    background-color: #ffeded;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    padding: 15px;\n    margin: 15px 0;\n    font-family: sans-serif;\n  }\n  \n  .disclaimer-container {\n    display: flex;\n    align-items: flex-start;\n  }\n  \n  .disclaimer-icon {\n    font-size: 24px;\n    margin-right: 15px;\n    color: #ff0000;\n  }\n  \n  .disclaimer-content {\n    flex: 1;\n  }\n  \n  .disclaimer-content h3 {\n    color: #ff0000;\n    margin-top: 0;\n    margin-bottom: 10px;\n    font-size: 18px;\n    font-weight: bold;\n    text-transform: uppercase;\n  }\n  \n  .disclaimer-content p {\n    margin: 8px 0;\n    color: #000000;\n    font-size: 14px;\n    line-height: 1.4;\n  }\n  \n  .disclaimer-content strong {\n    color: #ff0000;\n  }\n\n  @media screen and (max-width: 768px) {\n    .disclaimer-container {\n      flex-direction: column;\n    }\n    \n    .disclaimer-icon {\n      margin-bottom: 10px;\n    }\n  }\n</style>"
+          }
+        },
         "liquid_VhpNn9": {
           "type": "liquid",
           "settings": {
@@ -475,6 +481,7 @@
         "price",
         "quantity_selector",
         "buy_buttons",
+        "liquid_X7DE4A",
         "liquid_VhpNn9"
       ],
       "settings": {
