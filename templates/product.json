@@ -9,40 +9,13 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_YPa6E9": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_rQCJat": {
-          "type": "heading",
-          "settings": {
-            "text": "Guidé par la nature, validé par la science.",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rQCJat"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
-      }
-    },
     "video_bmYKnx": {
       "type": "video",
       "blocks": {
         "heading_GrPF7V": {
           "type": "heading",
           "settings": {
-            "text": "Le cadeau de la nature pour des poumons en bonne santé",
+            "text": "La nature vous offre aujourd'hui des poumons en bonne santé",
             "heading_tag": "h0"
           }
         },
@@ -63,7 +36,6 @@
         "heading_GrPF7V",
         "button_LkpWLD"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -74,6 +46,199 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_YPa6E9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rQCJat": {
+          "type": "heading",
+          "settings": {
+            "text": "Dr Bernard PREVAUT, chercheur chez Pulmeor",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQCJat"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "testimonial7_7dWXE7": {
+      "type": "testimonial7",
+      "blocks": {
+        "image_fEEFWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_avr._2025_00_16_25.png"
+          }
+        },
+        "image_6KCCmD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_41_16.png"
+          }
+        },
+        "image_QtjHTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_49_02.png"
+          }
+        },
+        "image_EznQJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_58_49.png"
+          }
+        },
+        "testimonial_VPh8aT": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "J'avais l'habitude de me réveiller chaque matin avec du mucus dans la gorge, ce qui me prenait une éternité à dégager. Depuis que je prends Lignosus, mes matins sont tellement meilleurs – je me réveille avec des voies respiratoires dégagées et sans irritation !",
+            "author": "Mireille.E",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_rbpzcx": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "Bien que je porte toujours mon inhalateur, j'ai remarqué que j'en ai beaucoup moins besoin depuis que je prends Pulmeor. Ma respiration se fait plus stable, et je n'ai plus autant de crises.",
+            "author": "Chloe K.",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_WtjCCh": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "En vieillissant, j'ai remarqué que ma capacité pulmonaire diminuait. Pulmeor m'a aidé à maintenir ma santé pulmonaire, et je me sens beaucoup plus à l'aise en marchant ou en faisant des activités physiques !",
+            "author": "Bernard.P",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_B3WCik": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "On ne manque jamais un jour de prendre Pulmeor  ! C'est devenu un pilier dans notre routine à cause de l'énorme amélioration de nos fonctions pulmonaires. Nous nous sentons plus en forme, plus énergique, et on respire sans effort chaque jour !",
+            "author": "Chantal & Edmond A.",
+            "verified": "Achat vérifié"
+          }
+        }
+      },
+      "block_order": [
+        "image_fEEFWD",
+        "image_6KCCmD",
+        "image_QtjHTm",
+        "image_EznQJt",
+        "testimonial_VPh8aT",
+        "testimonial_rbpzcx",
+        "testimonial_WtjCCh",
+        "testimonial_B3WCik"
+      ],
+      "settings": {
+        "hide_images": true,
+        "heading": "<p>Nos clients déjà conquis par l'efficacité de Pulmeor :</p>",
+        "heading_custom": false,
+        "heading_font": "futura_n6",
+        "heading_size": 36,
+        "heading_size_mobile": 30,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "layout": "image_testimonial",
+        "layout_mobile": "image_testimonial",
+        "layout_gap": 24,
+        "layout_gap_mobile": 24,
+        "layout_mt": 36,
+        "image_row": "2",
+        "image_row_mobile": "2",
+        "image_gap": 12,
+        "image_gap_mobile": 4,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "testimonials_style_mobile": "grid",
+        "testimonials_row": "2",
+        "testimonials_row_mobile": "2",
+        "testimonials_gap": 12,
+        "testimonials_gap_mobile": 12,
+        "testimonial_padding_vertical": 12,
+        "testimonial_padding_horizontal": 12,
+        "testimonial_radius": 8,
+        "testimonial_border_thickness": 1,
+        "stars_size": 20,
+        "testimonial_text_custom": false,
+        "testimonial_text_font": "josefin_sans_n4",
+        "testimonial_text_size": 14,
+        "testimonial_text_size_mobile": 14,
+        "testimonial_text_height": 150,
+        "testimonial_text_mt": 8,
+        "testimonial_author_custom": false,
+        "testimonial_author_font": "josefin_sans_n4",
+        "testimonial_author_size": 14,
+        "testimonial_author_size_mobile": 14,
+        "testimonial_author_height": 150,
+        "testimonial_author_mt": 12,
+        "testimonial_verified_custom": false,
+        "testimonial_verified_font": "josefin_sans_n4",
+        "testimonial_verified_size": 10,
+        "testimonial_verified_size_mobile": 10,
+        "testimonial_verified_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_use_icon": false,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_mt": 24,
+        "button_padding_vertical": 16,
+        "button_padding_horizontal": 50,
+        "button_radius": 12,
+        "button_border_thickness": 2,
+        "heading_color": "#14a16c",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#000000",
+        "button_bg_color": "#FFFFFF",
+        "button_bg_hover_color": "#FFFFFF",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "image_border_color": "#000000",
+        "testimonial_bg_color": "#FFFFFF",
+        "testimonial_border_color": "#00a341",
+        "stars_color": "#F7DC5A",
+        "testimonial_text_color": "#000000",
+        "testimonial_author_color": "#000000",
+        "testimonial_verified_color": "#999999",
+        "testimonial_pagination_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 140,
+        "border_thickness": 0
       }
     },
     "logo_list_Acd3KB": {
@@ -681,8 +846,9 @@
     }
   },
   "order": [
-    "image_with_text_overlay_YPa6E9",
     "video_bmYKnx",
+    "image_with_text_overlay_YPa6E9",
+    "testimonial7_7dWXE7",
     "logo_list_Acd3KB",
     "image_with_text_overlay_a4PFQE",
     "press_i76YMm",
