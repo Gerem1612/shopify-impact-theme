@@ -12,5 +12,14 @@
   "context": {
     "market": "fr"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "layout": "drawer",
+        "opening_from": "bottom",
+        "menu_open_trigger": "click"
+      },
+      "blocks": {}
+    }
+  }
 }
