@@ -48,7 +48,7 @@
         "liquid_NTREap": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française </p>"
+            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Bio et 100% naturel </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française et fier</p>"
           }
         },
         "separator": {
