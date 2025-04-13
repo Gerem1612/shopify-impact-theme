@@ -219,14 +219,14 @@
         "border_color": "#000000",
         "button_color": "#000000",
         "button_hover_color": "#000000",
-        "button_bg_color": "#FFFFFF",
-        "button_bg_hover_color": "#FFFFFF",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#ffffff",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
         "image_border_color": "#000000",
-        "testimonial_bg_color": "#FFFFFF",
+        "testimonial_bg_color": "#ffffff",
         "testimonial_border_color": "#00a341",
-        "stars_color": "#F7DC5A",
+        "stars_color": "#f7dc5a",
         "testimonial_text_color": "#000000",
         "testimonial_author_color": "#000000",
         "testimonial_verified_color": "#999999",
@@ -390,7 +390,7 @@
         "liquid_CzdGpj": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"border: 1px solid #14A16C; color: #14A16C; text-align: center; padding: 10px 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; letter-spacing: 0.5px;\">\n L'ORIGINAL (EXCLUSIVITE)\n</div>"
+            "liquid": "<div class=\"loved-by-customers\">\n  <span>Formule scientifiquement prouvé</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
           }
         },
         "title": {
