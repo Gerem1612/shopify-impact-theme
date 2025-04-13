@@ -48,7 +48,7 @@
         "liquid_NTREap": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Bio et 100% naturel </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française et fier</p>"
+            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Bio et 100% naturel </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française </p>"
           }
         },
         "separator": {
@@ -121,11 +121,11 @@
         "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#383131",
         "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
+        "input_text_color": "#14a16c"
       }
     },
     "video_bmYKnx": {
