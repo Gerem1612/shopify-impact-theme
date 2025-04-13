@@ -15,7 +15,7 @@
         "liquid_CzdGpj": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"loved-by-customers\">\n  <span>Formule scientifiquement prouvé</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
+            "liquid": "<div class=\"loved-by-customers\">\n  <span>La nature offre, la science approuve</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
           }
         },
         "title": {
@@ -83,9 +83,8 @@
         },
         "liquid_X7DE4A": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
-            "liquid": "<div class=\"pulmeor-disclaimer-banner\">\n  <div class=\"disclaimer-container\">\n    <div class=\"disclaimer-icon\">⚠️</div>\n    <div class=\"disclaimer-content\">\n      <h3>ATTENTION : PRODUIT ORIGINAL PULMEOR</h3>\n      <p>Face à la recrudescence des copies, les produits Pulmeor à base de Tiger Milk pour la santé pulmonaire vendus sur ce site sont les SEULS originaux et certifiés.</p>\n      <p><strong>MISE EN GARDE :</strong> Toutes les copies en circulation sur internet ou en magasin sont des contrefaçons non certifiées et non testées en laboratoire.</p>\n      <p>Seuls les achats effectués sur <strong>pulmeor.com</strong> garantissent l'authenticité et l'efficacité de nos produits pour votre santé pulmonaire.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .pulmeor-disclaimer-banner {\n    background-color: #ffeded;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    padding: 15px;\n    margin: 15px 0;\n    font-family: sans-serif;\n  }\n  \n  .disclaimer-container {\n    display: flex;\n    align-items: flex-start;\n  }\n  \n  .disclaimer-icon {\n    font-size: 24px;\n    margin-right: 15px;\n    color: #ff0000;\n  }\n  \n  .disclaimer-content {\n    flex: 1;\n  }\n  \n  .disclaimer-content h3 {\n    color: #ff0000;\n    margin-top: 0;\n    margin-bottom: 10px;\n    font-size: 18px;\n    font-weight: bold;\n    text-transform: uppercase;\n  }\n  \n  .disclaimer-content p {\n    margin: 8px 0;\n    color: #000000;\n    font-size: 14px;\n    line-height: 1.4;\n  }\n  \n  .disclaimer-content strong {\n    color: #ff0000;\n  }\n\n  @media screen and (max-width: 768px) {\n    .disclaimer-container {\n      flex-direction: column;\n    }\n    \n    .disclaimer-icon {\n      margin-bottom: 10px;\n    }\n  }\n</style>"
+            "liquid": "<style>\n  .product__inventory {\n    padding-top: 10px;\n    padding-bottom: 10px;\n    font-weight: normal;\n    color: black;\n    font-size: 0.8em; /* Taille réduite par rapport à la normale */\n  }\n</style>\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\"><svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n</svg> Reste en stock avant réapprovisonnement : 8</p>"
           }
         },
         "liquid_VhpNn9": {
