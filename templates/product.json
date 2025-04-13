@@ -9,6 +9,124 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_CzdGpj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"loved-by-customers\">\n  <span>Formule scientifiquement prouvé</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h1"
+          }
+        },
+        "liquid_nQ3Ui7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"loved-by-customers\">\n  <span> <span style=\"font-weight: medium;\"> Stock faible du à une forte demande</span></span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background: linear-gradient(#FFD1D1, #FFB4B4);\n    color: #AF1414;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n  }\n  \n  .loved-by-customers strong {\n    font-weight: bold;\n  }\n</style>"
+          }
+        },
+        "separator_U6LUrf": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_BcdmzT": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em>1 gélule par jour suffit, et les résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
+          }
+        },
+        "separator_P9RGxm": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_NTREap": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🧘 Améliore le bien-être respiratoire</p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#14a16c",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_X7DE4A": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"pulmeor-disclaimer-banner\">\n  <div class=\"disclaimer-container\">\n    <div class=\"disclaimer-icon\">⚠️</div>\n    <div class=\"disclaimer-content\">\n      <h3>ATTENTION : PRODUIT ORIGINAL PULMEOR</h3>\n      <p>Face à la recrudescence des copies, les produits Pulmeor à base de Tiger Milk pour la santé pulmonaire vendus sur ce site sont les SEULS originaux et certifiés.</p>\n      <p><strong>MISE EN GARDE :</strong> Toutes les copies en circulation sur internet ou en magasin sont des contrefaçons non certifiées et non testées en laboratoire.</p>\n      <p>Seuls les achats effectués sur <strong>pulmeor.com</strong> garantissent l'authenticité et l'efficacité de nos produits pour votre santé pulmonaire.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .pulmeor-disclaimer-banner {\n    background-color: #ffeded;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    padding: 15px;\n    margin: 15px 0;\n    font-family: sans-serif;\n  }\n  \n  .disclaimer-container {\n    display: flex;\n    align-items: flex-start;\n  }\n  \n  .disclaimer-icon {\n    font-size: 24px;\n    margin-right: 15px;\n    color: #ff0000;\n  }\n  \n  .disclaimer-content {\n    flex: 1;\n  }\n  \n  .disclaimer-content h3 {\n    color: #ff0000;\n    margin-top: 0;\n    margin-bottom: 10px;\n    font-size: 18px;\n    font-weight: bold;\n    text-transform: uppercase;\n  }\n  \n  .disclaimer-content p {\n    margin: 8px 0;\n    color: #000000;\n    font-size: 14px;\n    line-height: 1.4;\n  }\n  \n  .disclaimer-content strong {\n    color: #ff0000;\n  }\n\n  @media screen and (max-width: 768px) {\n    .disclaimer-container {\n      flex-direction: column;\n    }\n    \n    .disclaimer-icon {\n      margin-bottom: 10px;\n    }\n  }\n</style>"
+          }
+        },
+        "liquid_VhpNn9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center;\n            justify-content: space-around;\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative;\n            z-index: 1;\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center;\n            font-size: 11px; /* Slightly reduced for desktop too */\n            line-height: 15px;\n        }\n        .icon-text34 img {\n            width: 32px;\n            height: 32px;\n            margin-right: 8px;\n        }\n        /* Default for desktop */\n        br {\n            display: none;\n        }\n        \n        /* Adjustments for mobile screens */\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n            .icon-text34 {\n                font-size: 6px; /* Further reduced text size on mobile */\n                line-height: 9px;\n                text-align: center;\n                flex-direction: column; /* Stack icon above text */\n            }\n            .icon-text34 img {\n                width: 45px;\n                height: 45px;\n                margin-right: 0;\n                margin-bottom: 3px; /* Further reduced space between icon and text */\n            }\n            .icon-text34 p {\n                margin: 0;\n            }\n        }\n    </style>\n</head>\n<body>\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant</p>\n    </div>\n</div>\n</body>\n</html>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_CzdGpj",
+        "title",
+        "liquid_nQ3Ui7",
+        "separator_U6LUrf",
+        "text_BcdmzT",
+        "separator_P9RGxm",
+        "liquid_NTREap",
+        "separator",
+        "badges",
+        "price",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_X7DE4A",
+        "liquid_VhpNn9"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 65,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "video_bmYKnx": {
       "type": "video",
       "blocks": {
@@ -384,124 +502,6 @@
         "background_gradient": ""
       }
     },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "liquid_CzdGpj": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"loved-by-customers\">\n  <span>Formule scientifiquement prouvé</span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background-color: #D0FFE0;\n    color: #008454;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n    font-weight: \n  }\n</style>"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h1"
-          }
-        },
-        "separator_U6LUrf": {
-          "type": "separator",
-          "settings": {}
-        },
-        "text_BcdmzT": {
-          "type": "text",
-          "settings": {
-            "text": "<h6><em>1 gélule par jour suffit, et les résultats visibles dès les premiers jours d'utilisation  !</em></h6>"
-          }
-        },
-        "separator_P9RGxm": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_NTREap": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Favorise une respiration saine </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🧘 Améliore le bien-être respiratoire</p>"
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_nQ3Ui7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    font-size: 10px; /* Set font size */\n  }\n\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n\n  .red-div {\n    background-color: #ffcccc;\n    padding: 2px 10px; /* 6px vertical, 10px horizontal */\n    border-radius: 8px; /* Rounded corners */\n    display: inline-block; /* Display as inline-block */\n    text-align: center; /* Center align the content */\n    margin: 0 auto; /* Horizontally center the red-div */\n  }\n\n  .text {\n    display: inline-block; /* Display as inline-block */\n    vertical-align: middle; /* Align vertically to middle */\n    margin-left: 10px; /* Add some space between the dot and the text */\n    color: #AD0000; /* Text color */\n    font-weight: 500; /* Medium font weight */\n    font-size: 12px; /* Set font size */\n    text-align: justify; /* Justify the text to the center */\n  }\n</style>\n\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Stock bientôt épuisé</div>\n</div>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#14a16c",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "liquid_X7DE4A": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"pulmeor-disclaimer-banner\">\n  <div class=\"disclaimer-container\">\n    <div class=\"disclaimer-icon\">⚠️</div>\n    <div class=\"disclaimer-content\">\n      <h3>ATTENTION : PRODUIT ORIGINAL PULMEOR</h3>\n      <p>Face à la recrudescence des copies, les produits Pulmeor à base de Tiger Milk pour la santé pulmonaire vendus sur ce site sont les SEULS originaux et certifiés.</p>\n      <p><strong>MISE EN GARDE :</strong> Toutes les copies en circulation sur internet ou en magasin sont des contrefaçons non certifiées et non testées en laboratoire.</p>\n      <p>Seuls les achats effectués sur <strong>pulmeor.com</strong> garantissent l'authenticité et l'efficacité de nos produits pour votre santé pulmonaire.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .pulmeor-disclaimer-banner {\n    background-color: #ffeded;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    padding: 15px;\n    margin: 15px 0;\n    font-family: sans-serif;\n  }\n  \n  .disclaimer-container {\n    display: flex;\n    align-items: flex-start;\n  }\n  \n  .disclaimer-icon {\n    font-size: 24px;\n    margin-right: 15px;\n    color: #ff0000;\n  }\n  \n  .disclaimer-content {\n    flex: 1;\n  }\n  \n  .disclaimer-content h3 {\n    color: #ff0000;\n    margin-top: 0;\n    margin-bottom: 10px;\n    font-size: 18px;\n    font-weight: bold;\n    text-transform: uppercase;\n  }\n  \n  .disclaimer-content p {\n    margin: 8px 0;\n    color: #000000;\n    font-size: 14px;\n    line-height: 1.4;\n  }\n  \n  .disclaimer-content strong {\n    color: #ff0000;\n  }\n\n  @media screen and (max-width: 768px) {\n    .disclaimer-container {\n      flex-direction: column;\n    }\n    \n    .disclaimer-icon {\n      margin-bottom: 10px;\n    }\n  }\n</style>"
-          }
-        },
-        "liquid_VhpNn9": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n        }\n        .icon-text-row {\n            display: flex;\n            align-items: center;\n            justify-content: space-around;\n            padding-top: 10px;\n            padding-bottom: 10px;\n            margin-left: -10px;\n            margin-right: -10px;\n            position: relative;\n            z-index: 1;\n        }\n        .icon-text34 {\n            display: flex;\n            align-items: center;\n            font-size: 11px; /* Slightly reduced for desktop too */\n            line-height: 15px;\n        }\n        .icon-text34 img {\n            width: 32px;\n            height: 32px;\n            margin-right: 8px;\n        }\n        /* Default for desktop */\n        br {\n            display: none;\n        }\n        \n        /* Adjustments for mobile screens */\n        @media (max-width: 768px) {\n            br {\n                display: block;\n            }\n            .icon-text34 {\n                font-size: 6px; /* Further reduced text size on mobile */\n                line-height: 9px;\n                text-align: center;\n                flex-direction: column; /* Stack icon above text */\n            }\n            .icon-text34 img {\n                width: 45px;\n                height: 45px;\n                margin-right: 0;\n                margin-bottom: 3px; /* Further reduced space between icon and text */\n            }\n            .icon-text34 p {\n                margin: 0;\n            }\n        }\n    </style>\n</head>\n<body>\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p>Expédition gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant</p>\n    </div>\n</div>\n</body>\n</html>"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_CzdGpj",
-        "title",
-        "separator_U6LUrf",
-        "text_BcdmzT",
-        "separator_P9RGxm",
-        "liquid_NTREap",
-        "separator",
-        "liquid_nQ3Ui7",
-        "badges",
-        "price",
-        "quantity_selector",
-        "buy_buttons",
-        "liquid_X7DE4A",
-        "liquid_VhpNn9"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_fixed_add_to_cart": true,
-        "desktop_media_width": 65,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "dots",
-        "enable_video_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
     "rich_text_pXMXPC": {
       "type": "rich-text",
       "blocks": {
@@ -853,6 +853,7 @@
     }
   },
   "order": [
+    "main",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
     "testimonial7_7dWXE7",
@@ -860,7 +861,6 @@
     "image_with_text_overlay_a4PFQE",
     "press_i76YMm",
     "slideshow_CNtLfz",
-    "main",
     "rich_text_pXMXPC",
     "slideshow_kRJtLk",
     "slideshow_bNcEd3",
