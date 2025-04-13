@@ -27,7 +27,7 @@
         "liquid_X7DE4A": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .product__inventory {\n    padding-top: 10px;\n    padding-bottom: 10px;\n    font-weight: normal;\n    color: black;\n    font-size: 0.8em; /* Taille réduite par rapport à la normale */\n  }\n</style>\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\"><svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n</svg> Reste en stock avant réapprovisonnement : 8</p>"
+            "liquid": "<style>\n  .product__inventory {\n    padding-top: 10px;\n    padding-bottom: 10px;\n    font-weight: normal;\n    color: black;\n    font-size: 0.8em; /* Taille réduite par rapport à la normale */\n  }\n</style>\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\"><svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n</svg> Stock faible : 8 boîtes</p>"
           }
         },
         "liquid_nQ3Ui7": {
