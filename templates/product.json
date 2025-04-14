@@ -24,23 +24,22 @@
             "heading_tag": "h3"
           }
         },
+        "text_BcdmzT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>💊 Une seule gélule par jour pendant un repas suffit.</em></p>"
+          }
+        },
         "liquid_nQ3Ui7": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
-            "liquid": "<div class=\"loved-by-customers\">\n  <span> <span style=\"font-weight: medium;\"> Stock faible du à une forte demande</span></span>\n</div>\n\n<style>\n  .loved-by-customers {\n    background: linear-gradient(#FFD1D1, #FFB4B4);\n    color: #AF1414;\n    text-align: center;\n    padding: 6px;\n    margin-top: 20px; /* Adjust as needed */\n    border-radius: 20px; /* Adjust to desired pill shape */\n    width: 300px; /* Adjust width as needed */\n    margin-left: auto;\n    margin-right: auto;\n    font-size: 14px;\n  }\n  \n  .loved-by-customers strong {\n    font-weight: bold;\n  }\n</style>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Checkmarks</title>\n    <style>\n        .checkmark-list {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n            margin-bottom: -5px !important;\n            font-size: 16px; /* Taille de texte réduite */\n        }\n        \n        .checkmark-item {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n        }\n        \n        .checkmark-item img {\n            width: 15px;\n            height: 15px;\n            margin-right: 10px;\n        }\n    </style>\n</head>\n<body>\n    <ul class=\"checkmark-list\">\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Aide à éliminer les mucosités\n        </li>\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Réduit naturellement la toux\n        </li>\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Soutien saisonnier des sinus et des bronches\n        </li>\n    </ul>\n</body>\n</html>"
           }
         },
         "separator_U6LUrf": {
           "type": "separator",
           "disabled": true,
           "settings": {}
-        },
-        "text_BcdmzT": {
-          "type": "text",
-          "settings": {
-            "text": "<h6><em>1 gélule par jour suffit, résultats visibles les 15 premiers jours d'utilisation  ! - Pr PREVAUT Bernard</em></h6>"
-          }
         },
         "separator_P9RGxm": {
           "type": "separator",
@@ -72,7 +71,13 @@
         "liquid_X7DE4A": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .product__inventory {\n    padding-top: 10px;\n    padding-bottom: 10px;\n    font-weight: normal;\n    color: black;\n    font-size: 0.8em; /* Taille réduite par rapport à la normale */\n  }\n</style>\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\"><svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgba(255, 0, 0, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(255, 0, 0)\"></circle>\n</svg> Stock faible : 8 boîtes</p>"
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>People Watching</title>\n    <style>\n        .free-gift svg {\n            max-width: 17.5px;\n            height: 17.5px;\n            position: relative;\n            top: 5px;\n            right: 8px;\n        }\n\n        .free-gift {\n            width: 100%;\n            text-align: center;\n            position: relative;\n            margin-bottom: 20px;\n            margin-top: -24px;\n            font-size: 12px;\n            color: #fd8935;\n            padding-bottom: 4px;\n        }\n\n        @media only screen and (min-width: 589px) {\n             .free-gift {\n                width: 100%;\n                text-align: center;\n                position: relative;\n                margin-bottom: 20px;\n                margin-top: -32px;\n                font-size: 12px;\n                color: #fd8935;\n                padding-bottom: 4px;\n            }\n        }\n\n        /* Circle */\n        .ripple-circle {\n            margin-right: 8px;\n            height: 5px;\n            width: 5px;\n            display: inline-block;\n            position: relative;\n            border-radius: 50%;\n            background-color: #fd8935;\n            margin-bottom: 1.35px;\n        }\n\n        .ripple-circle:before,\n        .ripple-circle:after {\n            content: \"\";\n            display: block;\n            position: absolute;\n            top: 0;\n            right: 0;\n            bottom: 0;\n            left: 0;\n            border: 1px solid #fd8935;\n            border-radius: 50%;\n        }\n\n        .ripple-circle:before {\n            animation: ripple 2s linear infinite;\n        }\n\n        .ripple-circle:after {\n            animation: ripple 2s linear 1s infinite;\n        }\n\n        @keyframes ripple {\n            0% {\n                transform: scale(1);\n            }\n            50% {\n                transform: scale(1.5);\n                opacity: 1;\n            }\n            100% {\n                transform: scale(1.7);\n                opacity: 0;\n            }\n        }\n\n        .free-gift {\n            background: #ff000008;\n            width: max-content;\n            padding: 5px 35px;\n        }\n\n    </style>\n</head>\n<body>\n    <div class=\"free-gift\">\n        <span class=\"ripple-circle\"></span>\n        <b>Body Scrub included</b> for the next <span class=\"people-shopping\">54</span> orders!\n    </div>\n    <script>\n        function generateRandom(min = 40, max = 60) {\n            // find diff\n            let difference = max - min;\n            // generate random number \n            let rand = Math.random();\n            // multiply with difference \n            rand = Math.floor(rand * difference);\n            // add with min value \n            rand = rand + min;\n            document.querySelectorAll('.people-shopping').forEach(function(count) {\n                count.innerHTML = rand;\n            });\n        }\n        setInterval(generateRandom, 4700);\n    </script>\n</body>\n</html>"
+          }
+        },
+        "liquid_dkQBnY": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Delicious Coffee in Seconds</title>\n    <style>\n        body.unique-body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #f4f4f4;\n            margin: 0;\n        }\n        .unique-icon-container {\n            display: flex;\n            flex-wrap: nowrap;\n            gap: 5px;\n        }\n        .unique-icon {\n            background-color: #000;\n            border-radius: 8px;\n            width: 150px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n        }\n        .unique-icon img {\n            width: 50%;\n            height: auto;\n        }\n        .unique-icon p {\n            margin-top: 10px;\n            font-size: 13px;\n            color: #fff;\n            text-align: center;\n        }\n    </style>\n</head>\n<body class=\"unique-body\">\n    <div class=\"unique-icon-container\">\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Fresh Beans\">\n            <p>Fresh <br>Beans</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Brewed to Perfection\">\n            <p>Brewed to <br>Perfection</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Chilled Delight\">\n            <p>Chilled <br>Delight</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Ready in Seconds\">\n            <p>Ready in <br>Seconds</p>\n        </div>\n    </div>\n</body>\n</html>"
           }
         },
         "quantity_selector": {
@@ -116,15 +121,16 @@
       "block_order": [
         "liquid_CzdGpj",
         "title",
+        "text_BcdmzT",
         "liquid_nQ3Ui7",
         "separator_U6LUrf",
-        "text_BcdmzT",
         "separator_P9RGxm",
         "liquid_NTREap",
         "separator",
         "badges",
         "price",
         "liquid_X7DE4A",
+        "liquid_dkQBnY",
         "quantity_selector",
         "buy_buttons",
         "liquid_VhpNn9",
