@@ -24,16 +24,16 @@
             "heading_tag": "h3"
           }
         },
-        "text_BcdmzT": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>💊 Une seule gélule par jour pendant un repas suffit.</em></p>"
-          }
-        },
         "liquid_nQ3Ui7": {
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Checkmarks</title>\n    <style>\n        .checkmark-list {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n            margin-bottom: -5px !important;\n            font-size: 16px; /* Taille de texte réduite */\n        }\n        \n        .checkmark-item {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n        }\n        \n        .checkmark-item img {\n            width: 15px;\n            height: 15px;\n            margin-right: 10px;\n        }\n    </style>\n</head>\n<body>\n    <ul class=\"checkmark-list\">\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Aide à éliminer les mucosités\n        </li>\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Réduit naturellement la toux\n        </li>\n        <li class=\"checkmark-item\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/tick-mark_419c2dc2-70e3-4c36-a6cd-c8666cd1ca02.png?v=1675801463\" alt=\"Checkmark\">\n            Soutien saisonnier des sinus et des bronches\n        </li>\n    </ul>\n</body>\n</html>"
+          }
+        },
+        "text_BcdmzT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>💊 Une seule gélule par jour pendant un repas suffit.</p>"
           }
         },
         "separator_U6LUrf": {
@@ -48,6 +48,7 @@
         },
         "liquid_NTREap": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Bio et 100% naturel </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française </p>"
           }
@@ -73,6 +74,13 @@
           "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Delicious Coffee in Seconds</title>\n    <style>\n        body.unique-body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #f4f4f4;\n            margin: 0;\n        }\n        .unique-icon-container {\n            display: flex;\n            flex-wrap: nowrap;\n            gap: 5px;\n        }\n        .unique-icon {\n            background-color: #000;\n            border-radius: 8px;\n            width: 150px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n        }\n        .unique-icon img {\n            width: 50%;\n            height: auto;\n        }\n        .unique-icon p {\n            margin-top: 10px;\n            font-size: 13px;\n            color: #fff;\n            text-align: center;\n        }\n    </style>\n</head>\n<body class=\"unique-body\">\n    <div class=\"unique-icon-container\">\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Fresh Beans\">\n            <p>Fresh <br>Beans</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Brewed to Perfection\">\n            <p>Brewed to <br>Perfection</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Chilled Delight\">\n            <p>Chilled <br>Delight</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Ready in Seconds\">\n            <p>Ready in <br>Seconds</p>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_XG4JhE": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": ""
           }
         },
         "quantity_selector": {
@@ -116,8 +124,8 @@
       "block_order": [
         "liquid_CzdGpj",
         "title",
-        "text_BcdmzT",
         "liquid_nQ3Ui7",
+        "text_BcdmzT",
         "separator_U6LUrf",
         "separator_P9RGxm",
         "liquid_NTREap",
@@ -125,6 +133,7 @@
         "badges",
         "price",
         "liquid_dkQBnY",
+        "liquid_XG4JhE",
         "quantity_selector",
         "buy_buttons",
         "liquid_VhpNn9",
