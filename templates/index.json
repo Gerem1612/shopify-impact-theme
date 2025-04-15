@@ -30,7 +30,7 @@
             "size": "xl",
             "text": "COMMANDER MAINTENANT",
             "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
-            "background": "#14a16c",
+            "background": "#4a7c59",
             "text_color": "#ffffff"
           }
         }
@@ -152,7 +152,7 @@
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
         "background": "",
-        "background_gradient": "linear-gradient(310deg, rgba(0, 163, 65, 1), rgba(202, 202, 202, 0.99) 50%, rgba(0, 163, 65, 1) 100%)",
+        "background_gradient": "linear-gradient(310deg, rgba(74, 124, 89, 1), rgba(202, 202, 202, 0.99) 50%, rgba(0, 163, 65, 1) 100%)",
         "text_color": "#ffffff",
         "text_gradient": ""
       }
