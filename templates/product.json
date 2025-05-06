@@ -362,7 +362,7 @@
         "button_padding_horizontal": 50,
         "button_radius": 12,
         "button_border_thickness": 2,
-        "heading_color": "#14a16c",
+        "heading_color": "#13193b",
         "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
@@ -645,7 +645,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 9,
-        "background": "#14a16c",
+        "background": "#13193b",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
@@ -796,7 +796,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like",
+        "title": "Vous pourriez aussi aimer",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -867,7 +867,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#13193b"
       }
     },
     "custom_html_Gdbh8T": {
