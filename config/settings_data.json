@@ -10,7 +10,8 @@
 {
   "current": {
     "page_width": 1300,
-    "section_vertical_spacing": "medium",
+    "section_vertical_spacing": "xsmall",
+    "section_boxed_horizontal_spacing": "xsmall",
     "button_border_radius": 60,
     "input_border_radius": 8,
     "block_border_radius": 24,
@@ -18,6 +19,7 @@
     "block_shadow_vertical_offset": 18,
     "icon_style": "duo",
     "button_style": "fill",
+    "button_hover_effect": "none",
     "background": "#ffffff",
     "text_color": "#2e2e2e",
     "success_color": "#6faa6f",
@@ -45,7 +47,7 @@
     "text_font_size_desktop": 20,
     "currency_code_enabled": false,
     "show_page_transition": true,
-    "heading_apparition": "split_fade",
+    "heading_apparition": "fade",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_type": "popover",

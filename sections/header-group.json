@@ -44,7 +44,7 @@
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#a8bba2",
         "background_gradient": "",
@@ -55,7 +55,7 @@
       "type": "header",
       "custom_css": [],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/Pulmeor_sans_logo_ecriture_seule_reduit.png",
         "logo_max_width": 200,
@@ -73,7 +73,7 @@
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
-        "background_opacity": 3,
+        "background_opacity": 100,
         "background_blur_radius": 0
       }
     }
