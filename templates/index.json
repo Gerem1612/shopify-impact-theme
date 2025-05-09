@@ -30,7 +30,7 @@
             "size": "xl",
             "text": "COMMANDER MAINTENANT",
             "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
-            "background": "#4a7c59",
+            "background": "#a8bba2",
             "text_color": "#ffffff"
           }
         }
@@ -57,6 +57,7 @@
       "blocks": {
         "image_BQPPYf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science..png",
             "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile.png",
@@ -134,9 +135,9 @@
         "impact_text_size_ratio": 0.6,
         "background": "#ffffff",
         "background_gradient": "",
-        "heading_text_color": "#14a16c",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(20, 161, 108, 1) 50%, rgba(26, 26, 26, 0) 100%)",
-        "text_color": "#14a16c",
+        "heading_text_color": "#6d8a75",
+        "heading_gradient": "linear-gradient(180deg, rgba(109, 138, 117, 1), rgba(113, 138, 132, 1), rgba(110, 138, 123, 1) 27%, rgba(109, 138, 117, 1) 58%, rgba(112, 138, 128, 1) 100%, rgba(111, 170, 111, 1) 100%)",
+        "text_color": "#6d8a75",
         "button_background": "",
         "button_text_color": ""
       }
@@ -174,7 +175,7 @@
             "content": "<p>Membre actif de la cause climatique, aux côtés de nombreuses ONG</p>",
             "link_text": "",
             "link_url": "",
-            "background": "#14a16c",
+            "background": "#6d8a75",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
