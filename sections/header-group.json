@@ -54,8 +54,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": false,
-        "hide_on_scroll": true,
+        "enable_sticky": true,
+        "hide_on_scroll": false,
         "logo": "shopify://shop_images/Pulmeor_sans_logo_ecriture_seule_reduit.png",
         "logo_max_width": 200,
         "logo_mobile_max_width": 125,
