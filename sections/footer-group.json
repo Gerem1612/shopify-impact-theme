@@ -81,7 +81,7 @@
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "#f3ede2",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(243, 237, 226, 1) 100%)",
         "text_color": "#2e2e2e"
       }
     },
@@ -108,7 +108,7 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "nos-produits",
             "show_menu_title": true
           }
         },
