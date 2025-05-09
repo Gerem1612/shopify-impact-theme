@@ -111,12 +111,20 @@
             "menu": "footer",
             "show_menu_title": true
           }
+        },
+        "links_CXUhXD": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
         }
       },
       "block_order": [
         "newsletter_w7d3yF",
         "text_jq4P8t",
-        "links"
+        "links",
+        "links_CXUhXD"
       ],
       "custom_css": [],
       "settings": {
