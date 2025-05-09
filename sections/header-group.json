@@ -53,6 +53,35 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_MfAVpz": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Pathologies",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_41_16.png",
+            "image_heading_1": "rhume",
+            "image_link_1": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_MfAVpz"
+      ],
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
@@ -70,7 +99,7 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": true,
-        "transparent_header_text_color": "#ffffffff",
+        "transparent_header_text_color": "#ffffff",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
