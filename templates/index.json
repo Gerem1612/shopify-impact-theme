@@ -136,7 +136,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "#6d8a75",
-        "heading_gradient": "linear-gradient(180deg, rgba(109, 138, 117, 1), rgba(113, 138, 132, 1), rgba(110, 138, 123, 1) 27%, rgba(109, 138, 117, 1) 58%, rgba(112, 138, 128, 1) 100%, rgba(111, 170, 111, 1) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(109, 138, 117, 1), rgba(113, 138, 132, 1) 13.5%, rgba(110, 138, 123, 1) 27%, rgba(109, 138, 117, 1) 58%, rgba(112, 138, 128, 1) 100%, rgba(111, 170, 111, 1) 100%)",
         "text_color": "#6d8a75",
         "button_background": "",
         "button_text_color": ""
