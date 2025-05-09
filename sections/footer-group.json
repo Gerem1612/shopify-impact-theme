@@ -81,8 +81,8 @@
         "text_alignment": "center",
         "icon_spacing": "small",
         "background": "#f3ede2",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(243, 237, 226, 1) 100%)",
-        "text_color": "#2e2e2e"
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(168, 187, 162, 1) 100%)",
+        "text_color": "#ffffffff"
       }
     },
     "footer": {
