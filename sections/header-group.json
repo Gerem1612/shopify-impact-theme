@@ -56,7 +56,7 @@
       "custom_css": [],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": true,
+        "hide_on_scroll": false,
         "logo": "shopify://shop_images/Pulmeor_sans_logo_ecriture_seule_reduit.png",
         "logo_max_width": 160,
         "logo_mobile_max_width": 125,
@@ -72,7 +72,7 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "reduce_padding": true,
+        "reduce_padding": false,
         "background_opacity": 0,
         "background_blur_radius": 0
       }
