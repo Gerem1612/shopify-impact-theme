@@ -61,7 +61,7 @@
         "logo_max_width": 160,
         "logo_mobile_max_width": 125,
         "menu": "nos-produits",
-        "sidebar_menu": "nos-produits",
+        "sidebar_menu": "",
         "secondary_menu": "main-menu",
         "menu_open_trigger": "hover",
         "opening_from": "bottom",
