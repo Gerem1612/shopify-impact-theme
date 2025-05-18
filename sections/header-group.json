@@ -14,39 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_MrXQEb": {
-          "type": "message",
-          "settings": {
-            "text": "Laboratoire français 🇫🇷",
-            "url": ""
-          }
-        },
         "message_QBtaWg": {
           "type": "message",
           "settings": {
             "text": "Expédition sous 24h ⌛",
             "url": ""
           }
-        },
-        "message_jWPfBA": {
-          "type": "message",
-          "settings": {
-            "text": "Livraison gratuite partout dans le monde 🚚",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "message_MrXQEb",
-        "message_QBtaWg",
-        "message_jWPfBA"
+        "message_QBtaWg"
       ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#a8bba2",
+        "background": "#2e2e2e",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
