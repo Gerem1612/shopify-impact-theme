@@ -41,15 +41,60 @@
         "button_CJR89y"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "lg",
+        "video_size": "md",
         "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "rich_text_nbDgca": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TjYdnk": {
+          "type": "heading",
+          "settings": {
+            "text": "Bievenue chez Pulmeor",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zkJVtA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nous sommes là pour une mission : aider chacun à mieux respirer et vivre en meilleure santé, naturellement. Chez <strong>Pulmeor</strong>, nous vous proposons des solutions simples et efficaces comme nos gélules à base de <em>Lignosus rhinocerus</em> (champignon Tiger Milk), formulées pour soutenir votre respiration, votre immunité et votre vitalité au quotidien. Parce que prendre soin de soi ne devrait jamais être compliqué, choisissez une approche douce et puissante à la fois.<br/><br/></p>"
+          }
+        },
+        "button_Mm4RJG": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "👉 DÉCOUVREZ VOTRE CURE BIEN-ÊTRE MAINTENANT",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TjYdnk",
+        "richtext_zkJVtA",
+        "button_Mm4RJG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "slideshow": {
@@ -219,6 +264,7 @@
   },
   "order": [
     "video_gpJkeA",
+    "rich_text_nbDgca",
     "slideshow",
     "impact-text",
     "scrolling-text",
