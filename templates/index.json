@@ -18,6 +18,7 @@
         },
         "heading_eQP4z7": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Le cadeau de la nature pour des poumons en bonne santé",
             "heading_tag": "h0"
@@ -25,6 +26,7 @@
         },
         "button_CJR89y": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "xl",
@@ -76,7 +78,7 @@
             "style": "fill",
             "size": "xl",
             "text": "👉 DÉCOUVREZ VOTRE CURE BIEN-ÊTRE MAINTENANT",
-            "url": "",
+            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
             "background": "",
             "text_color": ""
           }
