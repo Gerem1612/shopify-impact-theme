@@ -28,7 +28,7 @@
         "liquid_4czDdp": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n\n  <!-- Badge gauche : texte vert, bord fin, EN GRAS -->\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700; /* ✅ mis en gras */\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    SOLDES D’ÉTÉ\n  </span>\n\n  <!-- Badge droite : fond vert + texte blanc -->\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    3 ACHETÉS = 1 OFFERTE\n  </span>\n\n</div>"
+            "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n\n  <!-- Badge gauche : texte vert, bord fin, EN GRAS -->\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700; /* ✅ mis en gras */\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    SOLDES D’ÉTÉ\n  </span>\n\n  <!-- Badge droite : fond vert + texte blanc -->\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    2 ACHETÉS = 1 OFFERTE\n  </span>\n\n</div>"
           }
         },
         "liquid_g8KCbn": {
