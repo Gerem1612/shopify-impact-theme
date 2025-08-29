@@ -60,12 +60,9 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Checkmarks</title>\n    <style>\n        .checkmark-list {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n            margin-bottom: -5px !important;\n            font-size: 16px; /* Taille de texte réduite */\n        }\n        \n        .checkmark-item {\n            display: flex;\n            align-items: center;\n            margin-bottom: 10px;\n        }\n        \n        .checkmark-icon {\n            width: 15px;\n            height: 15px;\n            margin-right: 10px;\n        }\n    </style>\n</head>\n<body>\n    <ul class=\"checkmark-list\">\n        <li class=\"checkmark-item\">\n            <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#A8BBA2\"/>\n                <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\" fill=\"white\"/>\n            </svg>\n            Aide à éliminer les mucosités\n        </li>\n        <li class=\"checkmark-item\">\n            <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#A8BBA2\"/>\n                <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\" fill=\"white\"/>\n            </svg>\n            Réduit naturellement la toux\n        </li>\n        <li class=\"checkmark-item\">\n            <svg class=\"checkmark-icon\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#A8BBA2\"/>\n                <path d=\"M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z\" fill=\"white\"/>\n            </svg>\n            Soutien saisonnier des sinus et des bronches\n        </li>\n    </ul>\n</body>\n</html>"
           }
         },
-        "separator_U6LUrf": {
-          "type": "separator",
-          "settings": {}
-        },
         "text_BcdmzT": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>💊 Deux gélules par jour suffisent, résultats visibles en 7 jours seulement</p>"
           }
@@ -136,7 +133,6 @@
         "liquid_7Rb7qj",
         "separator_8CWPGB",
         "liquid_nQ3Ui7",
-        "separator_U6LUrf",
         "text_BcdmzT",
         "separator_P9RGxm",
         "liquid_NTREap",
