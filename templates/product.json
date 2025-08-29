@@ -135,13 +135,6 @@
             "liquid": "<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\" style=\"font-family: 'Montserrat', sans-serif;\">\n  <svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgb(62,214,96, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(62,214,96)\"></circle>\n  </svg>\n  <strong>En stock</strong>, expédié sous 24-48 heures\n</p>"
           }
         },
-        "collapsible_text_AGrDEC": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>"
-          }
-        },
         "liquid_qz7N4b": {
           "type": "liquid",
           "settings": {
@@ -170,7 +163,6 @@
         "buy_buttons",
         "liquid_XUdLp4",
         "liquid_6fma8h",
-        "collapsible_text_AGrDEC",
         "liquid_qz7N4b"
       ],
       "custom_css": [
@@ -193,56 +185,6 @@
         "text_color": "#383131",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": "#14a16c"
-      }
-    },
-    "accordion_content_eFMtmT": {
-      "type": "accordion-content",
-      "blocks": {
-        "item_QPXdNg": {
-          "type": "item",
-          "settings": {
-            "title": "Question 1",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        },
-        "item_fJTYVq": {
-          "type": "item",
-          "settings": {
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        },
-        "item_eTLM3j": {
-          "type": "item",
-          "settings": {
-            "title": "Question 3",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_QPXdNg",
-        "item_fJTYVq",
-        "item_eTLM3j"
-      ],
-      "name": "Accordion content",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Heading",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "video_bmYKnx": {
@@ -974,7 +916,6 @@
   },
   "order": [
     "main",
-    "accordion_content_eFMtmT",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
     "testimonial7_7dWXE7",
