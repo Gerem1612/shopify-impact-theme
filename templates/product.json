@@ -39,8 +39,15 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "liquid_7Rb7qj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center; margin-top: 15px;\">\n\n  <!-- Titre principal -->\n  <h2 style=\"font-size: 28px; font-family: 'Georgia', 'Times New Roman', serif; color: #2c3e50; font-weight: 700; margin-bottom: 5px;\">\n    Pulmeor – <span style=\"font-weight: 400;\">Capsule à base de champignons Tiger Milk</span>\n  </h2>\n\n  <!-- Sous-titre (plus petit, crédibilité) -->\n  <div style=\"font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;\">\n    <p>\n      <strong>Complément respiratoire naturel</strong> <em><strong>n°1 en 2024</strong></em>.\n    </p>\n    <p>\n      <strong>Conseillé par des experts</strong> en bien-être respiratoire.\n    </p>\n  </div>\n\n</div>"
           }
         },
         "separator_8CWPGB": {
@@ -126,6 +133,7 @@
         "liquid_4czDdp",
         "liquid_g8KCbn",
         "title",
+        "liquid_7Rb7qj",
         "separator_8CWPGB",
         "liquid_nQ3Ui7",
         "separator_U6LUrf",
