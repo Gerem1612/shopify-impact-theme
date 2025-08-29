@@ -140,6 +140,24 @@
           "settings": {
             "liquid": "<div class=\"custom-product-accordion\">\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Description\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>This natural supplement supports respiratory health and immunity using organic Oregano Oil.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Why you need Resilia® Oregano Oil?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>It helps fight seasonal discomfort, supports immune response, and provides antioxidant benefits.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Benefits\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <ul>\n        <li>Supports immune health</li>\n        <li>Rich in natural antioxidants</li>\n        <li>Promotes healthy digestion</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Recommended Use\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Take 1 softgel daily with food, or as directed by a healthcare provider.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Do you offer a guarantee?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Yes, we offer a 30-day money-back guarantee if you're not satisfied with your purchase.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .custom-product-accordion {\n    margin-top: 20px;\n  }\n\n  .accordion-item {\n    border: 1px solid #e2e2e2;\n    border-radius: 6px;\n    margin-bottom: 10px;\n    overflow: hidden;\n  }\n\n  .accordion-toggle {\n    background: #fff;\n    color: #111;\n    width: 100%;\n    padding: 15px 20px;\n    font-size: 16px;\n    font-weight: 500;\n    text-align: left;\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    cursor: pointer;\n  }\n\n  .accordion-icon {\n    font-size: 20px;\n    transition: transform 0.3s ease;\n  }\n\n  .accordion-toggle.active .accordion-icon {\n    transform: rotate(45deg);\n  }\n\n  .accordion-content {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 20px;\n    transition: max-height 0.3s ease, padding 0.3s ease;\n  }\n\n  .accordion-content.open {\n    padding: 15px 20px;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const toggles = document.querySelectorAll(\".accordion-toggle\");\n\n    toggles.forEach((toggle) => {\n      toggle.addEventListener(\"click\", function () {\n        const content = this.nextElementSibling;\n        const icon = this.querySelector(\".accordion-icon\");\n\n        const isOpen = content.classList.contains(\"open\");\n\n        // Fermer tous les autres\n        document.querySelectorAll(\".accordion-content\").forEach((el) => {\n          el.classList.remove(\"open\");\n          el.style.maxHeight = null;\n        });\n\n        document.querySelectorAll(\".accordion-toggle\").forEach((el) => {\n          el.classList.remove(\"active\");\n        });\n\n        // Ouvrir l'actuel si fermé\n        if (!isOpen) {\n          content.classList.add(\"open\");\n          this.classList.add(\"active\");\n          content.style.maxHeight = content.scrollHeight + \"px\";\n        }\n      });\n    });\n  });\n</script>"
           }
+        },
+        "product_variations_bx3dFp": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "",
+            "option_value_metafield": "",
+            "products": [],
+            "color_mode": "color"
+          }
+        },
+        "line_item_property_KQa93U": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "Your label",
+            "type": "text",
+            "required": false,
+            "allow_long_text": false
+          }
         }
       },
       "block_order": [
@@ -163,7 +181,9 @@
         "buy_buttons",
         "liquid_XUdLp4",
         "liquid_6fma8h",
-        "liquid_qz7N4b"
+        "liquid_qz7N4b",
+        "product_variations_bx3dFp",
+        "line_item_property_KQa93U"
       ],
       "custom_css": [
         "/* Alignement horizontal des moyens de paiement */.list-payment {display: flex !important; justify-content: center; /* centre horizontalement */ align-items: center; flex-wrap: wrap; /* passe à la ligne si trop serré */ gap: 8px; /* espace entre logos */ padding: 0; margin: 10px 0; list-style: none;}",
