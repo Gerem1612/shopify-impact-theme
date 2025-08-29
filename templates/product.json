@@ -125,9 +125,7 @@
         "buy_buttons",
         "liquid_VhpNn9"
       ],
-      "custom_css": [
-        "h2.product__title::first-letter {font-style: italic;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": false,
