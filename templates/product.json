@@ -129,9 +129,9 @@
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": false,
-        "desktop_media_width": 65,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
         "mobile_carousel_control": "dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
@@ -798,7 +798,9 @@
       "blocks": {
         "trustoo_io_reviews_review_widget_h7c4jN": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
