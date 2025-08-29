@@ -125,14 +125,16 @@
         "buy_buttons",
         "liquid_VhpNn9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2.product__title::first-letter {font-style: italic;}"
+      ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": false,
         "desktop_media_width": 35,
-        "desktop_media_layout": "grid",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": false,
