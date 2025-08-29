@@ -132,7 +132,7 @@
         "liquid_6fma8h": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\" style=\"font-family: 'Montserrat', sans-serif;\">\n  <svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgb(62,214,96, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(62,214,96)\"></circle>\n  </svg>\n  <strong>En stock</strong>, expédié sous 24-48 heures\n</p>"
+            "liquid": "<p class=\"product__inventory no-js-hidden\"\n   id=\"Inventory-template--22213608309023__main\"\n   role=\"status\"\n   style=\"font-family: 'Montserrat', sans-serif; text-align: center; display: block;\">\n  <svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgb(62,214,96, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(62,214,96)\"></circle>\n  </svg>\n  <strong>En stock</strong>, expédié sous 24-48 heures\n</p>"
           }
         },
         "liquid_qz7N4b": {
@@ -205,6 +205,21 @@
         "text_color": "#383131",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": "#14a16c"
+      }
+    },
+    "image_with_text_overlay_a4PFQE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "video_bmYKnx": {
@@ -496,21 +511,6 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
-      }
-    },
-    "image_with_text_overlay_a4PFQE": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "press_i76YMm": {
@@ -932,15 +932,150 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "multi_column_w3P7Uw": {
+      "type": "multi-column",
+      "blocks": {
+        "item_J7FDGf": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eR9Y7E": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wf7UrW": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_J7FDGf",
+        "item_eR9Y7E",
+        "item_wf7UrW"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_text_gjicFP": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "testimonials_BbcftM": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HQXQ9K": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_F4VXNV": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_y3kdQX": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HQXQ9K",
+        "testimonial_F4VXNV",
+        "testimonial_y3kdQX"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
+    "image_with_text_overlay_a4PFQE",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
     "testimonial7_7dWXE7",
     "logo_list_Acd3KB",
-    "image_with_text_overlay_a4PFQE",
     "press_i76YMm",
     "slideshow_CNtLfz",
     "rich_text_pXMXPC",
@@ -953,6 +1088,9 @@
     "174335336512796468",
     "1743354028910fe231",
     "rich_text_jx94H8",
-    "custom_html_Gdbh8T"
+    "custom_html_Gdbh8T",
+    "multi_column_w3P7Uw",
+    "scrolling_text_gjicFP",
+    "testimonials_BbcftM"
   ]
 }
