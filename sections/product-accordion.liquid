@@ -12,27 +12,148 @@
 }
 {% endschema %}
 
-<div class="page-width">
-  <!-- Ton accordéon ici -->
-  <div class="custom-product-accordion">
-    <!-- ... (reprends le même code que précédemment ici) -->
-    <div class="accordion-item">
-      <button class="accordion-toggle" type="button">
-        Description
-        <span class="accordion-icon">+</span>
-      </button>
-      <div class="accordion-content">
-        <p>This natural supplement supports respiratory health and immunity using organic Oregano Oil.</p>
-      </div>
+{% assign mf = product.metafields.custom %}
+
+{% if mf.description_tab or mf.why_tab or mf.benefits_tab or mf.usage_tab or mf.guarantee_tab %}
+  <div class="page-width">
+    <div class="custom-product-accordion">
+
+      {% if mf.description_tab %}
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">
+            Description
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            {{ mf.description_tab | metafield_tag }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if mf.why_tab %}
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">
+            Pourquoi choisir ce produit ?
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            {{ mf.why_tab | metafield_tag }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if mf.benefits_tab %}
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">
+            Bénéfices
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            {{ mf.benefits_tab | metafield_tag }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if mf.usage_tab %}
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">
+            Conseils d'utilisation
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            {{ mf.usage_tab | metafield_tag }}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if mf.guarantee_tab %}
+        <div class="accordion-item">
+          <button class="accordion-toggle" type="button">
+            Garantie
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            {{ mf.guarantee_tab | metafield_tag }}
+          </div>
+        </div>
+      {% endif %}
+
     </div>
-    <!-- Répète pour les autres blocs -->
   </div>
-</div>
+{% endif %}
 
 <style>
-/* Reprends le CSS précédent ici */
+  .custom-product-accordion {
+    margin-top: 30px;
+  }
+
+  .accordion-item {
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .accordion-toggle {
+    background: #fff;
+    color: #111;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .accordion-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-toggle.active .accordion-icon {
+    transform: rotate(45deg);
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+
+  .accordion-content.open {
+    padding: 15px 20px;
+  }
 </style>
 
 <script>
-/* Reprends le JS précédent ici */
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".accordion-toggle");
+
+    toggles.forEach((toggle) => {
+      toggle.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+        const isOpen = content.classList.contains("open");
+
+        document.querySelectorAll(".accordion-content").forEach((el) => {
+          el.classList.remove("open");
+          el.style.maxHeight = null;
+        });
+
+        document.querySelectorAll(".accordion-toggle").forEach((el) => {
+          el.classList.remove("active");
+        });
+
+        if (!isOpen) {
+          content.classList.add("open");
+          this.classList.add("active");
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    });
+  });
 </script>
