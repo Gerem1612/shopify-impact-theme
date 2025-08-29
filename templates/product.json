@@ -21,8 +21,15 @@
         },
         "liquid_kqWfWi": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n\n  <!-- Barre de progression -->\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #e67e22;\"></div>\n  </div>\n\n  <!-- Texte sous la barre -->\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      L’offre se termine bientôt\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      {{ pourcentage_restant }}% du stock restant\n    </span>\n  </div>\n  \n</div>\n\n  \n</div>"
+          }
+        },
+        "liquid_g8KCbn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #A8BBA2; /* ✅ Couleur verte appliquée */\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\n    font-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n    Rated 4.8 by 1500+ Customers!\n  </span>\n</div>\n\n</body>\n</html>"
           }
         },
         "title": {
@@ -106,17 +113,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "liquid_VhpNn9": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"nl\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Horizontale Iconen met Tekst</title>\n    <style>\n        body {\n            font-weight: bold;\n            color: #14A16C;\n            margin: 0;\n            padding: 0;\n        }\n\n        .icon-text-row {\n            display: flex;\n            align-items: center;\n            justify-content: space-around;\n            padding: 10px 0;\n            margin: 0 -10px;\n            position: relative;\n            z-index: 1;\n            flex-wrap: wrap;\n        }\n\n        .icon-text34 {\n            display: flex;\n            align-items: center;\n            font-size: clamp(14px, 2vw, 18px); /* Responsive size */\n            line-height: 1.2em;\n        }\n\n        .icon-text34 img {\n            width: clamp(24px, 5vw, 40px); /* Responsive icon size */\n            height: clamp(24px, 5vw, 40px);\n            margin-right: 8px;\n        }\n\n        .icon-text34 p {\n            margin: 0;\n        }\n\n        /* Responsive adjustments */\n        @media (max-width: 768px) {\n            .icon-text34 {\n                flex-direction: column;\n                text-align: center;\n                font-size: clamp(12px, 3vw, 16px);\n            }\n\n            .icon-text34 img {\n                margin: 0 0 5px 0;\n            }\n        }\n    </style>\n</head>\n<body>\n<div class=\"icon-text-row\">\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon01.png\" alt=\"Icoon 1\">\n        <p> Livraison gratuite</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon02b.png\" alt=\"Icoon 2\">\n        <p>100% SANS RISQUE</p>\n    </div>\n    <div class=\"icon-text34\">\n        <img src=\"https://fr.lignosus.com/wp-content/themes/lignosus/images/layer22b-icon03.png\" alt=\"Icoon 3\">\n        <p>Expédition le jour suivant</p>\n    </div>\n</div>\n</body>\n</html>"
-          }
         }
       },
       "block_order": [
         "liquid_CzdGpj",
         "liquid_kqWfWi",
+        "liquid_g8KCbn",
         "title",
         "separator_8CWPGB",
         "liquid_nQ3Ui7",
@@ -130,8 +132,7 @@
         "liquid_dkQBnY",
         "liquid_XG4JhE",
         "quantity_selector",
-        "buy_buttons",
-        "liquid_VhpNn9"
+        "buy_buttons"
       ],
       "custom_css": [],
       "settings": {
