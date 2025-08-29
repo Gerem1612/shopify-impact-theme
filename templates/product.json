@@ -134,6 +134,19 @@
           "settings": {
             "liquid": "<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\" style=\"font-family: 'Montserrat', sans-serif;\">\n  <svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgb(62,214,96, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(62,214,96)\"></circle>\n  </svg>\n  <strong>En stock</strong>, expédié sous 24-48 heures\n</p>"
           }
+        },
+        "collapsible_text_AGrDEC": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "liquid_qz7N4b": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"custom-product-accordion\">\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Description\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>This natural supplement supports respiratory health and immunity using organic Oregano Oil.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Why you need Resilia® Oregano Oil?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>It helps fight seasonal discomfort, supports immune response, and provides antioxidant benefits.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Benefits\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <ul>\n        <li>Supports immune health</li>\n        <li>Rich in natural antioxidants</li>\n        <li>Promotes healthy digestion</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Recommended Use\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Take 1 softgel daily with food, or as directed by a healthcare provider.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Do you offer a guarantee?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Yes, we offer a 30-day money-back guarantee if you're not satisfied with your purchase.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .custom-product-accordion {\n    margin-top: 20px;\n  }\n\n  .accordion-item {\n    border: 1px solid #e2e2e2;\n    border-radius: 6px;\n    margin-bottom: 10px;\n    overflow: hidden;\n  }\n\n  .accordion-toggle {\n    background: #fff;\n    color: #111;\n    width: 100%;\n    padding: 15px 20px;\n    font-size: 16px;\n    font-weight: 500;\n    text-align: left;\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    cursor: pointer;\n  }\n\n  .accordion-icon {\n    font-size: 20px;\n    transition: transform 0.3s ease;\n  }\n\n  .accordion-toggle.active .accordion-icon {\n    transform: rotate(45deg);\n  }\n\n  .accordion-content {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 20px;\n    transition: max-height 0.3s ease, padding 0.3s ease;\n  }\n\n  .accordion-content.open {\n    padding: 15px 20px;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const toggles = document.querySelectorAll(\".accordion-toggle\");\n\n    toggles.forEach((toggle) => {\n      toggle.addEventListener(\"click\", function () {\n        const content = this.nextElementSibling;\n        const icon = this.querySelector(\".accordion-icon\");\n\n        const isOpen = content.classList.contains(\"open\");\n\n        // Fermer tous les autres\n        document.querySelectorAll(\".accordion-content\").forEach((el) => {\n          el.classList.remove(\"open\");\n          el.style.maxHeight = null;\n        });\n\n        document.querySelectorAll(\".accordion-toggle\").forEach((el) => {\n          el.classList.remove(\"active\");\n        });\n\n        // Ouvrir l'actuel si fermé\n        if (!isOpen) {\n          content.classList.add(\"open\");\n          this.classList.add(\"active\");\n          content.style.maxHeight = content.scrollHeight + \"px\";\n        }\n      });\n    });\n  });\n</script>"
+          }
         }
       },
       "block_order": [
@@ -156,7 +169,9 @@
         "quantity_selector",
         "buy_buttons",
         "liquid_XUdLp4",
-        "liquid_6fma8h"
+        "liquid_6fma8h",
+        "collapsible_text_AGrDEC",
+        "liquid_qz7N4b"
       ],
       "custom_css": [
         "/* Alignement horizontal des moyens de paiement */.list-payment {display: flex !important; justify-content: center; /* centre horizontalement */ align-items: center; flex-wrap: wrap; /* passe à la ligne si trop serré */ gap: 8px; /* espace entre logos */ padding: 0; margin: 10px 0; list-style: none;}",
@@ -178,6 +193,56 @@
         "text_color": "#383131",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": "#14a16c"
+      }
+    },
+    "accordion_content_eFMtmT": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_QPXdNg": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_fJTYVq": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        },
+        "item_eTLM3j": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_QPXdNg",
+        "item_fJTYVq",
+        "item_eTLM3j"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Heading",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     },
     "video_bmYKnx": {
@@ -909,6 +974,7 @@
   },
   "order": [
     "main",
+    "accordion_content_eFMtmT",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
     "testimonial7_7dWXE7",
