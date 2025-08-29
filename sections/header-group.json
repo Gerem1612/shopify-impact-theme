@@ -17,13 +17,16 @@
         "message_QBtaWg": {
           "type": "message",
           "settings": {
-            "text": "Expédition sous 24h ⌛",
+            "text": "🌞 SOLDES D'ÉTÉ I Jusqu'à -50% de réduction",
             "url": ""
           }
         }
       },
       "block_order": [
         "message_QBtaWg"
+      ],
+      "custom_css": [
+        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 13px !important;"
       ],
       "settings": {
         "enable_sticky": false,
