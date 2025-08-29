@@ -14,8 +14,15 @@
       "blocks": {
         "liquid_CzdGpj": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap\">\n  <style>\n    .stock-banner {\n      background-color: #ffe0e0;\n      padding: 10px 16px;\n      border-radius: 8px;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      font-family: 'Montserrat', sans-serif;\n      max-width: 100%;\n    }\n    \n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: #ff3333;\n      border-radius: 50%;\n      display: inline-block;\n      margin-right: 10px;\n      animation: blink 1.5s infinite;\n    }\n    \n    .banner-text {\n      color: #ff3333;\n      font-size: 15px;\n      font-weight: 500;\n    }\n    \n    @keyframes blink {\n      0% { opacity: 1; }\n      50% { opacity: 0.3; }\n      100% { opacity: 1; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"stock-banner\">\n    <span class=\"dot\"></span>\n    <span class=\"banner-text\">Forte Demande : Stocks Limités !</span>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_kqWfWi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n\n  <!-- Barre de progression -->\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #e67e22;\"></div>\n  </div>\n\n  <!-- Texte sous la barre -->\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      L’offre se termine bientôt\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      {{ pourcentage_restant }}% du stock restant\n    </span>\n  </div>\n  \n</div>\n\n  \n</div>"
           }
         },
         "title": {
@@ -109,6 +116,7 @@
       },
       "block_order": [
         "liquid_CzdGpj",
+        "liquid_kqWfWi",
         "title",
         "separator_8CWPGB",
         "liquid_nQ3Ui7",
