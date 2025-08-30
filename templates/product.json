@@ -200,6 +200,65 @@
         "input_text_color": "#14a16c"
       }
     },
+    "logo_list_6UAx67": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_JH7tqc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/png-transparent-france-5-tv-hd-logo.png",
+            "logo_width": 110,
+            "link": ""
+          }
+        },
+        "logo_fbqpbG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_UXiJLE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_9NyPkk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 220,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_JH7tqc",
+        "logo_fbqpbG",
+        "logo_UXiJLE",
+        "logo_9NyPkk"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": false,
+        "stack_mobile": false,
+        "title": "Ils parlent de nous",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "image_with_text_overlay_a4PFQE": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -985,68 +1044,67 @@
         "text_color": ""
       }
     },
-    "logo_list_6UAx67": {
-      "type": "logo-list",
+    "timeline_QpMLMJ": {
+      "type": "timeline",
       "blocks": {
-        "logo_JH7tqc": {
-          "type": "logo",
+        "slide_abanCt": {
+          "type": "slide",
           "settings": {
-            "logo": "shopify://shop_images/png-transparent-france-5-tv-hd-logo.png",
-            "logo_width": 110,
-            "link": ""
+            "navigation_label": "1953",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
-        "logo_fbqpbG": {
-          "type": "logo",
+        "slide_dQpwfE": {
+          "type": "slide",
           "settings": {
-            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
-            "logo_width": 300,
-            "link": ""
+            "navigation_label": "1960",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
-        "logo_UXiJLE": {
-          "type": "logo",
+        "slide_fXyxDj": {
+          "type": "slide",
           "settings": {
-            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        },
-        "logo_9NyPkk": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
-            "logo_width": 220,
-            "link": ""
+            "navigation_label": "1966",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "logo_JH7tqc",
-        "logo_fbqpbG",
-        "logo_UXiJLE",
-        "logo_9NyPkk"
+        "slide_abanCt",
+        "slide_dQpwfE",
+        "slide_fXyxDj"
       ],
-      "name": "Logo list",
+      "name": "Timeline",
       "settings": {
-        "full_width": false,
-        "stack_mobile": false,
-        "title": "Ils parlent de nous",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 6,
+        "full_width": true,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "text_color": ""
+      }
+    },
+    "custom_html_rYc93H": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- SECTION PULMEOR RESPONSIVE 2 COLS ON MOBILE -->\n<style>\n  .pulmeor-section {\n    background-color: #f4fef8;\n    padding: 40px 20px;\n    font-family: 'Helvetica Neue', sans-serif;\n  }\n  .pulmeor-section h2 {\n    text-align: center;\n    font-size: 28px;\n    color: #1c3e3b;\n    margin-bottom: 12px;\n  }\n  .pulmeor-section p.subtitle {\n    text-align: center;\n    font-size: 16px;\n    color: #444;\n    max-width: 600px;\n    margin: 0 auto 32px;\n  }\n  .pulmeor-grid {\n    display: grid;\n   grid-template-columns: repeat(2, 1fr);\n    gap: 16px;\n    justify-items: center;\n  }\n  .pulmeor-box {\n    background: white;\n    border-radius: 10px;\n    padding: 20px;\n    width: 100%;\n    max-width: 200px;\n    text-align: center;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.05);\n  }\n  .pulmeor-box.red h4 {\n    color: #c94c4c;\n  }\n  .pulmeor-box.green h4 {\n    color: #1c8d62;\n  }\n  .pulmeor-box img {\n    height: 40px;\n    margin-bottom: 12px;\n  }\n  .pulmeor-box p {\n    font-size: 14px;\n    font-weight: bold;\n    color: #333;\n  }\n  .pulmeor-box h4 {\n    font-size: 14px;\n    margin-bottom: 6px;\n  }\n</style>\n\n<section class=\"pulmeor-section\">\n  <h2>Respirez pleinement, <em>naturellement</em>\n</h2>\n  <p class=\"subtitle\">Libérez vos voies respiratoires, calmez votre toux, et retrouvez une respiration facile grâce à la puissance naturelle du Tiger Milk.</p>\n  <div class=\"pulmeor-grid\">\n\n    <!-- Bloc 1 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-cough.svg\" alt=\"Toux persistante\">\n      <h4>Dites adieu à</h4>\n      <p>Toux chronique</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-breathing.svg\" alt=\"Respiration claire\">\n      <h4>Profitez de</h4>\n      <p>Poumons dégagés</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-congestion.svg\" alt=\"Poitrine lourde\">\n      <h4>Oubliez</h4>\n      <p>Congestion thoracique</p>\n    </div>\n\n    <!-- Bloc 4 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-steady.svg\" alt=\"Souffle stable\">\n      <h4>Accueillez</h4>\n      <p>Souffle régulier</p>\n    </div>\n\n    <!-- Bloc 5 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-gasping.svg\" alt=\"Essoufflement rapide\">\n      <h4>Finissez-en avec</h4>\n      <p>L’essoufflement</p>\n    </div>\n\n    <!-- Bloc 6 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-fresh.svg\" alt=\"Air frais\">\n      <h4>Reprenez</h4>\n      <p>Air frais &amp; liberté</p>\n    </div>\n\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "main",
+    "logo_list_6UAx67",
     "image_with_text_overlay_a4PFQE",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
@@ -1066,6 +1124,7 @@
     "rich_text_jx94H8",
     "custom_html_Gdbh8T",
     "multi_column_w3P7Uw",
-    "logo_list_6UAx67"
+    "timeline_QpMLMJ",
+    "custom_html_rYc93H"
   ]
 }
