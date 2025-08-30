@@ -611,7 +611,7 @@
         "content_size": "large",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#a8bba2",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -686,6 +686,7 @@
       "block_order": [
         "image_AKdEpa"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -748,7 +749,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 9,
-        "background": "#13193b",
+        "background": "#a8bba2",
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
