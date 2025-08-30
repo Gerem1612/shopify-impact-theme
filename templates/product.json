@@ -992,28 +992,31 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/png-transparent-france-5-tv-hd-logo.png",
-            "logo_width": 90,
+            "logo_width": 110,
             "link": ""
           }
         },
         "logo_fbqpbG": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_UXiJLE": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 160,
             "link": ""
           }
         },
         "logo_9NyPkk": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 220,
             "link": ""
           }
         }
@@ -1028,10 +1031,10 @@
       "settings": {
         "full_width": false,
         "stack_mobile": false,
-        "title": "Logo list",
+        "title": "Ils parlent de nous",
         "content": "",
         "text_alignment": "center",
-        "items_per_row": 4,
+        "items_per_row": 6,
         "background": "",
         "background_gradient": "",
         "text_color": "",
