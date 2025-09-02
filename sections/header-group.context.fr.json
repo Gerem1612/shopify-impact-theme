@@ -22,6 +22,15 @@
         "layout": "logo_center_navigation_inline"
       },
       "blocks": {}
+    },
+    "announcement-bar": {
+      "custom_css": [
+        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 15px !important;"
+      ],
+      "settings": {
+        "text_size": "text-base"
+      },
+      "blocks": {}
     }
   }
 }
