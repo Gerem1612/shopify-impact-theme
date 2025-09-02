@@ -42,7 +42,7 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "lg",
         "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
