@@ -340,6 +340,7 @@
     },
     "revealed_image_on_scroll_8HcWBC": {
       "type": "revealed-image-on-scroll",
+      "disabled": true,
       "name": "Revealed image on scroll",
       "settings": {
         "subheading": "",
