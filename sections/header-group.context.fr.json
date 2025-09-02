@@ -13,22 +13,22 @@
     "market": "fr"
   },
   "sections": {
-    "header": {
-      "settings": {
-        "logo_max_width": 150,
-        "logo_mobile_max_width": 105,
-        "menu_open_trigger": "click",
-        "opening_from": "left",
-        "layout": "logo_left_navigation_center"
-      },
-      "blocks": {}
-    },
     "announcement-bar": {
       "custom_css": [
         ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 15px !important;"
       ],
       "settings": {
         "text_size": "text-base"
+      },
+      "blocks": {}
+    },
+    "header": {
+      "settings": {
+        "logo_max_width": 150,
+        "logo_mobile_max_width": 105,
+        "menu_open_trigger": "click",
+        "opening_from": "left",
+        "layout": "logo_center_navigation_inline"
       },
       "blocks": {}
     }
