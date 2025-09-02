@@ -14,11 +14,10 @@
   },
   "sections": {
     "announcement-bar": {
-      "custom_css": [
-        ".announcement-bar {white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "text_size": "text-xs"
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling"
       },
       "blocks": {}
     },
