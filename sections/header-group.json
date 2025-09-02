@@ -40,7 +40,9 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        ".announcement-bar {white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis;}"
+      ],
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
