@@ -54,6 +54,83 @@
         "overlay_opacity": 0
       }
     },
+    "logo_list_Mcm4La": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fMJkGa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_1_300x300_72cfff17-5ce5-4e75-a26c-f0286d4c0c0b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_pnqyYt": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/M6_300x300_ba2b167e-ebcc-4287-9787-606cb95b320b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_QgY8DY": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ELLE_3_300x300_0a7bc8a2-ab05-4ce1-96c1-0aee397a0452.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_bmyBp8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Mens-Health_300x300_c1a18ccd-5760-4879-93a8-84428c30b2b7.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_zXwHey": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Ouest-France_300x300_bcea18b8-6e99-4b26-8c08-19bf9909731e.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_L3jcXk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Brut_300x300_794ef723-b68d-450a-ba24-98235ad1f2e5.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_fMJkGa",
+        "logo_pnqyYt",
+        "logo_QgY8DY",
+        "logo_bmyBp8",
+        "logo_zXwHey",
+        "logo_L3jcXk"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h2><em>Ils parlent de nous</em></h2>",
+        "text_alignment": "center",
+        "items_per_row": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "rich_text_nbDgca": {
       "type": "rich-text",
       "blocks": {
@@ -263,78 +340,6 @@
         "spacing": "small"
       }
     },
-    "logo_list_Mcm4La": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_fMJkGa": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/VOGUE_1_300x300_72cfff17-5ce5-4e75-a26c-f0286d4c0c0b.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_pnqyYt": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_QgY8DY": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_bmyBp8": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_zXwHey": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_L3jcXk": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_fMJkGa",
-        "logo_pnqyYt",
-        "logo_QgY8DY",
-        "logo_bmyBp8",
-        "logo_zXwHey",
-        "logo_L3jcXk"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "<h2><em>Ils parlent de nous</em></h2>",
-        "text_alignment": "center",
-        "items_per_row": 6,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "revealed_image_on_scroll_8HcWBC": {
       "type": "revealed-image-on-scroll",
       "name": "Revealed image on scroll",
@@ -349,12 +354,12 @@
   },
   "order": [
     "video_gpJkeA",
+    "logo_list_Mcm4La",
     "rich_text_nbDgca",
     "slideshow",
     "impact-text",
     "scrolling-text",
     "media_with_text_gdt8V7",
-    "logo_list_Mcm4La",
     "revealed_image_on_scroll_8HcWBC"
   ]
 }
