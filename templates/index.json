@@ -19,7 +19,7 @@
         "heading_eQP4z7": {
           "type": "heading",
           "settings": {
-            "text": "Respirez. Inspirez. Soufflez. La nature vous offre un cadeau.",
+            "text": "Respirez. Inspirez. Soufflez. La nature vous offre un cadeau. Acceptez-le.",
             "heading_tag": "h0"
           }
         },
@@ -28,7 +28,7 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "COMMANDER MAINTENANT",
+            "text": "EN SAVOIR PLUS",
             "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
             "background": "#a8bba2",
             "text_color": "#ffffff"
