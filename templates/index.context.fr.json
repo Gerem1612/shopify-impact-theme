@@ -43,6 +43,11 @@
           }
         }
       }
+    },
+    "revealed_image_on_scroll_8HcWBC": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
