@@ -22,7 +22,9 @@
       "blocks": {}
     },
     "header": {
-      "custom_css": [],
+      "custom_css": [
+        ".site-nav__link {font-size: 13px !important;}"
+      ],
       "settings": {
         "logo": "shopify://shop_images/Logo_pulmeor_208x80_png.png",
         "logo_max_width": 150,
