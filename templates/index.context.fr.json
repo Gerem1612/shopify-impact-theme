@@ -12,5 +12,37 @@
   "context": {
     "market": "fr"
   },
-  "sections": {}
+  "sections": {
+    "logo_list_Mcm4La": {
+      "settings": {},
+      "blocks": {
+        "logo_pnqyYt": {
+          "settings": {
+            "logo": "shopify://shop_images/M6_300x300_ba2b167e-ebcc-4287-9787-606cb95b320b.png"
+          }
+        },
+        "logo_QgY8DY": {
+          "settings": {
+            "logo": "shopify://shop_images/Brut_300x300_794ef723-b68d-450a-ba24-98235ad1f2e5.png"
+          }
+        },
+        "logo_bmyBp8": {
+          "settings": {
+            "logo": "shopify://shop_images/ELLE_3_300x300_0a7bc8a2-ab05-4ce1-96c1-0aee397a0452.png"
+          }
+        },
+        "logo_zXwHey": {
+          "settings": {
+            "logo": "shopify://shop_images/Mens-Health_300x300_c1a18ccd-5760-4879-93a8-84428c30b2b7.png"
+          }
+        },
+        "logo_L3jcXk": {
+          "settings": {
+            "logo": "shopify://shop_images/Ouest-France_300x300_bcea18b8-6e99-4b26-8c08-19bf9909731e.png",
+            "logo_width": 300
+          }
+        }
+      }
+    }
+  }
 }
