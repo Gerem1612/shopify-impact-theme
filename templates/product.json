@@ -14,9 +14,9 @@
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "html": "<section style=\"width: 100%; margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; background-color: #ffffff;\">\n  <div style=\"padding: 0 12px;\">\n\n    <h1 style=\"font-size: 19px; font-weight: 700; color: #3E5E49; margin: 0;\">\n     Capsules naturelles à base de Tiger Milk Mushroom\n    </h1>\n\n    <p style=\"font-size: 13px; font-weight: 600; color: #3E5E49; margin: 2px 0 4px;\">\n      Le secret d'une respiration retrouvée\n    </p>\n\n    <div style=\"display: flex; align-items: center; gap: 4px; line-height: 1;\">\n      <div style=\"color: #f5c518; font-size: 13px;\">★ ★ ★ ★ ☆</div>\n      <span style=\"font-size: 12px; color: #0a0a23;\">3,910 avis vérifiés</span>\n    </div>\n\n  </div>\n</section>",
+        "html": "<section style=\"width: 100%; margin: 0; padding: 12px 16px; font-family: 'Poppins', sans-serif; background: #ffffff;\">\n  <h1 style=\"font-size: 18px; font-weight: 600; color: #3E5E49; margin: 0;\">\n    Capsules naturelles à base de Tiger Milk Mushroom\n  </h1>\n\n  <p style=\"font-size: 13px; font-weight: 500; color: #3E5E49; margin: 4px 0 6px;\">\n    Le secret d'une respiration retrouvée\n  </p>\n\n  <div style=\"display: flex; align-items: center; gap: 6px; font-size: 13px; line-height: 1;\">\n    <span style=\"color: #f5c518;\">★ ★ ★ ★ ☆</span>\n    <span style=\"color: #3E5E49;\">3,910 avis vérifiés</span>\n  </div>\n</section>\n\n<!-- Police Google Fonts -->\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap\" rel=\"stylesheet\">",
         "background": "",
         "background_gradient": "",
         "text_color": ""
