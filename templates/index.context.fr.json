@@ -48,6 +48,16 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "video_gpJkeA": {
+      "settings": {},
+      "blocks": {
+        "heading_eQP4z7": {
+          "settings": {
+            "text": "Respirez. Inspirez. Soufflez. La nature vous offre un cadeau."
+          }
+        }
+      }
     }
   },
   "order": [
