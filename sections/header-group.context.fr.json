@@ -15,7 +15,7 @@
   "sections": {
     "announcement-bar": {
       "custom_css": [
-        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 15px !important;"
+        ".announcement-bar {white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis;}"
       ],
       "settings": {
         "text_size": "text-xs"
