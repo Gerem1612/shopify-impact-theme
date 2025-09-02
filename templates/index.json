@@ -18,15 +18,13 @@
         },
         "heading_eQP4z7": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Le cadeau de la nature pour des poumons en bonne santé",
+            "text": "Respirez. Inspirez. Soufflez. La nature vous offre un cadeau.",
             "heading_tag": "h0"
           }
         },
         "button_CJR89y": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "xl",
@@ -49,7 +47,7 @@
         "video_size": "lg",
         "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#6faa6f",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
