@@ -43,10 +43,10 @@
         "button_CJR89y"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "md",
+        "video_size": "auto",
         "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
@@ -195,7 +195,7 @@
       "settings": {
         "full_width": true,
         "text": "NETTOYER | REVITALISER | RENFORCER | PROTEGER |",
-        "text_size": "small",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
@@ -262,6 +262,89 @@
         "full_width": false,
         "spacing": "small"
       }
+    },
+    "logo_list_Mcm4La": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_fMJkGa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/VOGUE_1_300x300_72cfff17-5ce5-4e75-a26c-f0286d4c0c0b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_pnqyYt": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_QgY8DY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_bmyBp8": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_zXwHey": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_L3jcXk": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_fMJkGa",
+        "logo_pnqyYt",
+        "logo_QgY8DY",
+        "logo_bmyBp8",
+        "logo_zXwHey",
+        "logo_L3jcXk"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h2><em>Ils parlent de nous</em></h2>",
+        "text_alignment": "center",
+        "items_per_row": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "revealed_image_on_scroll_8HcWBC": {
+      "type": "revealed-image-on-scroll",
+      "name": "Revealed image on scroll",
+      "settings": {
+        "subheading": "",
+        "title": "Reveal text on scroll",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
     }
   },
   "order": [
@@ -270,6 +353,8 @@
     "slideshow",
     "impact-text",
     "scrolling-text",
-    "media_with_text_gdt8V7"
+    "media_with_text_gdt8V7",
+    "logo_list_Mcm4La",
+    "revealed_image_on_scroll_8HcWBC"
   ]
 }
