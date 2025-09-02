@@ -14,21 +14,24 @@
   },
   "sections": {
     "main": {
-      "settings": {},
+      "settings": {
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded"
+      },
       "blocks": {
         "liquid_kqWfWi": {
           "settings": {
             "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 45 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n\n  <!-- Barre de progression -->\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #e67e22;\"></div>\n  </div>\n\n  <!-- Texte sous la barre -->\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      L’offre se termine bientôt\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      {{ pourcentage_restant }}% du stock restant\n    </span>\n  </div>\n\n</div> <!-- ✅ Ce div ferme correctement le bloc -->\n\n<!-- ❌ SUPPRIMÉ : </div> en trop ici -->"
           }
         },
-        "liquid_7Rb7qj": {
-          "settings": {
-            "liquid": "<div style=\"text-align:center; margin-top:20px;\">\n\n  <!-- Titre principal -->\n  <h2 style=\"font-size:26px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1b4332; font-weight:800; margin:0 0 6px;\">\n    PULMEOR<sup style=\"font-size:13px; vertical-align:top;\">®</sup>\n  </h2>\n\n  <!-- Sous-titre gras + vert -->\n  <p style=\"font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A8BBA2; font-weight:700; margin:0 0 10px;\">\n    Confort respiratoire révolutionné tout au long de la journée\n  </p>\n\n  <!-- Claim ligne 1 -->\n  <p style=\"font-size:13px; color:#444; margin:0;\">\n    <span style=\"font-size:14px;\">🏆</span>\n    <strong>Complément respiratoire naturel</strong> <em><strong>n°1 en 2024</strong></em>\n  </p>\n\n  <!-- Claim ligne 2 corrigée -->\n  <p style=\"font-size:12.5px; color:#666; margin:2px 0 0;\">\n    <span style=\"font-size:14px;\">🩺</span>\n    <strong>Conseillé par les experts</strong> en bien-être respiratoire\n  </p>\n\n</div>"
-          }
-        },
         "liquid_4czDdp": {
           "settings": {
             "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n\n  <!-- Badge gauche : texte vert, bord fin, EN GRAS -->\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700; /* ✅ mis en gras */\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    offre BONJOUR SEPTEMBRE !\n  </span>\n\n  <!-- Badge droite : fond vert + texte blanc -->\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    champignon \"Tiger milk\"\n  </span>\n\n</div>"
+          }
+        },
+        "liquid_7Rb7qj": {
+          "settings": {
+            "liquid": "<div style=\"text-align:center; margin-top:20px;\">\n\n  <!-- Titre principal -->\n  <h2 style=\"font-size:26px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1b4332; font-weight:800; margin:0 0 6px;\">\n    PULMEOR<sup style=\"font-size:13px; vertical-align:top;\">®</sup>\n  </h2>\n\n  <!-- Sous-titre gras + vert -->\n  <p style=\"font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A8BBA2; font-weight:700; margin:0 0 10px;\">\n    Confort respiratoire révolutionné tout au long de la journée\n  </p>\n\n  <!-- Claim ligne 1 -->\n  <p style=\"font-size:13px; color:#444; margin:0;\">\n    <span style=\"font-size:14px;\">🏆</span>\n    <strong>Complément respiratoire naturel</strong> <em><strong>n°1 en 2024</strong></em>\n  </p>\n\n  <!-- Claim ligne 2 corrigée -->\n  <p style=\"font-size:12.5px; color:#666; margin:2px 0 0;\">\n    <span style=\"font-size:14px;\">🩺</span>\n    <strong>Conseillé par les experts</strong> en bien-être respiratoire\n  </p>\n\n</div>"
           }
         }
       }
