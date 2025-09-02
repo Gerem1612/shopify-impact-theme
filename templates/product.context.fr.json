@@ -16,8 +16,9 @@
     "main": {
       "settings": {
         "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "thumbnails"
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "desktop_media_width": 50
       },
       "blocks": {
         "liquid_kqWfWi": {
