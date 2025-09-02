@@ -15,11 +15,11 @@
   "sections": {
     "header": {
       "settings": {
+        "logo_max_width": 40,
         "logo_mobile_max_width": 105,
         "menu_open_trigger": "hover",
         "opening_from": "bottom",
-        "layout": "logo_center_navigation_inline",
-        "logo_max_width": 140
+        "layout": "logo_center_navigation_inline"
       },
       "blocks": {}
     }
