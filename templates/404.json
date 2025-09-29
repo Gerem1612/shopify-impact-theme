@@ -912,6 +912,35 @@
         "content_width": 120,
         "border_thickness": 0
       }
+    },
+    "featured_collection_XADhRM": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "ecleepse-colorpop-shampoing-colorant-instantane",
+          "novara-by-ecleepse-shampoing-colorant-instantane-homme"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ventas especiales",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -924,6 +953,7 @@
     "testimonial12_LmU4ez",
     "ss_scrolling_image_5_gxdP94",
     "images_with_text_scrolling_Txz76C",
-    "faq2_97RqEV"
+    "faq2_97RqEV",
+    "featured_collection_XADhRM"
   ]
 }
