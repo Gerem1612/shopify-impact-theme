@@ -90,6 +90,47 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_overlay_Qjbjrq": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XXtJUN": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_eJ6rrr": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mMhrWL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XXtJUN",
+        "heading_eJ6rrr",
+        "richtext_mMhrWL"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "before_after_image_XL8hcV": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -688,9 +729,9 @@
         "image_radius": 0,
         "image_border_thickness": 0,
         "image_border_color": "#000000",
-        "first_bg_color": "#F1F1F1",
+        "first_bg_color": "#f1f1f1",
         "second_bg_color": "",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -774,7 +815,7 @@
             "heading_mt_mobile": 0,
             "heading_align": "left",
             "heading_align_mobile": "center",
-            "heading_color": "#005C53"
+            "heading_color": "#005c53"
           }
         },
         "text_w7egzE": {
@@ -891,13 +932,13 @@
         "answer_size_mobile": 12,
         "answer_height": 170,
         "answer_padding_top": 16,
-        "item_bg_color": "#FFFFFF",
+        "item_bg_color": "#ffffff",
         "item_border_color": "#000000",
-        "question_color": "#005C53",
+        "question_color": "#005c53",
         "arrow_color": "#757575",
         "arrow_border_color": "#6c584c",
         "answer_color": "#757575",
-        "background_color": "#F0F3F4",
+        "background_color": "#f0f3f4",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 16,
@@ -932,7 +973,7 @@
         "title": "Ventas especiales",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -947,6 +988,7 @@
     "main",
     "image_with_text_overlay_DqGMw6",
     "logo_list_bAEGK6",
+    "image_with_text_overlay_Qjbjrq",
     "before_after_image_XL8hcV",
     "ss_shoppable_video_RHCaqH",
     "featured_product_y9AATU",
