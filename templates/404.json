@@ -124,21 +124,10 @@
             "video": "shopify://files/videos/reelUp_paxnskjudx1730884303943_short.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
-            "product": "",
+            "product": "ecleepse-colorpop-shampoing-colorant-instantane",
             "use_variants": true,
             "modal_heading": "",
             "modal_text": ""
-          }
-        },
-        "item_ewWwr4": {
-          "type": "item",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "product": "ecleepse-colorpop-shampoing-colorant-instantane",
-            "use_variants": true,
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
           }
         },
         "item_rM9XGn": {
@@ -147,10 +136,10 @@
             "video": "shopify://files/videos/reelUp_cvj7751qrip1730889717750_short.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
-            "product": "",
+            "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme",
             "use_variants": true,
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "item_FK6PHX": {
@@ -159,10 +148,10 @@
             "video": "shopify://files/videos/reelUp_6yt5bh9ffg1731434635223_short.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
-            "product": "",
+            "product": "ecleepse-colorpop-shampoing-colorant-instantane",
             "use_variants": true,
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         },
         "item_tkXYWb": {
@@ -171,16 +160,15 @@
             "video": "shopify://files/videos/reelUp_bwvjlbou3xh1730889717750_short.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
-            "product": "",
+            "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme",
             "use_variants": true,
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_heading": "",
+            "modal_text": ""
           }
         }
       },
       "block_order": [
         "item_wnxK89",
-        "item_ewWwr4",
         "item_rM9XGn",
         "item_FK6PHX",
         "item_tkXYWb"
