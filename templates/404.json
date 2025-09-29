@@ -433,10 +433,28 @@
             "liquid": "<div class=\"ecl-badge-rupture\">\n  <strong>3X AGOTADO</strong> | <strong>PRODUCTO VIRAL</strong>\n</div>\n\n<style>\n  .ecl-badge-rupture {\n    border: 1px solid #000; /* Borde negro */\n    padding: 6px 12px;\n    display: inline-block;\n    font-weight: bold;\n    font-size: 14px;\n    color: #000; /* Texto negro */\n    letter-spacing: 0.5px;\n    text-align: center;\n    text-transform: uppercase;\n    font-family: 'Helvetica Neue', sans-serif;\n    margin-bottom: 10px;\n    background-color: #F9F9F9; /* Fondo gris suave para contraste */\n  }\n</style>"
           }
         },
+        "liquid_TmYJTy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n\n{%- if stock_total > 0 -%}\n  {%- assign pct_float = stock_restant | times: 100.0 | divided_by: stock_total -%}\n{%- else -%}\n  {%- assign pct_float = 0 -%}\n{%- endif -%}\n\n{%- assign pct_str = pct_float | round: 2 | replace: ',', '.' -%}\n{%- assign pct_display = pct_float | ceil -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom:1.5rem;\">\n\n  <!-- Barra de progreso -->\n  <div style=\"width:100%;height:8px;background:#eee;border-radius:4px;overflow:hidden;\">\n    <div\n      style=\"\n        height:100%;\n        width: {{ pct_str }}%;\n        min-width:{% if stock_restant > 0 %}8px{% else %}0{% endif %};\n        background:#CC5500 !important; /* Naranja oscuro */\n      \">\n    </div>\n  </div>\n\n  <!-- Texto debajo de la barra -->\n  <div style=\"display:flex;justify-content:space-between;margin-top:5px;\">\n    <span style=\"font-size:13px;color:#555;\">La oferta termina pronto</span>\n    <span style=\"font-size:13px;font-weight:600;color:#CC5500;\">\n      {{ pct_display }}% del stock restante\n    </span>\n  </div>\n\n</div>"
+          }
+        },
         "title_WpYYQP": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "price_nUxzcV": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "kaching_bundles_app_block_xVVGKT": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "ecleepse-colorpop-shampoing-colorant-instantane"
           }
         },
         "variant_picker_enqHt8": {
@@ -452,18 +470,6 @@
         "badges_fkFbdm": {
           "type": "badges",
           "settings": {}
-        },
-        "kaching_bundles_app_block_xVVGKT": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme"
-          }
-        },
-        "price_nUxzcV": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
         },
         "rating_LB74aV": {
           "type": "rating",
@@ -485,11 +491,12 @@
       },
       "block_order": [
         "liquid_tX46Kn",
+        "liquid_TmYJTy",
         "title_WpYYQP",
+        "price_nUxzcV",
+        "kaching_bundles_app_block_xVVGKT",
         "variant_picker_enqHt8",
         "badges_fkFbdm",
-        "kaching_bundles_app_block_xVVGKT",
-        "price_nUxzcV",
         "rating_LB74aV",
         "buy_buttons_QekzhH"
       ],
