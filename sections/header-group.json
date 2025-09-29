@@ -17,25 +17,47 @@
         "message_QBtaWg": {
           "type": "message",
           "settings": {
-            "text": "👋Bonjour Septembre | Jusqu'à -50% de réduction",
+            "text": "Satisfecho o Reembolsado en 30 Días",
+            "url": ""
+          }
+        },
+        "message_G7PNma": {
+          "type": "message",
+          "settings": {
+            "text": "Más de 50.000 Clientes Satisfechos",
+            "url": ""
+          }
+        },
+        "message_xEKxKy": {
+          "type": "message",
+          "settings": {
+            "text": "Pagos Seguros",
+            "url": ""
+          }
+        },
+        "message_PiXjTq": {
+          "type": "message",
+          "settings": {
+            "text": "EN ESTE MOMENTO: Envío gratuito",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message_QBtaWg"
+        "message_QBtaWg",
+        "message_G7PNma",
+        "message_xEKxKy",
+        "message_PiXjTq"
       ],
-      "custom_css": [
-        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 13px !important;"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xxs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#2e2e2e",
-        "background_gradient": "linear-gradient(48deg, rgba(62, 94, 73, 1), rgba(218, 211, 95, 1) 100%)",
-        "text_color": "#ffffff"
+        "background_gradient": "",
+        "text_color": "#e9d330"
       }
     },
     "header": {
@@ -46,7 +68,6 @@
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Logo_pulmeor_208x80_png.png",
         "logo_max_width": 150,
         "logo_mobile_max_width": 125,
         "menu": "main-menu",
