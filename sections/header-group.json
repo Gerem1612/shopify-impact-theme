@@ -68,6 +68,7 @@
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": false,
+        "logo": "shopify://shop_images/Black_And_Cream_Illustrative_Hair_Salon_Logo_150_x_75_px.png",
         "logo_max_width": 150,
         "logo_mobile_max_width": 125,
         "menu": "main-menu",
