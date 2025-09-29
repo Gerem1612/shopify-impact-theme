@@ -19,28 +19,32 @@
         "logo_kHEadC": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Cosmopolitan-Logo.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_MR9cDT": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/004_1676391574720-image-5-_1_160x_3cab25eb-20ae-4dc1-ad88-04c2f15af2fb.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_8wN3y4": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/gempages_586271414194012875-750e65ef-d160-4173-840e-d2320e78351f.svg",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_8rha4j": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/gempages_586271414194012875-455deb3f-9fc2-4638-8d8c-b948f3724a9f.png",
+            "logo_width": 300,
             "link": ""
           }
         }
@@ -55,7 +59,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Logo list",
+        "title": "",
         "content": "",
         "text_alignment": "start",
         "items_per_row": 5,
