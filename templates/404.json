@@ -934,7 +934,7 @@
         "answer_padding_top": 16,
         "item_bg_color": "#ffffff",
         "item_border_color": "#000000",
-        "question_color": "#005c53",
+        "question_color": "#2e2e2e",
         "arrow_color": "#757575",
         "arrow_border_color": "#6c584c",
         "answer_color": "#757575",
