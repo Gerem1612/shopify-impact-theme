@@ -90,78 +90,6 @@
         "logo_item_border": ""
       }
     },
-    "media_with_text_MLtPCp": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_wYJj6B": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_wYJj6B"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "media_grid_9dTagR": {
-      "type": "media-grid",
-      "blocks": {
-        "image_6xq9aY": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_6xq9aY"
-      ],
-      "name": "Media grid",
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "before_after_image_XL8hcV": {
       "type": "before-after-image",
       "name": "Before/after image",
@@ -192,8 +120,6 @@
     "main",
     "image_with_text_overlay_DqGMw6",
     "logo_list_bAEGK6",
-    "media_with_text_MLtPCp",
-    "media_grid_9dTagR",
     "before_after_image_XL8hcV"
   ]
 }
