@@ -23,6 +23,7 @@
         "enable_parallax": false,
         "image_size": "lg",
         "image": "shopify://shop_images/Espagne_LP_Ecleepse.png",
+        "mobile_image": "shopify://shop_images/Espagne_LP_Ecleepse_Mobile.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -160,6 +161,31 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "before_after_image_XL8hcV": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Antes / Después",
+        "content": "",
+        "before_image": "shopify://shop_images/ChatGPT_Image_27_sept._2025_23_43_31.png",
+        "after_image": "shopify://shop_images/22.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Antes",
+        "after_text": "Después",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
     }
   },
   "order": [
@@ -167,6 +193,7 @@
     "image_with_text_overlay_DqGMw6",
     "logo_list_bAEGK6",
     "media_with_text_MLtPCp",
-    "media_grid_9dTagR"
+    "media_grid_9dTagR",
+    "before_after_image_XL8hcV"
   ]
 }
