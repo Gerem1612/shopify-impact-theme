@@ -19,12 +19,12 @@
           "settings": {
             "icon": "picto-validation",
             "mobile_icon_width": 24,
-            "icon_width": 52,
+            "icon_width": 40,
             "icon_background_type": "circle",
             "icon_background": "#fabe03",
             "icon_color": "#2e2e2e",
             "title": "",
-            "content": "<h4><strong>Expédition gratuite, garantie dans les 24 heures</strong></h4>"
+            "content": "<p><strong>Pagos 100% Seguros</strong><br/><br/>Transacciones en línea 100% seguras y encriptadas.<br/><br/><br/><br/></p>"
           }
         },
         "free-shipping": {
@@ -32,12 +32,12 @@
           "settings": {
             "icon": "picto-operator",
             "mobile_icon_width": 24,
-            "icon_width": 32,
+            "icon_width": 40,
             "icon_background_type": "circle",
             "icon_background": "#fabe03",
             "icon_color": "#2e2e2e",
             "title": "",
-            "content": "<h3>Service Client 7J/7J</h3>"
+            "content": "<p><strong>Atención al Cliente  5/7</strong></p><p><br/>Nuestros asesores están disponibles para ayudarte en caso de cualquier duda.<br/><br/></p>"
           }
         },
         "discount": {
@@ -45,25 +45,25 @@
           "settings": {
             "icon": "picto-return",
             "mobile_icon_width": 24,
-            "icon_width": 32,
+            "icon_width": 40,
             "icon_background_type": "circle",
             "icon_background": "#fabe03",
             "icon_color": "#2e2e2e",
             "title": "",
-            "content": "<h4>Garantie 60 jours</h4>"
+            "content": "<p><strong>¡100% Satisfecho o Reembolsado!</strong><br/><br/>Disfruta de 60 días para probar nuestros productos.<br/><br/><br/></p>"
           }
         },
         "customer-support": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
+            "icon": "picto-box",
             "mobile_icon_width": 24,
-            "icon_width": 32,
+            "icon_width": 40,
             "icon_background_type": "circle",
             "icon_background": "#fabe03",
             "icon_color": "#2e2e2e",
             "title": "",
-            "content": "<h3>Paiement sécurisé</h3>"
+            "content": "<p><strong>Envío gratuito</strong><br/><br/>Entrega con seguimiento a tu domicilio, sin coste.<br/><br/></p>"
           }
         }
       },
