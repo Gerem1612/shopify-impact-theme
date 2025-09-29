@@ -114,12 +114,121 @@
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
       }
+    },
+    "featured_product_y9AATU": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_hYV6Td": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_WpYYQP": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_fkFbdm": {
+          "type": "badges",
+          "settings": {}
+        },
+        "kaching_bundles_app_block_xVVGKT": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme"
+          }
+        },
+        "price_nUxzcV": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_LB74aV": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4qxtXD": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_fBKqWB": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_enqHt8": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_ghCbrG": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_QekzhH": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_ETnbAq": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_hYV6Td",
+        "title_WpYYQP",
+        "badges_fkFbdm",
+        "kaching_bundles_app_block_xVVGKT",
+        "price_nUxzcV",
+        "rating_LB74aV",
+        "separator_4qxtXD",
+        "description_fBKqWB",
+        "variant_picker_enqHt8",
+        "quantity_selector_ghCbrG",
+        "buy_buttons_QekzhH",
+        "pickup_availability_ETnbAq"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_DqGMw6",
     "logo_list_bAEGK6",
-    "before_after_image_XL8hcV"
+    "before_after_image_XL8hcV",
+    "featured_product_y9AATU"
   ]
 }
