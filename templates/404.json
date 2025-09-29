@@ -427,10 +427,26 @@
     "featured_product_y9AATU": {
       "type": "featured-product",
       "blocks": {
+        "liquid_tX46Kn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ecl-badge-rupture\">\n  <strong>3X AGOTADO</strong> | <strong>PRODUCTO VIRAL</strong>\n</div>\n\n<style>\n  .ecl-badge-rupture {\n    border: 1px solid #000; /* Borde negro */\n    padding: 6px 12px;\n    display: inline-block;\n    font-weight: bold;\n    font-size: 14px;\n    color: #000; /* Texto negro */\n    letter-spacing: 0.5px;\n    text-align: center;\n    text-transform: uppercase;\n    font-family: 'Helvetica Neue', sans-serif;\n    margin-bottom: 10px;\n    background-color: #F9F9F9; /* Fondo gris suave para contraste */\n  }\n</style>"
+          }
+        },
         "title_WpYYQP": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "variant_picker_enqHt8": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "dropdown",
+            "color_mode": "color",
+            "size_chart_page": ""
           }
         },
         "badges_fkFbdm": {
@@ -455,58 +471,27 @@
             "show_empty": false
           }
         },
-        "separator_4qxtXD": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_fBKqWB": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker_enqHt8": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_ghCbrG": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons_QekzhH": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#6faa6f",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "pickup_availability_ETnbAq": {
-          "type": "pickup_availability",
-          "settings": {}
         }
       },
       "block_order": [
+        "liquid_tX46Kn",
         "title_WpYYQP",
+        "variant_picker_enqHt8",
         "badges_fkFbdm",
         "kaching_bundles_app_block_xVVGKT",
         "price_nUxzcV",
         "rating_LB74aV",
-        "separator_4qxtXD",
-        "description_fBKqWB",
-        "variant_picker_enqHt8",
-        "quantity_selector_ghCbrG",
-        "buy_buttons_QekzhH",
-        "pickup_availability_ETnbAq"
+        "buy_buttons_QekzhH"
       ],
       "name": "Featured product",
       "settings": {
