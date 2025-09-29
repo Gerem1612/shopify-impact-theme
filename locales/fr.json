@@ -8,162 +8,21 @@
  * ------------------------------------------------------------
  */
 {
-  "general": {
-    "page": "Page {{ page }}",
-    "home": "Accueil",
-    "accessibility": {
-      "skip_to_content": "Passer au contenu",
-      "pagination": "Pagination",
-      "go_to_page": "Aller à la page {{ index }}",
-      "go_to_item": "Aller à l'élément {{ index }}",
-      "item_nth_of_count": "Elément {{ index }} de {{ count }}",
-      "drag": "Tirer",
-      "close": "Fermer",
-      "next": "Suivant",
-      "previous": "Précédent",
-      "play_video": "Lancer la video",
-      "read_more": "En savoir plus"
-    },
-    "label": {
-      "color": "Couleur",
-      "white": "Blanc",
-      "size": "Taille"
-    },
-    "social": {
-      "follow_on": "Nous suivre sur {{ social_media }}",
-      "share": "Partager",
-      "share_on": "Partager sur {{ social_media }}",
-      "share_email": "Partager par email"
-    },
-    "rating": {
-      "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
-    },
-    "newsletter": {
-      "email": "E-mail",
-      "subscribe": "S'inscrire",
-      "notify_me": "Me notifier",
-      "subscribed_successfully": "Vous êtes maintenant inscrit à notre newsletter."
-    },
-    "localization": {
-      "country": "Pays",
-      "language": "Langue"
-    },
-    "privacy_bar": {
-      "accept": "Accepter",
-      "decline": "Refuser"
-    },
-    "form": {
-      "max_characters": "{{ max_chars }} caractères au maximum"
-    },
-    "on_boarding": {
-      "blog_post_category": "Catégorie",
-      "blog_post_title": "Article",
-      "blog_post_excerpt": "Ecrivez quelque chose à propos de votre article de blog.",
-      "product_vendor": "Marque",
-      "product_title": "Produit",
-      "product_description": "Ecrivez quelque choes à propos de votre produit.",
-      "collection_title": "Collection"
-    }
-  },
-  "header": {
+  "404": {
     "general": {
-      "account": "Mon compte",
-      "open_menu": "Ouvrir la navigation",
-      "open_search": "Ouvrir la recherche",
-      "open_account": "Ouvrir le compte utilisation",
-      "open_cart": "Voir le panier"
-    }
-  },
-  "product": {
-    "general": {
-      "description": "Description",
-      "view_product": "Voir produit",
-      "quick_add": "+ Ajouter",
-      "add_to_cart_short": "+ Ajouter",
-      "add_to_cart_button": "Ajouter au panier",
-      "pre_order_button": "Pré-commander",
-      "sold_out_button": "En rupture",
-      "unavailable_button": "Indisponible",
-      "added_to_cart": "Produit ajouté au panier !",
-      "sold_out_badge": "En rupture",
-      "on_sale_badge": "Promo",
-      "discount_badge_html": "Ahorra {{ savings }}",
-      "sku": "SKU:",
-      "variant": "Variant",
-      "view_in_space": "Afficher dans votre espace",
-      "taxes_included": "Taxes inclues",
-      "taxes_excluded": "Taxes exclues",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> à la caisse",
-      "size_chart": "Guide des tailles",
-      "available_colors_count": {
-        "one": "{{ count }} couleur",
-        "other": "{{ count }} couleurs"
-      }
-    },
-    "gallery": {
-      "close": "Fermer la galerie",
-      "zoom": "Zoomer sur l'image",
-      "error": "L'image ne peut pas etre chargée"
-    },
-    "price": {
-      "regular_price": "Prix normal",
-      "sale_price": "Prix de vente",
-      "from_price_html": "A partir de {{ price_min }}"
-    },
-    "quantity": {
-      "label": "Quantité",
-      "increase_quantity": "Augmenter la quantité",
-      "decrease_quantity": "Diminuer la quantité"
-    },
-    "rating_count": {
-      "zero": "Aucun avis",
-      "one": "{{ count }} avis",
-      "other": "{{ count }} avis"
-    },
-    "inventory": {
-      "in_stock": "En stock",
-      "oversell_stock": "Re-stockage imminent",
-      "incoming_stock": "Re-stockage le {{ next_incoming_date }}",
-      "low_stock_with_quantity_count": {
-        "one": "Plus qu'un produit en stock",
-        "other": "Plus que {{count}} produits en stock"
-      }
-    },
-    "store_availability": {
-      "view_store_info": "Afficher les informations de la boutique",
-      "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
-      "pick_up_available": "Récupération disponible",
-      "pick_up_currently_unavailable": "Récupération actuellement indisponible",
-      "pick_up_available_at": "Récupération disponible à {{ location_name }}",
-      "pick_up_unavailable_at": "Récupération actuellement indisponible à {{ location_name }}"
-    }
-  },
-  "collection": {
-    "general": {
-      "empty_collection": "Cette collection est vide",
-      "all_collections": "Toutes les collections",
-      "no_collections": "Cette boutique ne contient aucune collection.",
+      "title": "Page non trouvée",
       "continue_shopping": "Explorer nos produits"
-    },
-    "products_count": {
-      "zero": "0 produit",
-      "one": "1 produit",
-      "other": "{{ count }} produits"
-    },
-    "faceting": {
-      "filters": "Filtres",
-      "filter_and_sort": "Filtrer et trier",
-      "filter_button": "Filtrer",
-      "clear_filters": "Effacer",
-      "apply_filters": "Appliquer",
-      "sort_by": "Trier par",
-      "remove_filter": "Supprimer le filtre \"{{ name }}\"",
-      "no_results": "Aucun produit ne correspond à ces critères",
-      "price_range_to": "à",
-      "price_filter_from": "De",
-      "price_filter_to": "A",
-      "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "En stock uniquement"
+    }
+  },
+  "apps": {
+    "shopify_reviews": {
+      "review_info": "Ce produit est noté {{ rating_value }} sur {{ rating_max }} étoiles.",
+      "leave_review": "Laisser un avis",
+      "review_count": {
+        "zero": "Ce produit n'a reçu aucun avis.",
+        "one": "Il a reçu {{ count }} avis.",
+        "other": "Il a reçu {{ count }} avis."
+      }
     }
   },
   "blog": {
@@ -193,6 +52,79 @@
         "one": "{{ count }} commentaire",
         "other": "{{ count }} commentaires"
       }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Panier",
+      "empty": "Votre panier est vide",
+      "continue_shopping": "Explorer nos produits",
+      "weight": "Poids",
+      "subtotal": "Sous-total",
+      "total": "Total",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais d'expédition</a> calculés lors du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\" class=\"link\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
+      "add_order_note": "Ajouter une note",
+      "edit_order_note": "Modifier la note",
+      "order_note": "Note de commande",
+      "save_note": "Enregistrer",
+      "view_cart": "Panier",
+      "checkout": "Passer la commande",
+      "we_accept": "Nous acceptons"
+    },
+    "order": {
+      "product": "Produit",
+      "total": "Total",
+      "quantity": "Quantité",
+      "change_quantity": "Changer la quantité",
+      "increase_quantity": "Augmenter la quantité",
+      "decrease_quantity": "Diminuer la quantité",
+      "remove": "Supprimer"
+    },
+    "free_shipping_bar": {
+      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
+      "limit_reached_html": "Frais de livraison offerts !"
+    },
+    "shipping_estimator": {
+      "estimate_shipping": "Estimer les frais de livraison",
+      "country": "Pays",
+      "province": "Région",
+      "zip": "Code postal",
+      "estimate": "Estimer",
+      "no_results": "Nous ne livrons pas à votre adresse.",
+      "one_result": "Il y a un résultat pour votre adresse :",
+      "multiple_results": "Il y a plusieurs résultats pour votre adresse :",
+      "error": "Impossible d'estimer les frais de livraison :"
+    }
+  },
+  "collection": {
+    "general": {
+      "empty_collection": "Cette collection est vide",
+      "all_collections": "Toutes les collections",
+      "no_collections": "Cette boutique ne contient aucune collection.",
+      "continue_shopping": "Explorer nos produits"
+    },
+    "products_count": {
+      "zero": "0 produit",
+      "one": "1 produit",
+      "other": "{{ count }} produits"
+    },
+    "faceting": {
+      "filters": "Filtres",
+      "filter_and_sort": "Filtrer et trier",
+      "filter_button": "Filtrer",
+      "clear_filters": "Effacer",
+      "apply_filters": "Appliquer",
+      "sort_by": "Trier par",
+      "remove_filter": "Supprimer le filtre \"{{ name }}\"",
+      "no_results": "Aucun produit ne correspond à ces critères",
+      "price_range_to": "à",
+      "price_filter_from": "De",
+      "price_filter_to": "A",
+      "price_filter": "{{ min_price }} - {{ max_price }}",
+      "availability_label": "En stock uniquement"
     }
   },
   "contact": {
@@ -302,76 +234,61 @@
       "set_default": "Définir comme adresse par défaut"
     }
   },
-  "cart": {
-    "general": {
-      "title": "Panier",
-      "empty": "Votre panier est vide",
-      "continue_shopping": "Explorer nos produits",
-      "weight": "Poids",
-      "subtotal": "Sous-total",
-      "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais d'expédition</a> calculés lors du paiement",
-      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\" class=\"link\">Frais d'expédition</a> calculés à l'étape de paiement.",
-      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
-      "add_order_note": "Ajouter une note",
-      "edit_order_note": "Modifier la note",
-      "order_note": "Note de commande",
-      "save_note": "Enregistrer",
-      "view_cart": "Panier",
-      "checkout": "Passer la commande",
-      "we_accept": "Nous acceptons"
+  "general": {
+    "page": "Page {{ page }}",
+    "home": "Accueil",
+    "accessibility": {
+      "skip_to_content": "Passer au contenu",
+      "pagination": "Pagination",
+      "go_to_page": "Aller à la page {{ index }}",
+      "go_to_item": "Aller à l'élément {{ index }}",
+      "item_nth_of_count": "Elément {{ index }} de {{ count }}",
+      "drag": "Tirer",
+      "close": "Fermer",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "play_video": "Lancer la video",
+      "read_more": "En savoir plus"
     },
-    "order": {
-      "product": "Produit",
-      "total": "Total",
-      "quantity": "Quantité",
-      "change_quantity": "Changer la quantité",
-      "increase_quantity": "Augmenter la quantité",
-      "decrease_quantity": "Diminuer la quantité",
-      "remove": "Supprimer"
+    "label": {
+      "color": "Couleur",
+      "white": "Blanc",
+      "size": "Taille"
     },
-    "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
-      "limit_reached_html": "Frais de livraison offerts !"
+    "social": {
+      "follow_on": "Nous suivre sur {{ social_media }}",
+      "share": "Partager",
+      "share_on": "Partager sur {{ social_media }}",
+      "share_email": "Partager par email"
     },
-    "shipping_estimator": {
-      "estimate_shipping": "Estimer les frais de livraison",
+    "rating": {
+      "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
+    },
+    "newsletter": {
+      "email": "E-mail",
+      "subscribe": "S'inscrire",
+      "notify_me": "Me notifier",
+      "subscribed_successfully": "Vous êtes maintenant inscrit à notre newsletter."
+    },
+    "localization": {
       "country": "Pays",
-      "province": "Région",
-      "zip": "Code postal",
-      "estimate": "Estimer",
-      "no_results": "Nous ne livrons pas à votre adresse.",
-      "one_result": "Il y a un résultat pour votre adresse :",
-      "multiple_results": "Il y a plusieurs résultats pour votre adresse :",
-      "error": "Impossible d'estimer les frais de livraison :"
-    }
-  },
-  "404": {
-    "general": {
-      "title": "Page non trouvée",
-      "continue_shopping": "Explorer nos produits"
-    }
-  },
-  "search": {
-    "general": {
-      "title": "Recherche",
-      "terms": "Résultats pour \"{{terms}}\"",
-      "search_placeholder": "Recherche...",
-      "products": "Produits",
-      "suggestions": "Suggestions",
-      "collections": "Collections",
-      "posts": "Blog posts",
-      "pages": "Pages",
-      "clear": "Effacer",
-      "view_all": "Voir tout",
-      "view_all_results": "Voir les résultats",
-      "no_results": "Aucun résultat ne correspond à votre recherche."
+      "language": "Langue"
     },
-    "results_count": {
-      "zero": "0 résultat pour \"{{ terms }}\"",
-      "one": "1 résultat pour \"{{ terms }}\"",
-      "other": "{{ count }} résultats pour \"{{ terms }}\""
+    "privacy_bar": {
+      "accept": "Accepter",
+      "decline": "Refuser"
+    },
+    "form": {
+      "max_characters": "{{ max_chars }} caractères au maximum"
+    },
+    "on_boarding": {
+      "blog_post_category": "Catégorie",
+      "blog_post_title": "Article",
+      "blog_post_excerpt": "Ecrivez quelque chose à propos de votre article de blog.",
+      "product_vendor": "Marque",
+      "product_title": "Produit",
+      "product_description": "Ecrivez quelque choes à propos de votre produit.",
+      "collection_title": "Collection"
     }
   },
   "gift_card": {
@@ -398,6 +315,15 @@
       "message_label": "Message (facultatif)"
     }
   },
+  "header": {
+    "general": {
+      "account": "Mon compte",
+      "open_menu": "Ouvrir la navigation",
+      "open_search": "Ouvrir la recherche",
+      "open_account": "Ouvrir le compte utilisation",
+      "open_cart": "Voir le panier"
+    }
+  },
   "password": {
     "general": {
       "follow_us": "Nous suivre",
@@ -413,15 +339,89 @@
       "enter_store": "Valider"
     }
   },
-  "apps": {
-    "shopify_reviews": {
-      "review_info": "Ce produit est noté {{ rating_value }} sur {{ rating_max }} étoiles.",
-      "leave_review": "Laisser un avis",
-      "review_count": {
-        "zero": "Ce produit n'a reçu aucun avis.",
-        "one": "Il a reçu {{ count }} avis.",
-        "other": "Il a reçu {{ count }} avis."
+  "product": {
+    "general": {
+      "description": "Description",
+      "view_product": "Voir produit",
+      "quick_add": "+ Ajouter",
+      "add_to_cart_short": "+ Ajouter",
+      "add_to_cart_button": "Ajouter au panier",
+      "pre_order_button": "Pré-commander",
+      "sold_out_button": "En rupture",
+      "unavailable_button": "Indisponible",
+      "added_to_cart": "Produit ajouté au panier !",
+      "sold_out_badge": "En rupture",
+      "on_sale_badge": "Promo",
+      "discount_badge_html": "Ahorra {{ savings }}",
+      "sku": "SKU:",
+      "variant": "Variant",
+      "view_in_space": "Afficher dans votre espace",
+      "taxes_included": "Taxes inclues",
+      "taxes_excluded": "Taxes exclues",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais d'envoi calculés</a> à la caisse",
+      "size_chart": "Guide des tailles",
+      "available_colors_count": {
+        "one": "{{ count }} couleur",
+        "other": "{{ count }} couleurs"
       }
+    },
+    "gallery": {
+      "close": "Fermer la galerie",
+      "zoom": "Zoomer sur l'image",
+      "error": "L'image ne peut pas etre chargée"
+    },
+    "price": {
+      "regular_price": "Prix normal",
+      "sale_price": "Prix de vente",
+      "from_price_html": "A partir de {{ price_min }}"
+    },
+    "quantity": {
+      "label": "Quantité",
+      "increase_quantity": "Augmenter la quantité",
+      "decrease_quantity": "Diminuer la quantité"
+    },
+    "rating_count": {
+      "zero": "Aucun avis",
+      "one": "{{ count }} avis",
+      "other": "{{ count }} avis"
+    },
+    "inventory": {
+      "in_stock": "En stock",
+      "oversell_stock": "Re-stockage imminent",
+      "incoming_stock": "Re-stockage le {{ next_incoming_date }}",
+      "low_stock_with_quantity_count": {
+        "one": "Plus qu'un produit en stock",
+        "other": "Plus que {{count}} produits en stock"
+      }
+    },
+    "store_availability": {
+      "view_store_info": "Afficher les informations de la boutique",
+      "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
+      "pick_up_available": "Récupération disponible",
+      "pick_up_currently_unavailable": "Récupération actuellement indisponible",
+      "pick_up_available_at": "Récupération disponible à {{ location_name }}",
+      "pick_up_unavailable_at": "Récupération actuellement indisponible à {{ location_name }}"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Recherche",
+      "terms": "Résultats pour \"{{terms}}\"",
+      "search_placeholder": "Recherche...",
+      "products": "Produits",
+      "suggestions": "Suggestions",
+      "collections": "Collections",
+      "posts": "Blog posts",
+      "pages": "Pages",
+      "clear": "Effacer",
+      "view_all": "Voir tout",
+      "view_all_results": "Voir les résultats",
+      "no_results": "Aucun résultat ne correspond à votre recherche."
+    },
+    "results_count": {
+      "zero": "0 résultat pour \"{{ terms }}\"",
+      "one": "1 résultat pour \"{{ terms }}\"",
+      "other": "{{ count }} résultats pour \"{{ terms }}\""
     }
   },
   "shopify": {
@@ -432,6 +432,44 @@
       "marketing": {
         "accept_marketing_checkbox_label": "📩 Recevoir un e-mail de confirmation de commande"
       }
+    }
+  },
+  "gempages": {
+    "Carousel": {
+      "no_slider": "No Slider"
+    },
+    "Newsletter": {
+      "err_msg_default": "Can’t send email. Please try again later.",
+      "success_msg_default": "Thanks for subscribing"
+    },
+    "IconListV2": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconList": {
+      "icons_not_found": "Icons not found"
+    },
+    "IconListHoz": {
+      "icons_not_found": "Icons not found"
+    },
+    "Product": {
+      "product_not_found": "Product not found"
+    },
+    "ProductList": {
+      "product_not_found": "Product Not Found!",
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
+    },
+    "ProductTitle": {
+      "product_not_found": "Product Not Found"
+    },
+    "ProductVariants": {
+      "please_select": "Please select an option"
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>HURRY!</mark> LET BUY NOW"
+    },
+    "Breadcrumb": {
+      "home": "Home"
     }
   }
 }
