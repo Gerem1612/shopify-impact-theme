@@ -21,7 +21,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "lg",
+        "image_size": "auto",
         "image": "shopify://shop_images/Espagne_LP_Ecleepse.png",
         "mobile_image": "shopify://shop_images/Espagne_LP_Ecleepse_Mobile.png",
         "mobile_text_position": "place-self-center text-center",
