@@ -131,6 +131,68 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "multi_column_X4zjTF": {
+      "type": "multi-column",
+      "blocks": {
+        "item_BBmDnD": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/7c5446b464ec4ac9a95ef6b67f4add72 (1).mp4",
+            "column_size": "3",
+            "title": "En 10 minutos, adiós a las canas",
+            "heading_tag": "h4",
+            "content": "<p>Ver cómo alguien aplica el champú, lo enjuaga y muestra el resultado al instante transmite tranquilidad y confianza. Tú también puedes recuperar un aspecto fresco y natural sin esfuerzo, sin trucos y sin gastar de más.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nMKthe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/discredti_concu_ecleepse_espagne.png",
+            "column_size": "3",
+            "title": "Olvídate de las marcas químicas caras",
+            "heading_tag": "h4",
+            "content": "<p>Ya no hace falta depender de productos agresivos ni pagar precios abusivos. Con una fórmula más sana y accesible, ganas libertad y cuidas tu cabello mientras ahorras.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_djgci3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/femme-grand-angle-au-salon-de-coiffure_-_Modifie.jpg",
+            "column_size": "3",
+            "title": "Nunca más horas en la peluquería",
+            "heading_tag": "h4",
+            "content": "<p>Ese ritual interminable de cubrir raíces en un salón es cosa del pasado. Ahora puedes hacerlo tú misma en casa, en minutos, y recuperar no solo el color sino también tu tiempo y tu confianza.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_BBmDnD",
+        "item_nMKthe",
+        "item_djgci3"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "ss_shoppable_video_RHCaqH": {
       "type": "ss-shoppable-video",
       "blocks": {
@@ -452,8 +514,8 @@
         "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
@@ -488,7 +550,7 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p><em>Lo uso cada dos semanas y es comodísimo. No mancha, no huele fuerte y me deja el cabello suave además de cubrir las canas. ¡Un acierto total!</em></p>",
+            "text": "<p>Lo uso cada dos semanas y es comodísimo. No mancha, no huele fuerte y me deja el cabello suave además de cubrir las canas. ¡Un acierto total!</p>",
             "author": "<p><strong>Andrés P.</strong></p>"
           }
         },
@@ -500,7 +562,7 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>Era muy escéptica porque hay tantas estafas… Veredicto: realmente funciona. Se aplica sobre el cabello seco, frotando como un champú. Hace un poco de espuma. Lo dejas actuar 10 minutos, enjuagas y listo. No mancha la piel. Sinceramente, genial. Además, el resultado es muy natural y no parece un “casco” rígido.<br/><br/></p>",
+            "text": "<p>Lo acabo de probar y la verdad q era súper escéptica xq hay tantas estafas… pero funciona de verdad 👌 Se pone en seco, como un champú, hace un poco de espuma, 10 min y aclarar. No mancha la piel y queda súper natural, nada de efecto casco. Muy top<br/><br/><br/></p>",
             "author": "<p><strong>Fina A.</strong></p>"
           }
         },
@@ -1038,6 +1100,7 @@
     "logo_list_bAEGK6",
     "image_with_text_overlay_Qjbjrq",
     "before_after_image_XL8hcV",
+    "multi_column_X4zjTF",
     "ss_shoppable_video_RHCaqH",
     "featured_product_y9AATU",
     "testimonial12_LmU4ez",
