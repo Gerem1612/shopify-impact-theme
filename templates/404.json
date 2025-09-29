@@ -766,6 +766,7 @@
         "item_Ji8Aq3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_29_sept._2025_13_57_03.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso #1",
@@ -775,6 +776,7 @@
         "item_8MjVFn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_29_sept._2025_14_39_23.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso #2",
@@ -816,7 +818,7 @@
         "heading_9GHPB8": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Have Questions?<br>We Have Answers.</h2>",
+            "heading": "<p>¿Tienes preguntas? Tenemos las respuestas.<br/><br/><br/><br/><br/><br/></p>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 48,
@@ -832,7 +834,7 @@
         "text_w7egzE": {
           "type": "text",
           "settings": {
-            "text": "<p>Get quick solutions to your common lawn care concerns, from mowing to pest control. </p>",
+            "text": "<p>Obtén soluciones rápidas a tus dudas más comunes sobre el cuidado del césped, desde el corte hasta el control de plagas.<br/><br/></p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 18,
@@ -848,57 +850,92 @@
         "item_abnhdy": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Cuál es la duración de la coloración?",
+            "answer": "<p>Dependiendo del tipo de cabello y de la frecuencia de los lavados, <strong>Ecleepse</strong> mantiene un color intenso y natural durante <strong>4 a 6 semanas</strong>.<br/><br/><br/></p>"
           }
         },
         "item_hLCF3J": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Cuánto tiempo se tarda en usarlo?",
+            "answer": "<p>Los únicos champús colorantes instantáneos están diseñados para actuar en unos <strong>10 a 15 minutos</strong>, según la longitud y el espesor de tu cabello.<br/><br/></p>"
           }
         },
         "item_iBLwBt": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Es compatible con todos los tipos de cabello?",
+            "answer": "<p>Sí, <strong>Ecleepse</strong> se adapta a cualquier tipo de cabello: fino, grueso, rizado o liso. Su fórmula cremosa asegura una aplicación uniforme en cada fibra capilar.<br/><br/><br/></p>"
           }
         },
         "item_Jtjc9G": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Ecleepse cubre realmente las canas?",
+            "answer": "<p>Sí, <strong>Ecleepse</strong> ha sido diseñado para cubrir de manera eficaz y natural las canas desde la primera aplicación.<br/><br/></p>"
           }
         },
         "item_hMzHyc": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Existen riesgos de alergias o reacciones?",
+            "answer": "<p>Nuestra fórmula está desarrollada <strong>sin PPD, sin amoníaco ni químicos agresivos</strong>, lo que reduce considerablemente el riesgo de reacciones alérgicas en comparación con las coloraciones clásicas.<br/><br/>Aun así, recomendamos realizar una pequeña prueba de sensibilidad en la piel antes de la primera aplicación.<br/><br/></p>"
           }
         },
         "item_hhtyeG": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Se aplica en cabello seco o húmedo?",
+            "answer": "<p>Preferiblemente sobre <strong>cabello seco</strong>, para que los pigmentos se adhieran de forma óptima. Solo hay que dejarlo actuar 10 minutos y enjuagar.<br/><br/></p>"
           }
         },
         "item_qDFcbR": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Daña o reseca el cabello?",
+            "answer": "<p>No. Al contrario, la fórmula de <strong>Ecleepse</strong> está enriquecida con aceites nutritivos que mantienen el cabello suave, brillante y cuidado después de<br/><br/></p>"
           }
         },
         "item_icaUEk": {
           "type": "item",
           "settings": {
-            "question": "Lorem ipsum dolor sit amet?",
-            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+            "question": "¿Se puede usar durante el embarazo o la lactancia?",
+            "answer": "<p>Sí, <strong>Ecleepse</strong> no contiene sustancias agresivas ni nocivas. No obstante, siempre recomendamos consultar con un médico antes de utilizar cualquier producto durante esta etapa.<br/><br/></p>"
+          }
+        },
+        "item_zhmGFz": {
+          "type": "item",
+          "settings": {
+            "question": "¿Deja manchas en la piel o en las manos?",
+            "answer": "<p>No. Su textura espesa y cremosa facilita la aplicación precisa sin goteo, evitando manchas en la piel o en las manos.<br/><br/></p>"
+          }
+        },
+        "item_6DkxzE": {
+          "type": "item",
+          "settings": {
+            "question": "¿Es compatible con cabellos tratados químicamente?",
+            "answer": "<p>Sí, <strong>Ecleepse</strong> se adapta perfectamente a cabellos teñidos, decolorados o tratados químicamente, aportando color y brillo sin dañarlos.<br/><br/></p>"
+          }
+        },
+        "item_YtKnXq": {
+          "type": "item",
+          "settings": {
+            "question": "¿Cómo desaparece el color con los lavados?",
+            "answer": "<p>El tono de <strong>Ecleepse</strong> se va eliminando progresivamente, de forma natural y sin dejar efecto raíz antiestético.<br/><br/></p>"
+          }
+        },
+        "item_fVjjh8": {
+          "type": "item",
+          "settings": {
+            "question": "¿Es apto también para hombres?",
+            "answer": "<p>Sí, muchos hombres lo utilizan para cubrir sus canas de forma rápida y discreta.<br/><br/></p>"
+          }
+        },
+        "item_iXbdR3": {
+          "type": "item",
+          "settings": {
+            "question": "¿Se puede usar en extensiones o pelucas de cabello natural?",
+            "answer": "<p>Sí, siempre que sean 100 % de cabello natural, <strong>Ecleepse</strong> es totalmente compatible.<br/><br/></p>"
           }
         }
       },
@@ -912,7 +949,12 @@
         "item_hMzHyc",
         "item_hhtyeG",
         "item_qDFcbR",
-        "item_icaUEk"
+        "item_icaUEk",
+        "item_zhmGFz",
+        "item_6DkxzE",
+        "item_YtKnXq",
+        "item_fVjjh8",
+        "item_iXbdR3"
       ],
       "name": "SS - FAQ #9",
       "settings": {
