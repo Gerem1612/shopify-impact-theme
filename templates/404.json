@@ -472,77 +472,72 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/1743932609__huge__original.avif",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>the perfect candle replacement, obsessed with the lamps!</p>",
-            "author": "<p><strong>@tracer</strong></p>"
+            "text": "<p>Durante años pedía discretamente al peluquero que, antes de terminar, me hiciera un ligero tinte sobre las canas… Me gastaba una fortuna… y este producto lo ha cambiado todo. Más rápido, más económico y con un resultado perfecto<br/><br/></p>",
+            "author": "<p><strong>Carmen A.</strong></p>"
           }
         },
         "slide_EhmBLd": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/Bq35TEmbV.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>Our kids bring them everywhere, specially when doing puzzles and drawings</p>",
-            "author": "<p><strong>@theworldisyours</strong></p>"
+            "text": "<p><em>Lo uso cada dos semanas y es comodísimo. No mancha, no huele fuerte y me deja el cabello suave además de cubrir las canas. ¡Un acierto total!</em></p>",
+            "author": "<p><strong>Andrés P.</strong></p>"
           }
         },
         "slide_Y98fdN": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/ynxiSwp8a.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>This is the brand to go for lamps, love the quality and design, as always you get what you pay</p>",
-            "author": "<p><strong>@niels_homes</strong></p>"
+            "text": "<p>Era muy escéptica porque hay tantas estafas… Veredicto: realmente funciona. Se aplica sobre el cabello seco, frotando como un champú. Hace un poco de espuma. Lo dejas actuar 10 minutos, enjuagas y listo. No mancha la piel. Sinceramente, genial. Además, el resultado es muy natural y no parece un “casco” rígido.<br/><br/></p>",
+            "author": "<p><strong>Fina A.</strong></p>"
           }
         },
         "slide_RrnbaG": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/vLLwO9gMm.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>Love them, they give the perfect luxury touch to any room</p>",
-            "author": "<p><strong>@allfinds</strong></p>"
+            "text": "<p>El antes y después es increíble. Mi marido también lo probó y quedó alucinado con lo natural que queda. ¡Recomendadísimo para hombres y mujeres!<br/><br/></p>",
+            "author": "<p><strong>Lucía V.</strong><br/><br/></p>"
           }
         },
         "slide_c9EUFm": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/Capture_d_ecran_2024-12-07_a_19.31.07_33fb83e2-ec23-47d1-8b27-de133345dc1e.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>The cordless lamp you've been looking for!</p>",
-            "author": "<p><strong>@lacey</strong></p>"
+            "text": "<p>Debo admitir que este producto, sencillo y económico, cubre bien mis raíces grises y deja mi cabello brillante. Solo lo he usado una vez, pero por ahora todo va bien.<br/><br/><br/></p>",
+            "author": "<p><strong>Maria L.</strong></p>"
           }
         },
         "slide_Faab9V": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/YHcSKDhQS.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
-            "stars_count": 5,
-            "text": "<p>All my friends want them too now, at least I was the first one to get them..!</p>",
-            "author": "<p><strong>@mcqueen</strong></p>"
-          }
-        },
-        "slide_Af87CW": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>I use it every day early in the morning and on our dining table, it is do convenient and cool</p>",
-            "author": "<p><strong>@dwithpatty</strong></p>"
+            "stars_count": 4.5,
+            "text": "<p>Mis amigos no paran de preguntarme qué he hecho en el pelo. El resultado es natural, sin aspecto artificial, y lo mejor es que no daña el cabello.<br/><br/></p>",
+            "author": "<p><strong>Javier R.</strong></p>"
           }
         }
       },
@@ -552,12 +547,11 @@
         "slide_Y98fdN",
         "slide_RrnbaG",
         "slide_c9EUFm",
-        "slide_Faab9V",
-        "slide_Af87CW"
+        "slide_Faab9V"
       ],
       "name": "SS - Testimonials #12",
       "settings": {
-        "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
+        "heading": "<p>Resultados increíbles en pocos minutos, una verdadera revolución.</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 30,
@@ -636,7 +630,7 @@
         "card_border_color": "#ffffff",
         "card_shadow_color": "#000000",
         "media_border_color": "#000000",
-        "stars_color": "#323232",
+        "stars_color": "#e9a341",
         "text_color": "#323232",
         "author_color": "#323232",
         "video_icon_bg_color": "#ffffff",
@@ -786,6 +780,7 @@
         "item_irwP3G": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_29_sept._2025_15_52_51.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Paso #3",
@@ -847,8 +842,8 @@
         "heading_9GHPB8": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¿Tienes preguntas? Tenemos las respuestas.<br/><br/><br/><br/><br/><br/></p>",
-            "heading_custom": false,
+            "heading": "<p><strong>¿Tienes preguntas? Tenemos las respuestas.</strong></p>",
+            "heading_custom": true,
             "heading_font": "josefin_sans_n4",
             "heading_size": 48,
             "heading_size_mobile": 30,
@@ -857,7 +852,7 @@
             "heading_mt_mobile": 0,
             "heading_align": "left",
             "heading_align_mobile": "center",
-            "heading_color": "#005c53"
+            "heading_color": "#2e2e2e"
           }
         },
         "text_w7egzE": {
