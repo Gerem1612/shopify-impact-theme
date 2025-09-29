@@ -293,45 +293,45 @@
         "modal_button_mt": 16,
         "modal_button_align": "center",
         "modal_button_align_mobile": "center",
-        "card_bg_color": "#FFFFFF",
+        "card_bg_color": "#ffffff",
         "card_border_color": "#000000",
         "card_shadow_color": "#000000",
         "video_border_color": "#000000",
         "video_overlay_color": "#000000",
         "image_border_color": "#000000",
-        "title_color": "#FFFFFF",
-        "price_color": "#FFFFFF",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
+        "title_color": "#ffffff",
+        "price_color": "#ffffff",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "#000000",
         "button_bg_hover_color": "#000000",
         "arrow_bg_color": "#000000",
-        "arrow_border_color": "#FFFFFF",
-        "arrow_icon_color": "#FFFFFF",
+        "arrow_border_color": "#ffffff",
+        "arrow_icon_color": "#ffffff",
         "option_color": "#000000",
         "variants_price_color": "#000000",
-        "modal_bg_color": "#FFFFFF",
+        "modal_bg_color": "#ffffff",
         "modal_border_color": "#000000",
-        "close_bg_color": "#FFFFFF",
+        "close_bg_color": "#ffffff",
         "close_border_color": "#000000",
-        "close_icon_color": "#FFFFFF",
-        "buttons_bg_color": "#FFFFFF",
+        "close_icon_color": "#ffffff",
+        "buttons_bg_color": "#ffffff",
         "buttons_border_color": "#000000",
-        "buttons_icon_color": "#FFFFFF",
+        "buttons_icon_color": "#ffffff",
         "modal_video_border_color": "#000000",
-        "modal_content_bg_color": "#FFFFFF",
+        "modal_content_bg_color": "#ffffff",
         "modal_heading_color": "#000000",
         "modal_text_color": "#000000",
         "modal_title_color": "#000000",
         "modal_price_color": "#000000",
-        "modal_button_color": "#FFFFFF",
+        "modal_button_color": "#ffffff",
         "modal_button_hover_color": "#000000",
         "modal_button_bg_color": "#000000",
-        "modal_button_bg_hover_color": "#FFFFFF",
+        "modal_button_bg_hover_color": "#ffffff",
         "modal_button_border_color": "#000000",
         "modal_button_border_hover_color": "#000000",
         "heading_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -615,7 +615,7 @@
         "dots_show_mobile": true,
         "btn_icon_size": 50,
         "btn_icon_size_mobile": 40,
-        "card_bg_color": "#FFFFFF",
+        "card_bg_color": "#ffffff",
         "card_bg_gradient": "",
         "card_border_color": "#ffffff",
         "card_shadow_color": "#000000",
@@ -623,7 +623,7 @@
         "stars_color": "#323232",
         "text_color": "#323232",
         "author_color": "#323232",
-        "video_icon_bg_color": "#FFFFFF",
+        "video_icon_bg_color": "#ffffff",
         "video_icon_color": "#000000",
         "arrow_color": "#837c5c",
         "arrow_hover_color": "#837c5c",
@@ -644,6 +644,274 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_scrolling_image_5_gxdP94": {
+      "type": "ss-scrolling-image-5",
+      "blocks": {
+        "image_wtRBWp": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_RiA3je": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_Lp6Bzt": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_YxMPwK": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_wtRBWp",
+        "image_RiA3je",
+        "image_Lp6Bzt",
+        "image_YxMPwK"
+      ],
+      "name": "SS - Scrolling images #5",
+      "settings": {
+        "scrolling_velocity": 30,
+        "scrolling_velocity_mobile": 40,
+        "scrolling_gap": 32,
+        "scrolling_gap_mobile": 24,
+        "position_abjustment": "none",
+        "reverse_direction": false,
+        "pause_hover": true,
+        "use_dragging": true,
+        "image_width": 150,
+        "image_width_mobile": 130,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_border_color": "#000000",
+        "first_bg_color": "#F1F1F1",
+        "second_bg_color": "",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "images_with_text_scrolling_Txz76C": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_Ji8Aq3": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso #1",
+            "content": "<p><strong>Aplica sobre el cabello seco o húmedo</strong><br/><br/>Distribuye el champú uniformemente desde la raíz hasta las puntas.<br/></p>"
+          }
+        },
+        "item_8MjVFn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso #2",
+            "content": "<p><strong>Deja actuar durante 10 minutos</strong><br/><br/>Relájate mientras el color se activa.<br/><br/></p>"
+          }
+        },
+        "item_irwP3G": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Paso #3",
+            "content": "<p><strong>Enjuaga y listo</strong><br/><br/>Aclara con abundante agua hasta que salga limpia. Disfruta de un cabello con color natural y cobertura perfecta de canas.<br/><br/><br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ji8Aq3",
+        "item_8MjVFn",
+        "item_irwP3G"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq2_97RqEV": {
+      "type": "FAQ2",
+      "blocks": {
+        "heading_9GHPB8": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Have Questions?<br>We Have Answers.</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 48,
+            "heading_size_mobile": 30,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "center",
+            "heading_color": "#005C53"
+          }
+        },
+        "text_w7egzE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get quick solutions to your common lawn care concerns, from mowing to pest control. </p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 16,
+            "text_height": 130,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_align": "left",
+            "text_align_mobile": "center",
+            "text_color": "#757575"
+          }
+        },
+        "item_abnhdy": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_hLCF3J": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_iBLwBt": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_Jtjc9G": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_hMzHyc": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_hhtyeG": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_qDFcbR": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        },
+        "item_icaUEk": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem ipsum dolor sit amet?",
+            "answer": "<p>Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Si habetis ulteriores quaestiones, quaeso, nostri auxilium clientibus contact.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9GHPB8",
+        "text_w7egzE",
+        "item_abnhdy",
+        "item_hLCF3J",
+        "item_iBLwBt",
+        "item_Jtjc9G",
+        "item_hMzHyc",
+        "item_hhtyeG",
+        "item_qDFcbR",
+        "item_icaUEk"
+      ],
+      "name": "SS - FAQ #9",
+      "settings": {
+        "body_gap": 30,
+        "body_gap_mobile": 20,
+        "body_radius": 40,
+        "faq_position": "left",
+        "faq_position_mobile": "bottom",
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 20,
+        "item_padding_horizontal": 20,
+        "item_padding_horizontal_mobile": 20,
+        "item_mt": 10,
+        "item_radius": 10,
+        "item_border_thickness": 0,
+        "item_shadow": true,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 18,
+        "question_size_mobile": 14,
+        "question_height": 130,
+        "arrow_size": 24,
+        "arrow_size_mobile": 24,
+        "arrow_border_thickness": 0,
+        "answer_custom": false,
+        "answer_font": "josefin_sans_n4",
+        "answer_size": 16,
+        "answer_size_mobile": 12,
+        "answer_height": 170,
+        "answer_padding_top": 16,
+        "item_bg_color": "#FFFFFF",
+        "item_border_color": "#000000",
+        "question_color": "#005C53",
+        "arrow_color": "#757575",
+        "arrow_border_color": "#6c584c",
+        "answer_color": "#757575",
+        "background_color": "#F0F3F4",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 16,
+        "margin_bottom": 16,
+        "margin_horizontal": 4,
+        "margin_horizontal_mobile": 1.5,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_horizontal": 6,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
@@ -653,6 +921,9 @@
     "before_after_image_XL8hcV",
     "ss_shoppable_video_RHCaqH",
     "featured_product_y9AATU",
-    "testimonial12_LmU4ez"
+    "testimonial12_LmU4ez",
+    "ss_scrolling_image_5_gxdP94",
+    "images_with_text_scrolling_Txz76C",
+    "faq2_97RqEV"
   ]
 }
