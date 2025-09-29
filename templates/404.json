@@ -121,7 +121,7 @@
         "before_after_text_position": "top",
         "before_text": "Antes",
         "after_text": "Después",
-        "drag_initial_position": 0,
+        "drag_initial_position": 60,
         "background": "",
         "background_gradient": "",
         "text_color": "",
