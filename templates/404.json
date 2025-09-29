@@ -209,7 +209,7 @@
         "card_shadow": true,
         "video_ratio": "portrait",
         "video_ratio_mobile": "portrait",
-        "video_overlay": 0.3,
+        "video_overlay": 0,
         "image_width": 44,
         "image_width_mobile": 44,
         "image_radius": 6,
@@ -812,6 +812,35 @@
         "heading_gradient": ""
       }
     },
+    "featured_collection_XADhRM": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "ecleepse-colorpop-shampoing-colorant-instantane",
+          "novara-by-ecleepse-shampoing-colorant-instantane-homme"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Ventas especiales",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "faq2_97RqEV": {
       "type": "FAQ2",
       "blocks": {
@@ -1006,35 +1035,6 @@
         "content_width": 120,
         "border_thickness": 0
       }
-    },
-    "featured_collection_XADhRM": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "ecleepse-colorpop-shampoing-colorant-instantane",
-          "novara-by-ecleepse-shampoing-colorant-instantane-homme"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 2,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Ventas especiales",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
@@ -1048,7 +1048,7 @@
     "testimonial12_LmU4ez",
     "ss_scrolling_image_5_gxdP94",
     "images_with_text_scrolling_Txz76C",
-    "faq2_97RqEV",
-    "featured_collection_XADhRM"
+    "featured_collection_XADhRM",
+    "faq2_97RqEV"
   ]
 }
