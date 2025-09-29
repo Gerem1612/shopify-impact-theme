@@ -118,10 +118,6 @@
     "featured_product_y9AATU": {
       "type": "featured-product",
       "blocks": {
-        "vendor_hYV6Td": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_WpYYQP": {
           "type": "title",
           "settings": {
@@ -191,7 +187,6 @@
         }
       },
       "block_order": [
-        "vendor_hYV6Td",
         "title_WpYYQP",
         "badges_fkFbdm",
         "kaching_bundles_app_block_xVVGKT",
