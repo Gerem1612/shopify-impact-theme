@@ -477,7 +477,7 @@
         "liquid_WmFUDJ": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign today = 'now' | date: \"%s\" %}\n{% assign date_plus_7 = today | plus: 604800 | date: \"%-d de %B\" %}\n{% assign date_plus_9 = today | plus: 777600 | date: \"%-d de %B\" %}\n\n<div style=\"display:flex;align-items:center;font-family:Arial, sans-serif;font-size:15px;color:#fff;background:#1E3A5F;padding:8px 12px;border-radius:6px;\">\n  <span style=\"margin-right:8px;\">🚚</span>\n  <span>Recíbelo entre el <strong>{{ date_plus_7 }}</strong> y el <strong>{{ date_plus_9 }}</strong>.</span>\n</div>"
+            "liquid": "{% assign today = 'now' | date: \"%s\" %}\n{% assign date_plus_9 = today | plus: 777600 | date: \"%-d de %B\" %}\n{% assign date_plus_12 = today | plus: 1036800 | date: \"%-d de %B\" %}\n\n<div style=\"display:flex;align-items:center;font-family:Arial, sans-serif;font-size:15px;color:#fff;background:#1E3A5F;padding:8px 12px;border-radius:6px;\">\n  <span style=\"margin-right:8px;\">🚚</span>\n  <span>Recíbelo entre el <strong>{{ date_plus_9 }}</strong> y el <strong>{{ date_plus_12 }}</strong>.</span>\n</div>"
           }
         },
         "liquid_T4mPWW": {
