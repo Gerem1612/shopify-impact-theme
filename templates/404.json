@@ -433,16 +433,16 @@
             "liquid": "<div class=\"ecl-badge-rupture\">\n  <strong>3X AGOTADO</strong> | <strong>PRODUCTO VIRAL</strong>\n</div>\n\n<style>\n  .ecl-badge-rupture {\n    border: 1px solid #000; /* Borde negro */\n    padding: 6px 12px;\n    display: inline-block;\n    font-weight: bold;\n    font-size: 14px;\n    color: #000; /* Texto negro */\n    letter-spacing: 0.5px;\n    text-align: center;\n    text-transform: uppercase;\n    font-family: 'Helvetica Neue', sans-serif;\n    margin-bottom: 10px;\n    background-color: #F9F9F9; /* Fondo gris suave para contraste */\n  }\n</style>"
           }
         },
-        "liquid_TmYJTy": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n\n{%- if stock_total > 0 -%}\n  {%- assign pct_float = stock_restant | times: 100.0 | divided_by: stock_total -%}\n{%- else -%}\n  {%- assign pct_float = 0 -%}\n{%- endif -%}\n\n{%- assign pct_str = pct_float | round: 2 | replace: ',', '.' -%}\n{%- assign pct_display = pct_float | ceil -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom:1.5rem;\">\n\n  <!-- Barra de progreso -->\n  <div style=\"width:100%;height:8px;background:#eee;border-radius:4px;overflow:hidden;\">\n    <div\n      style=\"\n        height:100%;\n        width: {{ pct_str }}%;\n        min-width:{% if stock_restant > 0 %}8px{% else %}0{% endif %};\n        background:#CC5500 !important; /* Naranja oscuro */\n      \">\n    </div>\n  </div>\n\n  <!-- Texto debajo de la barra -->\n  <div style=\"display:flex;justify-content:space-between;margin-top:5px;\">\n    <span style=\"font-size:13px;color:#555;\">La oferta termina pronto</span>\n    <span style=\"font-size:13px;font-weight:600;color:#CC5500;\">\n      {{ pct_display }}% del stock restante\n    </span>\n  </div>\n\n</div>"
-          }
-        },
         "title_WpYYQP": {
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "liquid_TmYJTy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n\n{%- if stock_total > 0 -%}\n  {%- assign pct_float = stock_restant | times: 100.0 | divided_by: stock_total -%}\n{%- else -%}\n  {%- assign pct_float = 0 -%}\n{%- endif -%}\n\n{%- assign pct_str = pct_float | round: 2 | replace: ',', '.' -%}\n{%- assign pct_display = pct_float | ceil -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom:1.5rem;\">\n\n  <!-- Barra de progreso -->\n  <div style=\"width:100%;height:8px;background:#eee;border-radius:4px;overflow:hidden;\">\n    <div\n      style=\"\n        height:100%;\n        width: {{ pct_str }}%;\n        min-width:{% if stock_restant > 0 %}8px{% else %}0{% endif %};\n        background:#CC5500 !important; /* Naranja oscuro */\n      \">\n    </div>\n  </div>\n\n  <!-- Texto debajo de la barra -->\n  <div style=\"display:flex;justify-content:space-between;margin-top:5px;\">\n    <span style=\"font-size:13px;color:#555;\">La oferta termina pronto</span>\n    <span style=\"font-size:13px;font-weight:600;color:#CC5500;\">\n      {{ pct_display }}% del stock restante\n    </span>\n  </div>\n\n</div>"
           }
         },
         "price_nUxzcV": {
@@ -451,30 +451,16 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_Xr46UL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Importar iconos Material Symbols -->\n<link href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" rel=\"stylesheet\" />\n\n<div id=\"benefits-bullets-mask-fa\">\n  <div class=\"bb-card\">\n    <ul class=\"bb-grid\" role=\"list\">\n\n      <!-- 1 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <span class=\"material-symbols-outlined\">timer</span>\n        </span>\n        <span class=\"bb-text\">Cubre las canas en 10 minutos</span>\n      </li>\n\n      <!-- 2 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <span class=\"material-symbols-outlined\">calendar_month</span>\n        </span>\n        <span class=\"bb-text\">Color de larga duración: hasta 6 semanas</span>\n      </li>\n\n      <!-- 3 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <span class=\"material-symbols-outlined\">spa</span>\n        </span>\n        <span class=\"bb-text\">Protege el cabello, ingredientes 100% naturales y sin amoníaco</span>\n      </li>\n\n      <!-- 4 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <span class=\"material-symbols-outlined\">home</span>\n        </span>\n        <span class=\"bb-text\">Fácil y rápido, sin esfuerzo en casa</span>\n      </li>\n\n    </ul>\n  </div>\n</div>\n\n<style>\n  #benefits-bullets-mask-fa .bb-card {\n    background: #F5F5F5; /* Gris claro armonioso */\n    border: 1px solid #DDD;\n    border-radius: 14px;\n    padding: 14px;\n  }\n\n  #benefits-bullets-mask-fa .bb-grid {\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 12px 18px;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n\n  #benefits-bullets-mask-fa .bb-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 10px;\n  }\n\n  #benefits-bullets-mask-fa .bb-ico {\n    display: inline-flex;\n    width: 26px;\n    height: 26px;\n    align-items: center;\n    justify-content: center;\n    background: #E0E0E0; /* Círculo gris suave */\n    border-radius: 999px;\n    color: #000; /* Icono negro */\n    font-size: 20px;\n  }\n\n  #benefits-bullets-mask-fa .material-symbols-outlined {\n    font-size: 20px;\n  }\n\n  #benefits-bullets-mask-fa .bb-text {\n    font-size: 14px;\n    line-height: 1.3;\n    color: #111;\n  }\n\n  #benefits-bullets-mask-fa .bb-text strong {\n    font-weight: 600;\n    color: #000;\n  }\n\n  @media (max-width: 640px) {\n    #benefits-bullets-mask-fa .bb-grid {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>"
+          }
+        },
         "kaching_bundles_app_block_xVVGKT": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
             "product": "ecleepse-colorpop-shampoing-colorant-instantane"
-          }
-        },
-        "variant_picker_enqHt8": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "dropdown",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "badges_fkFbdm": {
-          "type": "badges",
-          "settings": {}
-        },
-        "rating_LB74aV": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
           }
         },
         "buy_buttons_QekzhH": {
@@ -487,26 +473,69 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_WmFUDJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign today = 'now' | date: \"%s\" %}\n{% assign date_plus_7 = today | plus: 604800 | date: \"%-d de %B\" %}\n{% assign date_plus_9 = today | plus: 777600 | date: \"%-d de %B\" %}\n\n<div style=\"display:flex;align-items:center;font-family:Arial, sans-serif;font-size:15px;color:#fff;background:#1E3A5F;padding:8px 12px;border-radius:6px;\">\n  <span style=\"margin-right:8px;\">🚚</span>\n  <span>Recíbelo entre el <strong>{{ date_plus_7 }}</strong> y el <strong>{{ date_plus_9 }}</strong>.</span>\n</div>"
+          }
+        },
+        "liquid_M7zCaa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <title>Alerta de Favoritos</title>\n  <style>\n    .notification-XY123 {\n      display: flex;\n      align-items: center;\n      font-family: Arial, sans-serif;\n      font-size: 16px;\n      color: #333;\n      margin: 2px 0;\n    }\n    .icon-ZA456 { margin-right: 5px; }\n    .icon-ZA456 img { width: 24px; }\n    .text-BC789 { font-weight: normal; }\n    .highlight-DE012 {\n      color: #000; /* Negro más intenso */\n      font-weight: bold;\n      animation: pulse-FG345 1.5s infinite;\n    }\n    @keyframes pulse-FG345 {\n      0%, 100% { transform: scale(1); }\n      50% { transform: scale(1.1); }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"notification-XY123\">\n    <div class=\"icon-ZA456\">\n      <img src=\"https://www.svgrepo.com/show/477386/love-2.svg\" alt=\"Icono de corazón\">\n    </div>\n    <span class=\"text-BC789\">¡Producto viral! <span class=\"highlight-DE012\">+1M likes en TikTok</span></span>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_T4mPWW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Customer Reviews</title>\n<style>\n  body.unique-body-Abc987 {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n    background-color: #f0f2f5;\n  }\n\n  .unique-review-wrapper-Def654 {\n    position: relative;\n    width: 100%;\n    max-width: 600px;\n    height: auto;\n  }\n\n  .unique-review-container-Ghi321 {\n    display: none;\n    align-items: center;\n    background-color: #fffacd; /* Çok ama çok açık sarı arka plan */\n    border-radius: 12px;\n    padding: 16px;\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n    font-size: 14px;\n    color: #333; /* Metin rengi */\n    width: 100%;\n    margin: 2px 0; /* Yukarı ve aşağı 2px boşluk ekler */\n  }\n\n  .unique-review-image-Jkl210 {\n    width: 50px;\n    height: 50px;\n    border-radius: 50%;\n    object-fit: cover;\n    margin-right: 16px;\n    border: 2px solid #e0e0e0; /* İnce gri border */\n  }\n\n  .unique-review-content-Mno543 {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .unique-review-author-Pqr876 {\n    display: flex;\n    align-items: center;\n    margin-bottom: 8px;\n  }\n\n  .unique-review-author-name-Stu789 {\n    font-weight: bold;\n    margin-right: 8px;\n  }\n\n  .unique-review-stars-Vwx654 {\n    display: flex;\n  }\n\n  .unique-review-stars-Vwx654 svg {\n    fill: #FFD700; /* Sarı yıldız rengi */\n    width: 16px; /* Yıldız boyutu */\n    height: 16px; /* Yıldız boyutu */\n    margin-right: 2px;\n  }\n\n  .unique-review-text-Yza321 {\n    font-size: 14px;\n    color: #555; /* Hafif daha koyu gri metin rengi */\n  }\n</style>\n<!-- SVGRepo ikonlarını ekliyoruz -->\n</head>\n<body class=\"unique-body-Abc987\">\n\n<div class=\"unique-review-wrapper-Def654\">\n  <div class=\"unique-review-container-Ghi321 unique-review-1-Jkl987\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://randomuser.me/api/portraits/women/1.jpg\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Lori F.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        I really love this, it's made my life so much easier. I can't believe I got it at such a steal!!\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-2-Qwe456\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://randomuser.me/api/portraits/men/2.jpg\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">John D.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        Fantastic product! It's really improved my daily routine. Highly recommend it.\n      </div>\n    </div>\n  </div>\n\n  <div class=\"unique-review-container-Ghi321 unique-review-3-Rty789\">\n    <img class=\"unique-review-image-Jkl210\" src=\"https://randomuser.me/api/portraits/women/3.jpg\" alt=\"Customer Image\">\n    <div class=\"unique-review-content-Mno543\">\n      <div class=\"unique-review-author-Pqr876\">\n        <span class=\"unique-review-author-name-Stu789\">Emily R.</span>\n        <div class=\"unique-review-stars-Vwx654\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.568 8.132 1.144-5.895 5.608 1.392 8.049L12 18.896l-7.297 3.84 1.392-8.049-5.895-5.608 8.132-1.144z\"/></svg>\n        </div>\n      </div>\n      <div class=\"unique-review-text-Yza321\">\n        Absolutely love it! It's a game changer. Worth every penny.\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n  const reviews = document.querySelectorAll('.unique-review-container-Ghi321');\n  let currentIndex = 0;\n\n  function showNextReview() {\n    reviews[currentIndex].style.display = 'none';\n    currentIndex = (currentIndex + 1) % reviews.length;\n    reviews[currentIndex].style.display = 'flex';\n  }\n\n  reviews[currentIndex].style.display = 'flex';\n  setInterval(showNextReview, 4000);\n</script>\n\n</body>\n</html>"
+          }
+        },
+        "collapsible_text_MAcRaJ": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_YtngwC": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "collapsible_text_TMBLUP": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
         }
       },
       "block_order": [
         "liquid_tX46Kn",
-        "liquid_TmYJTy",
         "title_WpYYQP",
+        "liquid_TmYJTy",
         "price_nUxzcV",
+        "liquid_Xr46UL",
         "kaching_bundles_app_block_xVVGKT",
-        "variant_picker_enqHt8",
-        "badges_fkFbdm",
-        "rating_LB74aV",
-        "buy_buttons_QekzhH"
+        "buy_buttons_QekzhH",
+        "liquid_WmFUDJ",
+        "liquid_M7zCaa",
+        "liquid_T4mPWW",
+        "collapsible_text_MAcRaJ",
+        "collapsible_text_YtngwC",
+        "collapsible_text_TMBLUP"
       ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "novara-by-ecleepse-shampoing-colorant-instantane-homme",
+        "product": "ecleepse-colorpop-shampoing-colorant-instantane",
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
