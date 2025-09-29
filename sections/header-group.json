@@ -14,17 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_QBtaWg": {
-          "type": "message",
-          "settings": {
-            "text": "Satisfecho o Reembolsado en 30 Días",
-            "url": ""
-          }
-        },
         "message_G7PNma": {
           "type": "message",
           "settings": {
-            "text": "Más de 50.000 Clientes Satisfechos",
+            "text": "GRACIAS ! Más de 50.000 Clientes satisfechos",
             "url": ""
           }
         },
@@ -44,7 +37,6 @@
         }
       },
       "block_order": [
-        "message_QBtaWg",
         "message_G7PNma",
         "message_xEKxKy",
         "message_PiXjTq"
