@@ -58,7 +58,7 @@
         ".announcement-bar {white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis;}"
       ],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/Black_And_Cream_Illustrative_Hair_Salon_Logo_150_x_75_px.png",
         "logo_max_width": 150,
