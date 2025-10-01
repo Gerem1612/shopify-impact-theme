@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Página {{ page }}",
@@ -84,7 +93,7 @@
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuestos incluidos.",
       "taxes_excluded": "Impuestos excluidos.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan al finalizar la compra",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan al finalizar la compra",
       "size_chart": "Guía de tallas",
       "available_colors_count": {
         "one": "{{ count }} color disponible",
@@ -413,6 +422,132 @@
         "one": "Ha recibido {{ count }} reseña.",
         "other": "Ha recibido {{ count }} reseñas."
       }
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "thank_you": {
+        "items_fulfilled_by_store": {
+          "one": "Los artículos que compraste serán enviados por %{remote_shop_name}.",
+          "other": "Los artículos que usted compró serán enviados por otras tiendas.",
+          "many": "Los artículos que usted compró serán enviados por otras tiendas."
+        },
+        "thank_you_confirmed_orders_with_email_description": {
+          "one": "Recibirás un correo electrónico de confirmación en breve.",
+          "other": "Pronto recibirás correos electrónicos de confirmación separados de cada tienda.",
+          "many": "Pronto recibirás correos electrónicos de confirmación separados de cada tienda."
+        },
+        "thank_you_confirmed_orders_with_phone_description": {
+          "one": "Recibirás un mensaje de confirmación en breve.",
+          "other": "Pronto recibirás mensajes de confirmación separados de cada tienda.",
+          "many": "Pronto recibirás mensajes de confirmación separados de cada tienda."
+        },
+        "thank_you_confirmed_orders_with_email_and_phone_description": {
+          "one": "Recibirás un correo electrónico de confirmación en breve.",
+          "other": "Pronto recibirás correos electrónicos de confirmación separados de cada tienda.",
+          "many": "Pronto recibirás correos electrónicos de confirmación separados de cada tienda."
+        }
+      },
+      "remote": {
+        "errors": {
+          "currency_mismatch": "La moneda comercial remota ( {{remote_currency}} ) no coincide con la moneda principal ( {{parent_currency}} )."
+        }
+      },
+      "remote_merchandise_only": {
+        "title": "Completa tu compra",
+        "return_to_store_label": "Regresar a la tienda",
+        "checkout_on_shop_label": "Completar pago en %{shop_name}",
+        "single_shop_transition": "Actualmente estás siendo redirigido a %{shop_name} para completar tu compra",
+        "detail_item_label": {
+          "one": "{{count}} artículo",
+          "other": "{{count}} artículos",
+          "many": "{{count}} artículos"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "account_information": {
+      "verify_new_email_modal": {
+        "email_resend_button_error_banner_message": "No se puede enviar el código de verificación"
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "replace_payment_method_button": "Reemplazar"
+      },
+      "bank_account": {
+        "display_name": "Cuenta bancaria"
+      },
+      "generic_error": "Se ha producido un error. Inténtalo de nuevo."
+    },
+    "subscriptions": {
+      "subscription_contracts": {
+        "title": "Utilice un método de pago para pedidos recurrentes",
+        "contracts_update_failed": "Error en la actualización de algunos contratos de suscripción",
+        "subscription_contracts_updated": "{{succeeded}} suscripciones de un {{total}} actualizadas",
+        "product_details": "Detalles del producto",
+        "load_more": "Cargar más",
+        "more_items": {
+          "one": "y {{count}} produce más",
+          "other": "y {{count}} productos más",
+          "many": "y {{count}} productos más"
+        },
+        "product_count": {
+          "one": "{{count}} producto",
+          "other": "{{count}} productos",
+          "many": "{{count}} productos"
+        }
+      },
+      "contracts_update_failed": "No se pudieron actualizar algunos contratos de suscripción",
+      "updating_contracts": {
+        "one": "Actualizando {{count}} acuerdo de suscripción...",
+        "other": "Actualizando {{count}} contratos de suscripción...",
+        "many": "Actualizando {{count}} contratos de suscripción..."
+      },
+      "contracts_updated": {
+        "one": "{{count}} Acuerdo de suscripción actualizado correctamente",
+        "other": "{{count}} contratos de suscripción actualizados correctamente",
+        "many": "{{count}} contratos de suscripción actualizados correctamente"
+      }
+    }
+  },
+  "gempages": {
+    "Carousel": {
+      "no_slider": "Sin control deslizante"
+    },
+    "Newsletter": {
+      "err_msg_default": "No se puede enviar el correo electrónico. Inténtelo de nuevo más tarde.",
+      "success_msg_default": "Gracias por suscribirse"
+    },
+    "IconListV2": {
+      "icons_not_found": "Iconos no encontrados"
+    },
+    "IconList": {
+      "icons_not_found": "Iconos no encontrados"
+    },
+    "IconListHoz": {
+      "icons_not_found": "Iconos no encontrados"
+    },
+    "Product": {
+      "product_not_found": "Producto no encontrado"
+    },
+    "ProductList": {
+      "product_not_found": "¡Producto no encontrado!",
+      "no_products_found": "¡No se encontraron productos!",
+      "no_related_products": "¡No hay productos relacionados!"
+    },
+    "ProductTitle": {
+      "product_not_found": "Producto no encontrado"
+    },
+    "ProductVariants": {
+      "please_select": "Por favor seleccione una opción"
+    },
+    "StockCounter": {
+      "let_buy_now": "<mark>¡APURARSE!</mark> COMPRE AHORA"
+    },
+    "Breadcrumb": {
+      "home": "Hogar"
     }
   }
 }
