@@ -455,7 +455,7 @@
         "hide_images": true,
         "heading": "",
         "heading_custom": false,
-        "heading_font": "futura_n6",
+        "heading_font": "jost_n6",
         "heading_size": 36,
         "heading_size_mobile": 30,
         "heading_height": 150,
@@ -926,17 +926,6 @@
     },
     "174335336512796468": {
       "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_review_widget_h7c4jN": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_review_widget_h7c4jN"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -1046,6 +1035,7 @@
         "item_eR9Y7E",
         "item_wf7UrW"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -1065,6 +1055,7 @@
       "blocks": {
         "slide_abanCt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "navigation_label": "1953",
             "subheading": "Subheading",
@@ -1096,6 +1087,7 @@
         "slide_dQpwfE",
         "slide_fXyxDj"
       ],
+      "disabled": true,
       "name": "Timeline",
       "settings": {
         "full_width": true,
