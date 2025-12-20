@@ -14,42 +14,28 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_G7PNma": {
+        "message_QBtaWg": {
           "type": "message",
           "settings": {
-            "text": "GRACIAS ! Más de 50.000 Clientes satisfechos",
-            "url": ""
-          }
-        },
-        "message_xEKxKy": {
-          "type": "message",
-          "settings": {
-            "text": "Pagos Seguros",
-            "url": ""
-          }
-        },
-        "message_PiXjTq": {
-          "type": "message",
-          "settings": {
-            "text": "EN ESTE MOMENTO: Envío gratuito",
+            "text": "👋Bonjour Septembre | Jusqu'à -50% de réduction",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message_G7PNma",
-        "message_xEKxKy",
-        "message_PiXjTq"
+        "message_QBtaWg"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 13px !important;"
+      ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xxs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
-        "background": "#000000",
-        "background_gradient": "",
-        "text_color": "#e9d330"
+        "background": "#2e2e2e",
+        "background_gradient": "linear-gradient(48deg, rgba(62, 94, 73, 1), rgba(218, 211, 95, 1) 100%)",
+        "text_color": "#ffffff"
       }
     },
     "header": {
@@ -58,9 +44,9 @@
         ".announcement-bar {white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis;}"
       ],
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Black_And_Cream_Illustrative_Hair_Salon_Logo_150_x_75_px.png",
+        "logo": "shopify://shop_images/Vitaeor_logo_210x60_f1cb157a-d0ad-4038-8317-5ca80b9583e9.png",
         "logo_max_width": 150,
         "logo_mobile_max_width": 125,
         "menu": "main-menu",
