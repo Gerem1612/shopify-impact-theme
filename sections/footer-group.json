@@ -19,12 +19,12 @@
           "settings": {
             "icon": "picto-validation",
             "mobile_icon_width": 24,
-            "icon_width": 40,
+            "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#fabe03",
-            "icon_color": "#2e2e2e",
+            "icon_background": "#6d8a75",
+            "icon_color": "#f3ede2",
             "title": "",
-            "content": "<p><strong>Pagos 100% Seguros</strong><br/><br/>Transacciones en línea 100% seguras y encriptadas.<br/><br/><br/><br/></p>"
+            "content": "<h4>Expédition gratuite, garantie dans les 24 heures</h4>"
           }
         },
         "free-shipping": {
@@ -32,12 +32,12 @@
           "settings": {
             "icon": "picto-operator",
             "mobile_icon_width": 24,
-            "icon_width": 40,
+            "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#fabe03",
-            "icon_color": "#2e2e2e",
+            "icon_background": "#6d8a75",
+            "icon_color": "#f3ede2",
             "title": "",
-            "content": "<p><strong>Atención al Cliente </strong></p><p>Nuestros asesores están disponibles 5/7 para ayudarte en caso de cualquier duda.<br/><br/></p>"
+            "content": "<h3>Service Client 7J/7J</h3>"
           }
         },
         "discount": {
@@ -45,25 +45,25 @@
           "settings": {
             "icon": "picto-return",
             "mobile_icon_width": 24,
-            "icon_width": 40,
+            "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#fabe03",
-            "icon_color": "#2e2e2e",
+            "icon_background": "#6d8a75",
+            "icon_color": "#f3ede2",
             "title": "",
-            "content": "<p><strong>¡100% Satisfecho o Reembolsado!</strong><br/><br/>Disfruta de 60 días para probar nuestros productos.<br/><br/><br/></p>"
+            "content": "<h4>Garantie 60 jours</h4>"
           }
         },
         "customer-support": {
           "type": "item",
           "settings": {
-            "icon": "picto-box",
+            "icon": "picto-lock",
             "mobile_icon_width": 24,
-            "icon_width": 40,
+            "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#fabe03",
-            "icon_color": "#2e2e2e",
+            "icon_background": "#6d8a75",
+            "icon_color": "#f3ede2",
             "title": "",
-            "content": "<p><strong>Envío gratuito</strong><br/><br/>Entrega con seguimiento a tu domicilio, sin coste.<br/><br/></p>"
+            "content": "<h3>Paiement sécurisé</h3>"
           }
         }
       },
@@ -80,9 +80,9 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#2e2e2e"
+        "background": "#f3ede2",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 3%, rgba(228, 236, 227, 1) 10.791%, rgba(198, 207, 195, 1) 19%, rgba(165, 187, 163, 1) 100%)",
+        "text_color": "#ffffff"
       }
     },
     "footer": {
@@ -93,22 +93,22 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Infórmate sobre los nuevos productos.",
-            "content": "<p>Ecleepse prioriza la belleza de la mujer en todas sus formas, combinando rendimiento y confort para la piel, y ofrece tratamientos y productos dermatológicamente probados y controlados.<br/></p>"
+            "title": "Soyez informez des nouveaux produits",
+            "content": "<p>Inscrivez-vous en entrant votre email pour recevoir en exclusivité les offres promotionnels de Pulmeor®</p>"
           }
         },
         "text_jq4P8t": {
           "type": "text",
           "settings": {
-            "title": "SOBRE NOSOTROS",
-            "content": "<p>Ecleepse prioriza la belleza de la mujer en todas sus formas, combinando rendimiento y confort para la piel, y ofrece tratamientos y productos dermatológicamente probados y controlados.<br/><br/></p>",
+            "title": "A PROPOS DE NOUS",
+            "content": "<p>Vitaeor® est spécialisé dans le soutien naturel de la santé respiratoire.</p><p> Guidés par la science et alimentés par la nature, nos compléments à base de plantes répondent à un large éventail de problèmes respiratoires. </p><p></p>",
             "enable_follow_on_shop": false
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "",
+            "menu": "nos-produits",
             "show_menu_title": true
           }
         },
