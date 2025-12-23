@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_7zFgrn": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison offerte 🚚",
+            "url": ""
+          }
+        },
         "message_QBtaWg": {
           "type": "message",
           "settings": {
@@ -23,16 +30,15 @@
         }
       },
       "block_order": [
+        "message_7zFgrn",
         "message_QBtaWg"
       ],
-      "custom_css": [
-        ".announcement-bar {padding-top: 5px !important; padding-bottom: 5px !important; font-size: 13px !important;"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xxs",
-        "navigation_mode": "arrows",
-        "scrolling_speed": 10,
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 15,
         "background": "#2e2e2e",
         "background_gradient": "linear-gradient(48deg, rgba(62, 94, 73, 1), rgba(218, 211, 95, 1) 100%)",
         "text_color": "#ffffff"
