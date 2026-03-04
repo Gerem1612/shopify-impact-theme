@@ -136,7 +136,7 @@
         "heading_TjYdnk": {
           "type": "heading",
           "settings": {
-            "text": "Bievenue chez Vitaeor",
+            "text": "Bievenue chez Pulmeor",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -145,7 +145,7 @@
         "richtext_zkJVtA": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Nous sommes là pour une mission : aider chacun à mieux respirer et vivre en meilleure santé, naturellement. Chez <strong>Vitaeor</strong>, nous vous proposons des solutions simples et efficaces comme nos gélules à base de <em>Lignosus rhinocerus</em> (champignon Tiger Milk), formulées pour soutenir votre respiration, votre immunité et votre vitalité au quotidien. Parce que prendre soin de soi ne devrait jamais être compliqué, choisissez une approche douce et puissante à la fois.<br/><br/></p>"
+            "content": "<p>Nous sommes là pour une mission : aider chacun à mieux respirer et vivre en meilleure santé, naturellement. Chez <strong>Pulmeor</strong> nous vous proposons des solutions simples et efficaces comme nos gélules à base de <em>Lignosus rhinocerus</em> (champignon Tiger Milk), formulées pour soutenir votre respiration, votre immunité et votre vitalité au quotidien. Parce que prendre soin de soi ne devrait jamais être compliqué, choisissez une approche douce et puissante à la fois.<br/><br/></p>"
           }
         },
         "button_Mm4RJG": {
@@ -237,7 +237,7 @@
           "settings": {
             "title": "+ 558 710",
             "subheading": "",
-            "content": "<h2><strong>boîtes de capsules Vitaeor vendu à travers le monde</strong></h2>",
+            "content": "<h2><strong>boîtes de capsules Pulmeor vendu à travers le monde</strong></h2>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
