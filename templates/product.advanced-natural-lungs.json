@@ -1,0 +1,1139 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_html_YNFWGG": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "html": "<section style=\"width: 100%; margin: 0; padding: 12px 16px; font-family: 'Poppins', sans-serif; background: #ffffff;\">\n  <h1 style=\"font-size: 18px; font-weight: 600; color: #3E5E49; margin: 0;\">\n    Capsules naturelles à base de Tiger Milk Mushroom\n  </h1>\n\n  <p style=\"font-size: 13px; font-weight: 500; color: #3E5E49; margin: 4px 0 6px;\">\n    Le secret d'une respiration retrouvée\n  </p>\n\n  <div style=\"display: flex; align-items: center; gap: 6px; font-size: 13px; line-height: 1;\">\n    <span style=\"color: #f5c518;\">★ ★ ★ ★ ☆</span>\n    <span style=\"color: #3E5E49;\">3,910 avis vérifiés</span>\n  </div>\n</section>\n\n<!-- Police Google Fonts -->\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap\" rel=\"stylesheet\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_CzdGpj": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap\">\n  <style>\n    .stock-banner {\n      background-color: #ffe0e0;\n      padding: 10px 16px;\n      border-radius: 8px;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      font-family: 'Montserrat', sans-serif;\n      max-width: 100%;\n    }\n    \n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: #ff3333;\n      border-radius: 50%;\n      display: inline-block;\n      margin-right: 10px;\n      animation: blink 1.5s infinite;\n    }\n    \n    .banner-text {\n      color: #ff3333;\n      font-size: 15px;\n      font-weight: 500;\n    }\n    \n    @keyframes blink {\n      0% { opacity: 1; }\n      50% { opacity: 0.3; }\n      100% { opacity: 1; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"stock-banner\">\n    <span class=\"dot\"></span>\n    <span class=\"banner-text\">Forte Demande : Stocks Limités !</span>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_kqWfWi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n\n  <!-- Barre de progression -->\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #D84D68;\"></div>\n  </div>\n\n  <!-- Texte sous la barre -->\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      L’offre se termine bientôt\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      {{ pourcentage_restant }}% du stock restant\n    </span>\n  </div>\n\n</div> <!-- ✅ Ce div ferme correctement le bloc -->\n\n<!-- ❌ SUPPRIMÉ : </div> en trop ici -->"
+          }
+        },
+        "liquid_4czDdp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n\n  <!-- Badge gauche : texte vert, bord fin, EN GRAS -->\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700; /* ✅ mis en gras */\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    SOLDES D’ÉTÉ\n  </span>\n\n  <!-- Badge droite : fond vert + texte blanc -->\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    2 ACHETÉS = 1 OFFERTE\n  </span>\n\n</div>"
+          }
+        },
+        "liquid_g8KCbn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "liquid_7Rb7qj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align:center; margin-top:20px;\">\n\n  <!-- Titre principal -->\n  <h2 style=\"font-size:26px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1b4332; font-weight:800; margin:0 0 6px;\">\n    PULMEOR<sup style=\"font-size:13px; vertical-align:top;\">®</sup>\n  </h2>\n\n  <!-- Sous-titre gras + vert -->\n  <p style=\"font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A8BBA2; font-weight:700; margin:0 0 10px;\">\n    Confort respiratoire révolutionné tout au long de la journée\n  </p>\n\n  <!-- Claim ligne 1 -->\n  <p style=\"font-size:13px; color:#444; margin:0;\">\n    <span style=\"font-size:14px;\">🏆</span>\n    <strong>Complément respiratoire naturel</strong> <em><strong>n°1 en 2024</strong></em>\n  </p>\n\n  <!-- Claim ligne 2 corrigée -->\n  <p style=\"font-size:12.5px; color:#666; margin:2px 0 0;\">\n    <span style=\"font-size:14px;\">🩺</span>\n    <strong>Conseillé par les experts</strong> en bien-être respiratoire\n  </p>\n\n</div>"
+          }
+        },
+        "separator_8CWPGB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_nQ3Ui7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"benefits-bullets-lungs-fa\">\n  <div class=\"bb-card\">\n    <ul class=\"bb-grid\" role=\"list\">\n      <!-- 1 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-lungs\"></i>\n        </span>\n        <span class=\"bb-text\">Soulagement <strong>immédiat</strong><br>des mucosités et de la toux</span>\n      </li>\n\n      <!-- 2 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-wind\"></i>\n        </span>\n        <span class=\"bb-text\">Respirez plus <strong>profondément</strong>,<br>bougez <strong>librement</strong></span>\n      </li>\n\n      <!-- 3 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-shield-halved\"></i>\n        </span>\n        <span class=\"bb-text\">Un soutien pulmonaire naturel<br>qui fonctionne <strong>vraiment</strong></span>\n      </li>\n\n      <!-- 4 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-capsules\"></i>\n        </span>\n        <span class=\"bb-text\"><strong>2 gélules</strong> par jour – matin et soir</span>\n      </li>\n    </ul>\n  </div>\n</div>\n\n<style>\n  /* Scope local */\n  #benefits-bullets-lungs-fa .bb-card {\n    background:#fff;\n    border:1px solid #e5e7eb;\n    border-radius:14px;\n    padding:14px;\n  }\n  #benefits-bullets-lungs-fa .bb-grid {\n    display:grid;\n    grid-template-columns:repeat(2,minmax(0,1fr));\n    gap:12px 18px;\n    margin:0;\n    padding:0;\n    list-style:none;\n  }\n  #benefits-bullets-lungs-fa .bb-item {\n    display:flex;\n    align-items:flex-start;\n    gap:10px;\n  }\n  #benefits-bullets-lungs-fa .bb-ico {\n    display:inline-flex;\n    width:26px;height:26px;\n    align-items:center;justify-content:center;\n    background:#f3f4f6;\n    border-radius:999px;\n    color:#A8BBA2; /* Couleur demandée */\n    font-size:16px;\n  }\n  #benefits-bullets-lungs-fa .bb-text {\n    font-size:14px; line-height:1.3; color:#111827;\n  }\n  #benefits-bullets-lungs-fa .bb-text strong {\n    font-weight:600;\n    color:#111;\n  }\n\n  /* Mobile: 1 colonne */\n  @media (max-width: 640px) {\n    #benefits-bullets-lungs-fa .bb-grid {grid-template-columns:1fr;}\n  }\n</style>"
+          }
+        },
+        "text_BcdmzT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>💊 Deux gélules par jour suffisent, résultats visibles en 7 jours seulement</p>"
+          }
+        },
+        "separator_P9RGxm": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "liquid_NTREap": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  p {\n    font-size: 18px;\n    line-height: 1.5;\n  }\n</style>\n\n<p><strong>🌿 Bio et 100% naturel </strong></p>\n\n<p><strong>🫁 Soulage les troubles pulmonaires</strong></p>\n\n<p><strong>🇫🇷 Entreprise française </p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_dkQBnY": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Delicious Coffee in Seconds</title>\n    <style>\n        body.unique-body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #f4f4f4;\n            margin: 0;\n        }\n        .unique-icon-container {\n            display: flex;\n            flex-wrap: nowrap;\n            gap: 5px;\n        }\n        .unique-icon {\n            background-color: #000;\n            border-radius: 8px;\n            width: 150px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n        }\n        .unique-icon img {\n            width: 50%;\n            height: auto;\n        }\n        .unique-icon p {\n            margin-top: 10px;\n            font-size: 13px;\n            color: #fff;\n            text-align: center;\n        }\n    </style>\n</head>\n<body class=\"unique-body\">\n    <div class=\"unique-icon-container\">\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Fresh Beans\">\n            <p>Fresh <br>Beans</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Brewed to Perfection\">\n            <p>Brewed to <br>Perfection</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Chilled Delight\">\n            <p>Chilled <br>Delight</p>\n        </div>\n        <div class=\"unique-icon\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/iced-coffee.webp?v=1722612806\" alt=\"Ready in Seconds\">\n            <p>Ready in <br>Seconds</p>\n        </div>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "liquid_XG4JhE": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#a8bba2",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_pw7bUk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign delivery_timestamp = 'now' | date: \"%s\" | plus: 691200 %}\n{% assign day = delivery_timestamp | date: \"%-d\" %}\n{% assign month_number = delivery_timestamp | date: \"%-m\" %}\n\n{% case month_number %}\n  {% when '1' %}{% assign month_fr = 'janvier' %}\n  {% when '2' %}{% assign month_fr = 'février' %}\n  {% when '3' %}{% assign month_fr = 'mars' %}\n  {% when '4' %}{% assign month_fr = 'avril' %}\n  {% when '5' %}{% assign month_fr = 'mai' %}\n  {% when '6' %}{% assign month_fr = 'juin' %}\n  {% when '7' %}{% assign month_fr = 'juillet' %}\n  {% when '8' %}{% assign month_fr = 'août' %}\n  {% when '9' %}{% assign month_fr = 'septembre' %}\n  {% when '10' %}{% assign month_fr = 'octobre' %}\n  {% when '11' %}{% assign month_fr = 'novembre' %}\n  {% when '12' %}{% assign month_fr = 'décembre' %}\n{% endcase %}\n\n<div style=\"background-color: #eaffdf; padding: 10px 20px; border-radius: 10px; text-align: center; font-family: 'Montserrat', sans-serif; color: #004d33;\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"#004d33\" viewBox=\"0 0 16 16\" style=\"vertical-align: middle; margin-right: 8px;\">\n    <path d=\"M8 3.5a.5.5 0 0 1 .5.5v4l3 1.5a.5.5 0 0 1-.5.866l-3.5-1.75A.5.5 0 0 1 7.5 8V4a.5.5 0 0 1 .5-.5z\"/>\n    <path d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14z\"/>\n  </svg>\n  Commandez tout de suite pour une livraison le \n  <strong style=\"text-decoration: underline;\">{{ day }} {{ month_fr }}</strong>\n</div>"
+          }
+        },
+        "liquid_6fma8h": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p class=\"product__inventory no-js-hidden\"\n   id=\"Inventory-template--22213608309023__main\"\n   role=\"status\"\n   style=\"font-family: 'Montserrat', sans-serif; text-align: center; display: block;\">\n  <svg width=\"15\" height=\"15\" aria-hidden=\"true\">\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"7.5\" fill=\"rgb(62,214,96, 0.3)\"></circle>\n    <circle cx=\"7.5\" cy=\"7.5\" r=\"5\" stroke=\"rgb(255, 255, 255)\" stroke-width=\"1\" fill=\"rgb(62,214,96)\"></circle>\n  </svg>\n  <strong>En stock</strong>, expédié aujourd'hui !"
+          }
+        },
+        "liquid_XUdLp4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<ul class=\"list list-payment\" role=\"list\"><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"pi-american_express\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\"><title id=\"pi-american_express\">American Express</title><path fill=\"#000\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z\" opacity=\".07\"></path><path fill=\"#006FCF\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z\"></path><path fill=\"#FFF\" d=\"M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z\"></path><path fill=\"#006FCF\" d=\"M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z\"></path><path fill=\"#006FCF\" d=\"m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z\"></path><path fill=\"#FFF\" d=\"M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z\"></path><path fill=\"#006FCF\" d=\"m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z\"></path><path fill=\"#006FCF\" d=\"M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" x=\"0\" y=\"0\" width=\"38\" height=\"24\" viewBox=\"0 0 165.521 105.965\" xml:space=\"preserve\" aria-labelledby=\"pi-apple_pay\"><title id=\"pi-apple_pay\">Apple Pay</title><path fill=\"#000\" d=\"M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z\"></path><path fill=\"#FFF\" d=\"M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875\"></path><g><g><path fill=\"#000\" d=\"M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858\"></path><path fill=\"#000\" d=\"M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048\"></path></g><g><path fill=\"#000\" d=\"M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z\"></path><path fill=\"#000\" d=\"M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z\"></path><path fill=\"#000\" d=\"M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z\"></path></g></g></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-google_pay\"><title id=\"pi-google_pay\">Google Pay</title><path d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\" opacity=\".07\"></path><path d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\" fill=\"#FFF\"></path><path d=\"M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z\" fill=\"#5F6368\"></path><path d=\"M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z\" fill=\"#4285F4\"></path><path d=\"M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z\" fill=\"#34A853\"></path><path d=\"M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z\" fill=\"#FBBC04\"></path><path d=\"M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z\" fill=\"#EA4335\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-master\"><title id=\"pi-master\">Mastercard</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><circle fill=\"#EB001B\" cx=\"15\" cy=\"12\" r=\"7\"></circle><circle fill=\"#F79E1B\" cx=\"23\" cy=\"12\" r=\"7\"></circle><path fill=\"#FF5F00\" d=\"M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"38\" height=\"24\" role=\"img\" aria-labelledby=\"pi-paypal\"><title id=\"pi-paypal\">PayPal</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill=\"#003087\" d=\"M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z\"></path><path fill=\"#3086C8\" d=\"M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z\"></path><path fill=\"#012169\" d=\"M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z\"></path></svg>\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" viewBox=\"0 0 38 24\" width=\"38\" height=\"24\" aria-labelledby=\"pi-shopify_pay\"><title id=\"pi-shopify_pay\">Shop Pay</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\"></path><path d=\"M35.889 0C37.05 0 38 .982 38 2.182v19.636c0 1.2-.95 2.182-2.111 2.182H2.11C.95 24 0 23.018 0 21.818V2.182C0 .982.95 0 2.111 0H35.89z\" fill=\"#5A31F4\"></path><path d=\"M9.35 11.368c-1.017-.223-1.47-.31-1.47-.705 0-.372.306-.558.92-.558.54 0 .934.238 1.225.704a.079.079 0 00.104.03l1.146-.584a.082.082 0 00.032-.114c-.475-.831-1.353-1.286-2.51-1.286-1.52 0-2.464.755-2.464 1.956 0 1.275 1.15 1.597 2.17 1.82 1.02.222 1.474.31 1.474.705 0 .396-.332.582-.993.582-.612 0-1.065-.282-1.34-.83a.08.08 0 00-.107-.035l-1.143.57a.083.083 0 00-.036.111c.454.92 1.384 1.437 2.627 1.437 1.583 0 2.539-.742 2.539-1.98s-1.155-1.598-2.173-1.82v-.003zM15.49 8.855c-.65 0-1.224.232-1.636.646a.04.04 0 01-.069-.03v-2.64a.08.08 0 00-.08-.081H12.27a.08.08 0 00-.08.082v8.194a.08.08 0 00.08.082h1.433a.08.08 0 00.081-.082v-3.594c0-.695.528-1.227 1.239-1.227.71 0 1.226.521 1.226 1.227v3.594a.08.08 0 00.081.082h1.433a.08.08 0 00.081-.082v-3.594c0-1.51-.981-2.577-2.355-2.577zM20.753 8.62c-.778 0-1.507.24-2.03.588a.082.082 0 00-.027.109l.632 1.088a.08.08 0 00.11.03 2.5 2.5 0 011.318-.366c1.25 0 2.17.891 2.17 2.068 0 1.003-.736 1.745-1.669 1.745-.76 0-1.288-.446-1.288-1.077 0-.361.152-.657.548-.866a.08.08 0 00.032-.113l-.596-1.018a.08.08 0 00-.098-.035c-.799.299-1.359 1.018-1.359 1.984 0 1.46 1.152 2.55 2.76 2.55 1.877 0 3.227-1.313 3.227-3.195 0-2.018-1.57-3.492-3.73-3.492zM28.675 8.843c-.724 0-1.373.27-1.845.746-.026.027-.069.007-.069-.029v-.572a.08.08 0 00-.08-.082h-1.397a.08.08 0 00-.08.082v8.182a.08.08 0 00.08.081h1.433a.08.08 0 00.081-.081v-2.683c0-.036.043-.054.069-.03a2.6 2.6 0 001.808.7c1.682 0 2.993-1.373 2.993-3.157s-1.313-3.157-2.993-3.157zm-.271 4.929c-.956 0-1.681-.768-1.681-1.783s.723-1.783 1.681-1.783c.958 0 1.68.755 1.68 1.783 0 1.027-.713 1.783-1.681 1.783h.001z\" fill=\"#fff\"></path></svg>\n\n                </li><li class=\"list-payment__item\">\n                  <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-visa\"><title id=\"pi-visa\">Visa</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path d=\"M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z\" fill=\"#142688\"></path></svg>\n                </li></ul>"
+          }
+        },
+        "liquid_qz7N4b": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"custom-product-accordion\">\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Description\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>This natural supplement supports respiratory health and immunity using organic Oregano Oil.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Why you need Resilia® Oregano Oil?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>It helps fight seasonal discomfort, supports immune response, and provides antioxidant benefits.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Benefits\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <ul>\n        <li>Supports immune health</li>\n        <li>Rich in natural antioxidants</li>\n        <li>Promotes healthy digestion</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Recommended Use\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Take 1 softgel daily with food, or as directed by a healthcare provider.</p>\n    </div>\n  </div>\n\n  <div class=\"accordion-item\">\n    <button class=\"accordion-toggle\" type=\"button\">\n      Do you offer a guarantee?\n      <span class=\"accordion-icon\">+</span>\n    </button>\n    <div class=\"accordion-content\">\n      <p>Yes, we offer a 30-day money-back guarantee if you're not satisfied with your purchase.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .custom-product-accordion {\n    margin-top: 20px;\n  }\n\n  .accordion-item {\n    border: 1px solid #e2e2e2;\n    border-radius: 6px;\n    margin-bottom: 10px;\n    overflow: hidden;\n  }\n\n  .accordion-toggle {\n    background: #fff;\n    color: #111;\n    width: 100%;\n    padding: 15px 20px;\n    font-size: 16px;\n    font-weight: 500;\n    text-align: left;\n    border: none;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    cursor: pointer;\n  }\n\n  .accordion-icon {\n    font-size: 20px;\n    transition: transform 0.3s ease;\n  }\n\n  .accordion-toggle.active .accordion-icon {\n    transform: rotate(45deg);\n  }\n\n  .accordion-content {\n    max-height: 0;\n    overflow: hidden;\n    padding: 0 20px;\n    transition: max-height 0.3s ease, padding 0.3s ease;\n  }\n\n  .accordion-content.open {\n    padding: 15px 20px;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function () {\n    const toggles = document.querySelectorAll(\".accordion-toggle\");\n\n    toggles.forEach((toggle) => {\n      toggle.addEventListener(\"click\", function () {\n        const content = this.nextElementSibling;\n        const icon = this.querySelector(\".accordion-icon\");\n\n        const isOpen = content.classList.contains(\"open\");\n\n        // Fermer tous les autres\n        document.querySelectorAll(\".accordion-content\").forEach((el) => {\n          el.classList.remove(\"open\");\n          el.style.maxHeight = null;\n        });\n\n        document.querySelectorAll(\".accordion-toggle\").forEach((el) => {\n          el.classList.remove(\"active\");\n        });\n\n        // Ouvrir l'actuel si fermé\n        if (!isOpen) {\n          content.classList.add(\"open\");\n          this.classList.add(\"active\");\n          content.style.maxHeight = content.scrollHeight + \"px\";\n        }\n      });\n    });\n  });\n</script>"
+          }
+        },
+        "product_variations_bx3dFp": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "",
+            "option_value_metafield": "",
+            "products": [],
+            "color_mode": "color"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_CzdGpj",
+        "liquid_kqWfWi",
+        "liquid_4czDdp",
+        "liquid_g8KCbn",
+        "liquid_7Rb7qj",
+        "separator_8CWPGB",
+        "liquid_nQ3Ui7",
+        "text_BcdmzT",
+        "separator_P9RGxm",
+        "liquid_NTREap",
+        "separator",
+        "badges",
+        "price",
+        "liquid_dkQBnY",
+        "liquid_XG4JhE",
+        "buy_buttons",
+        "liquid_pw7bUk",
+        "liquid_6fma8h",
+        "liquid_XUdLp4",
+        "liquid_qz7N4b",
+        "product_variations_bx3dFp"
+      ],
+      "custom_css": [
+        "/* Alignement horizontal des moyens de paiement */.list-payment {display: flex !important; justify-content: center; /* centre horizontalement */ align-items: center; flex-wrap: wrap; /* passe à la ligne si trop serré */ gap: 8px; /* espace entre logos */ padding: 0; margin: 10px 0; list-style: none;}",
+        ".list-payment__item {display: inline-flex; align-items: center; justify-content: center;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 40,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#383131",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "#14a16c"
+      }
+    },
+    "logo_list_6UAx67": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_JH7tqc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/png-transparent-france-5-tv-hd-logo.png",
+            "logo_width": 110,
+            "link": ""
+          }
+        },
+        "logo_fbqpbG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_UXiJLE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 160,
+            "link": ""
+          }
+        },
+        "logo_9NyPkk": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 220,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_JH7tqc",
+        "logo_fbqpbG",
+        "logo_UXiJLE",
+        "logo_9NyPkk"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": false,
+        "stack_mobile": false,
+        "title": "Ils parlent de nous",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "image_with_text_overlay_a4PFQE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "video_bmYKnx": {
+      "type": "video",
+      "blocks": {
+        "heading_GrPF7V": {
+          "type": "heading",
+          "settings": {
+            "text": "La nature vous offre aujourd'hui des poumons en bonne santé",
+            "heading_tag": "h0"
+          }
+        },
+        "button_LkpWLD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "COMMANDER MAINTENANT",
+            "url": "shopify://products/pulmeor-meilleur-complement-naturel-pour-la-sante-respiratoire",
+            "background": "#14a16c",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GrPF7V",
+        "button_LkpWLD"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Vidéo Home Pulmoer.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_YPa6E9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rQCJat": {
+          "type": "heading",
+          "settings": {
+            "text": "Pr Bernard PREVAUT, Chercheur chez Pulmeor",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rQCJat"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/9faed235-dfca-4482-a255-2482e5f7ce23.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "rich_text_pXMXPC": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_rUTakK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Déjà adopté par des milliers de personnes</h1><h4>Pulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.</h4><h2>Respirez mieux. Vivez pleinement.<br/><br/></h2>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_rUTakK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#a8bba2"
+      }
+    },
+    "testimonial7_7dWXE7": {
+      "type": "testimonial7",
+      "blocks": {
+        "image_fEEFWD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_avr._2025_00_16_25.png"
+          }
+        },
+        "image_6KCCmD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_41_16.png"
+          }
+        },
+        "image_QtjHTm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_49_02.png"
+          }
+        },
+        "image_EznQJt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_58_49.png"
+          }
+        },
+        "testimonial_VPh8aT": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "J'avais l'habitude de me réveiller chaque matin avec du mucus dans la gorge, ce qui me prenait une éternité à dégager. Depuis que je prends Pulmeor, mes matins sont tellement meilleurs – je me réveille avec des voies respiratoires dégagées et sans irritation !",
+            "author": "Mireille.E",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_rbpzcx": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "Bien que je porte toujours ma ventoline, j'ai remarqué que j'en ai beaucoup moins besoin depuis que je prends Pulmeor. Ma respiration se fait plus stable, et je n'ai plus autant de crises.",
+            "author": "Chloe K.",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_WtjCCh": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "En vieillissant, j'ai remarqué que ma capacité pulmonaire diminuait. Pulmeor m'a aidé à maintenir ma santé et je me sens beaucoup plus à l'aise en marchant ou en faisant des activités physiques !",
+            "author": "Bernard.P",
+            "verified": "Achat vérifié"
+          }
+        },
+        "testimonial_B3WCik": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "text": "On ne manque jamais un jour de prendre Pulmeor  ! C'est devenu un pilier dans notre routine à cause de l'énorme amélioration de nos fonctions pulmonaires. Nous nous sentons plus en forme, plus énergique, et on respire sans effort chaque jour !",
+            "author": "Chantal & Edmond A.",
+            "verified": "Achat vérifié"
+          }
+        }
+      },
+      "block_order": [
+        "image_fEEFWD",
+        "image_6KCCmD",
+        "image_QtjHTm",
+        "image_EznQJt",
+        "testimonial_VPh8aT",
+        "testimonial_rbpzcx",
+        "testimonial_WtjCCh",
+        "testimonial_B3WCik"
+      ],
+      "settings": {
+        "hide_images": true,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "jost_n6",
+        "heading_size": 36,
+        "heading_size_mobile": 30,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "layout": "image_testimonial",
+        "layout_mobile": "image_testimonial",
+        "layout_gap": 24,
+        "layout_gap_mobile": 24,
+        "layout_mt": 36,
+        "image_row": "2",
+        "image_row_mobile": "2",
+        "image_gap": 12,
+        "image_gap_mobile": 4,
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "testimonials_style_mobile": "grid",
+        "testimonials_row": "2",
+        "testimonials_row_mobile": "2",
+        "testimonials_gap": 12,
+        "testimonials_gap_mobile": 12,
+        "testimonial_padding_vertical": 12,
+        "testimonial_padding_horizontal": 12,
+        "testimonial_radius": 8,
+        "testimonial_border_thickness": 1,
+        "stars_size": 20,
+        "testimonial_text_custom": false,
+        "testimonial_text_font": "josefin_sans_n4",
+        "testimonial_text_size": 14,
+        "testimonial_text_size_mobile": 14,
+        "testimonial_text_height": 150,
+        "testimonial_text_mt": 8,
+        "testimonial_author_custom": false,
+        "testimonial_author_font": "josefin_sans_n4",
+        "testimonial_author_size": 14,
+        "testimonial_author_size_mobile": 14,
+        "testimonial_author_height": 150,
+        "testimonial_author_mt": 12,
+        "testimonial_verified_custom": false,
+        "testimonial_verified_font": "josefin_sans_n4",
+        "testimonial_verified_size": 10,
+        "testimonial_verified_size_mobile": 10,
+        "testimonial_verified_height": 150,
+        "button": "",
+        "button_url": "",
+        "button_use_icon": false,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 18,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_mt": 24,
+        "button_padding_vertical": 16,
+        "button_padding_horizontal": 50,
+        "button_radius": 12,
+        "button_border_thickness": 2,
+        "heading_color": "#13193b",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#000000",
+        "button_bg_color": "#ffffff",
+        "button_bg_hover_color": "#ffffff",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "image_border_color": "#000000",
+        "testimonial_bg_color": "#ffffff",
+        "testimonial_border_color": "#a8bba2",
+        "stars_color": "#f7dc5a",
+        "testimonial_text_color": "#000000",
+        "testimonial_author_color": "#000000",
+        "testimonial_verified_color": "#999999",
+        "testimonial_pagination_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 140,
+        "border_thickness": 0
+      }
+    },
+    "logo_list_Acd3KB": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kEwadL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kXhgBQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cnrs_fa6bfe3a-8887-4f49-a96b-74b9f10f011b.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_AgaKpa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_kT7W36": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kEwadL",
+        "logo_kXhgBQ",
+        "logo_AgaKpa",
+        "logo_kT7W36"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "linear-gradient(0deg, rgba(0, 255, 159, 0) 19%, rgba(20, 161, 108, 1) 50%, rgba(27, 161, 133, 0) 100%, rgba(20, 161, 108, 0) 100%, rgba(0, 0, 0, 0) 100%)",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "press_i76YMm": {
+      "type": "press",
+      "blocks": {
+        "quote_cinj7x": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Enfin un complément qui soulage efficacement la toux persistante, l'asthme, les mucosités et libère l'encombrement pulmonaire",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_cinj7x"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#a8bba2",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "slideshow_CNtLfz": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NwypMt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/654ae7cd-ce5f-453c-8adc-b9fe3711d329.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-end text-end",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NwypMt"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_kRJtLk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AKdEpa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Avis_Critiques_Pulmeor.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AKdEpa"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_bNcEd3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_cHMPhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Benefices_ingredients_6b2c5987-870c-4934-b8aa-8f5797178b65.png",
+            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cHMPhc"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "scrolling_text_krqdEt": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Mieux respirer |    Santé améliorée | Liberté retrouvée |  Sommeil apaisé | Immunité boostée   | Bien-être durable | Vitalité renforcée | Sérénité retrouvée |",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 9,
+        "background": "#a8bba2",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "producttab1_nkeK7i": {
+      "type": "producttab1",
+      "blocks": {
+        "tab_XhzAgi": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "heart",
+            "image": "shopify://shop_images/Icon-Anti-Tumor.png",
+            "question": "Avantages",
+            "answer": "<ul><li>Favorise la respiration<br/></li><li>Nettoie et désintoxique les poumons<br/></li><li>Soulage la toux et les mucosités<br/></li><li>Soulage la congestion nasale<br/></li><li>Soutien naturel à la BPCO<br/></li><li>Favorise une production saine de mucus<br/></li><li>Soutien naturel de l’asthme<br/>Renforcement de l’immunité des fumeurs de longue durée<br/></li><li>Apaise les allergies respiratoires<br/>Soulage les symptômes des sinus<br/></li><li>Favorise une fonction pulmonaire saine<br/></li><li>Favorise un système immunitaire sain</li></ul>",
+            "answer_html": "{{ product.description }}"
+          }
+        },
+        "tab_4VnaUt": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "truck",
+            "image": "shopify://shop_images/Icon-Anti-Oxidant.png",
+            "question": "Ingrédients",
+            "answer": "<p>Champignon tigré biologique</p><p><br/>Chaque pilule de 1,5 g contient 500 mg de champignon biologique Tiger Milk & 1g de composants actifs de type  végétal (béta-glucane)</p><p><br/>Conserver dans un endroit sec, éviter la lumière directe du soleil. </p><p>Aucune réfrigération n’est nécessaire. A consommer dès l’ouverture</p>",
+            "answer_html": ""
+          }
+        },
+        "tab_ynd3Qp": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "return_arrow",
+            "image": "shopify://shop_images/Icon-Anti-Asthmatic.png",
+            "question": "Comment consommer ?",
+            "answer": "<ul><li>60 Gélules par boîte : <br/> Chaque gélule de 1,5 g contient 500 mg de champignon biologique Tiger Milk </li><li>Bien que notre approvisionnement standard de 60 jours offre des avantages initiaux, nous recommandons une cure de 90 jours pour vraiment expérimenter le plein potentiel de Pulmeor.<br/></li><li>Tous les adultes, prendre une fois par jour après le petit-déjeuner/premier repas.<br/>Pour consommer, ingérer directement la gélule dans la bouche. Vous pouvez également mélanger le contenu avec de l’eau ou avec vos boissons préférées telles que le thé, le jus, le café, etc.<br/></li><li>Pour la consommation des adultes (à partir de 7 ans), prendre 1 à 2 gélules par jour.<br/></li><li>Conseils de stockage\tConserver dans un endroit sec, éviter la lumière directe du soleil. Aucune réfrigération n’est nécessaire. A consommer dès l’ouverture.</li></ul>",
+            "answer_html": ""
+          }
+        },
+        "tab_8DwfLm": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "time",
+            "image": "shopify://shop_images/Icon-Anti-Microbial.png",
+            "question": "Sécurité des produits",
+            "answer": "<p>Test de laboratoire SGS | Test de sécurité du produit passé avec succès par rapport aux marques de sécurité.<br/><br/>Test des allergènes\tSans Gluten • Sans Produits Laitiers • Sans Oeufs • Sans Arachides •<br/><br/>Autres: Biologique • Ingrédients cliniquement prouvés • Convient aux végétaliens • Sans conservateurs • Sans OGM • Fabriqué dans une usine certifiée GMP</p>",
+            "answer_html": ""
+          }
+        },
+        "tab_jfAhNp": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "time",
+            "image": "shopify://shop_images/Icon-Anti-Illness.png",
+            "question": "Expédition",
+            "answer": "<p>Nous avons le plaisir d’offrir une livraison gratuite pour toutes les commandes dans le monde entier.<br/><br/>Expédition normale : Pour notre option d’expédition régulière gratuite, prévoyez un délai de livraison d’environ 14 jours ouvrables. Nous vous remercions de votre compréhension et vous recommandons de prévoir un délai supplémentaire pour cette méthode d’expédition.<br/><br/>Expédition express : Pour une livraison plus rapide, choisissez notre option d’expédition express, qui prend généralement 3 à 4 jours ouvrables. Mieux encore, si vous achetez 6 boîtes ou plus, nous vous ferons bénéficier de l’option d’expédition express sans frais supplémentaires.<br/><br/>Veuillez noter que les délais de livraison peuvent parfois varier en fonction de votre situation géographique et de circonstances imprévues. Votre satisfaction reste notre priorité absolue et nous nous engageons à ce que votre commande vous parvienne dans les meilleurs délais</p>",
+            "answer_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_XhzAgi",
+        "tab_4VnaUt",
+        "tab_ynd3Qp",
+        "tab_8DwfLm",
+        "tab_jfAhNp"
+      ],
+      "settings": {
+        "close_other": false,
+        "open_default": false,
+        "subtitle": "",
+        "subtitle_color": "#121212",
+        "subtitle_font_size": 20,
+        "title": "",
+        "title_font_size": 22,
+        "title_color": "#14a16c",
+        "arrow_size": 14,
+        "arrow_color": "#14a16c",
+        "icon_width": 50,
+        "text_color": "#14a16c",
+        "question_font_size": 18,
+        "answer_color": "#121212",
+        "answer_font_size": 13,
+        "border_color": "#f2f2f2",
+        "background-color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_x_desktop": 0,
+        "padding_x": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "button_padding_y": 10
+      }
+    },
+    "slideshow_89zcP7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rBka3A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
+            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rBka3A"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Vous pourriez aussi aimer",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "174335336512796468": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1743354028910fe231": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "rich_text_jx94H8": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_kL8Mkc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>FOIRE AUX QUESTIONS</h1><h1></h1><h4>Sélectionnez l'objet de votre question ci dessous :</h4>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_kL8Mkc"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#13193b"
+      }
+    },
+    "custom_html_Gdbh8T": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Pulmeor - FAQ</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n        .faq-section {\n            padding: 2rem 1rem;\n            max-width: 1000px;\n            margin: auto;\n        }\n        .faq-menu {\n            display: flex;\n            gap: 1rem;\n            justify-content: center;\n            flex-wrap: wrap;\n            margin-bottom: 2rem;\n        }\n        .faq-menu a {\n            padding: 0.75rem 1.5rem;\n            background-color: #14A16C;\n            color: #fff;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n        }\n        .faq-menu a:hover {\n            background-color: #108456;\n        }\n        .faq-block {\n            margin-bottom: 2rem;\n            background-color: white;\n            border-radius: 8px;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n            padding: 1rem;\n        }\n        .faq-block h2 {\n            font-size: 1.8rem;\n            margin-bottom: 1rem;\n            color: #14A16C;\n            border-bottom: 2px solid #14A16C;\n            padding-bottom: 0.5rem;\n        }\n        .faq-item {\n            border-bottom: 1px solid #ddd;\n            padding: 1rem 0;\n        }\n        .faq-question {\n            font-weight: bold;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            cursor: pointer;\n            color: #14A16C;\n            transition: color 0.3s ease;\n        }\n        .faq-question:hover {\n            color: #108456;\n        }\n        .faq-answer {\n            display: none;\n            padding-top: 0.5rem;\n            color: #555;\n        }\n        .faq-answer.open {\n            display: block;\n        }\n        @media (max-width: 768px) {\n            .faq-question {\n                font-size: 1rem;\n            }\n            .faq-block h2 {\n                font-size: 1.5rem;\n            }\n        }\n    </style>\n\n\n    <div class=\"faq-section\">\n        <div class=\"faq-menu\">\n            <a href=\"#sante\">🩺 Santé</a>\n            <a href=\"#produit\">💊 Produits</a>\n            <a href=\"#commander\">📦 Commandes</a>\n        </div>\n\n        <div class=\"faq-block\" id=\"sante\">\n            <h2>🩺 Santé</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quand puis-je constater les effets de Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Chaque corps réagit différemment. Certains ressentent les bienfaits dès 1 à 2 semaines, d'autres autour de 6 à 8 semaines. La régularité est la clé !</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Puis-je prendre Pulmeor avec d'autres médicaments ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, sans souci connu. On conseille simplement un délai de 2 heures entre Pulmeor et vos médicaments. En cas de traitement lourd, demandez l'avis de votre médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Dois-je arrêter mon traitement si je prends Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas du tout ! Pulmeor est un complément alimentaire. Il ne remplace pas un traitement médical mais peut le compléter naturellement.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor a-t-il des effets secondaires ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun effet secondaire majeur signalé. Une légère hausse des mucosités peut arriver au début : c'est une réaction normale de nettoyage respiratoire.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je suis malade / enceinte / sous traitement, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Par précaution, demandez toujours l'avis de votre professionnel de santé avant de commencer.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je suis diabétique, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, Pulmeor ne contient ni sucre ajouté ni ingrédients problématiques pour les personnes diabétiques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">J'ai des problèmes rénaux / je suis en dialyse, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Mieux vaut éviter. Nous vous recommandons de demander l'avis de votre médecin avant toute prise.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je fais de l'œdème pulmonaire, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non. Cette situation nécessite une prise en charge médicale urgente. Parlez-en avec votre médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pourquoi je ressens chaleur / constipation / nausées ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Il peut s'agir d'une réponse naturelle de votre corps. Si c'est gênant, arrêtez quelques jours, hydratez-vous bien, puis reprenez doucement.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pourquoi je tousse ou ai plus de mucus au début ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">C'est un bon signe ! Vos voies respiratoires s'activent pour évacuer les toxines. Cela s'atténue généralement en quelques jours.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Aliments à éviter pendant la cure ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Évitez les aliments gras, très froids ou très épicés. Et buvez beaucoup d'eau, surtout tiède, pour soutenir le processus.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Dois-je arrêter Pulmeor si je vais mieux ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas nécessairement. Vous pouvez continuer en entretien, 1 gélule par jour, pour maintenir vos résultats et votre bien-être.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Allergie aux champignons ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor contient un extrait de champignon. En cas d'allergie connue, mieux vaut ne pas en consommer sans l'avis d'un médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il compatible avec intolérance au fructose ou à l'histamine ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui. Pulmeor ne contient ni fructose ni ingrédients riches en histamine. Il convient à la plupart des régimes spécifiques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il un médicament ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, c'est un complément alimentaire naturel, à base de champignon médicinal.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Qui peut prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Toute personne adulte souhaitant renforcer sa santé respiratoire. Il est particulièrement utile en période de fatigue ou de froid.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il adapté aux enfants ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor est réservé aux adultes. Il n'est pas recommandé pour les enfants.</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"faq-block\" id=\"produit\">\n            <h2>💊 Produits</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quels sont les ingrédients exacts ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Chaque gélule contient 300 mg d'extrait de Lignosus rhinocerus, dont 150 mg de bêta-glucanes, avec une enveloppe végétale HPMC.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la posologie ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">1 gélule par jour, avec un grand verre d'eau, de préférence après un repas.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Faut-il réfrigérer le produit ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, il suffit de le conserver dans un endroit sec, frais et à l'abri de la lumière.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la durée de conservation ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor se conserve 24 mois à partir de sa fabrication.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la composition de l'enveloppe ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">L'enveloppe est 100 % végétale, en hydroxypropylméthylcellulose (HPMC), sans additifs controversés.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il gluten / produits laitiers / allergènes ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, Pulmeor est sans gluten, sans lactose, sans soja, sans fruits à coque. Il convient à la plupart des régimes.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il des stéroïdes ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun stéroïde ni substance dopante n'est présent dans Pulmeor.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il de la caféine ou des stimulants ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, Pulmeor est 100 % sans stimulant, ni caféine. Il peut être pris le matin ou le soir.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la différence avec d'autres champignons (Lingzhi) ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Le Lignosus cible principalement les voies respiratoires. Le Lingzhi agit davantage sur le foie. Ils sont complémentaires, mais différents.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la différence entre Pulmeor et les versions sauvages ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Notre Lignosus est cultivé dans des conditions contrôlées pour garantir sécurité, qualité et efficacité constantes.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quel est le goût de Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun goût particulier : Pulmeor est en gélule, donc facile et neutre à avaler !</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"faq-block\" id=\"commander\">\n            <h2>📦 Commandes</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Est-ce un achat unique ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui ! Aucun abonnement caché, aucun prélèvement automatique.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Livrez-vous dans le monde entier ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, nous livrons partout. La livraison standard est gratuite sur de nombreuses zones.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un abonnement ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas encore, mais on y travaille. Inscrivez-vous à notre newsletter pour rester informé.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Où acheter Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Uniquement sur notre site officiel, pour vous garantir la qualité et la fraîcheur.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un programme ambassadeur ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, et on serait ravi de collaborer avec vous ! Écrivez-nous si Pulmeor vous plaît.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un programme grossiste ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, contactez-nous si vous êtes intéressé par la revente ou la distribution.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Est-ce que votre site est sécurisé ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Absolument. Paiement sécurisé et données cryptées, comme chez les banques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Délai de livraison ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Expédition sous 24 à 48h. Comptez entre 7 à 14 jours ouvrés pour recevoir votre colis.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Comment suivre ma commande ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Un mail avec un lien de suivi vous est envoyé dès que votre colis est expédié.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Moyens de paiement ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Visa, Mastercard, Amex, PayPal… Paiement simple et sécurisé.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Politique de retour ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Vous avez 30 jours pour nous retourner un produit non ouvert. On vous rembourse sans souci.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je veux annuler ma commande. <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Écrivez-nous dans les 24h après achat si votre colis n'a pas encore été expédié.</div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        document.querySelectorAll('.faq-item').forEach(item => {\n            item.addEventListener('click', () => {\n                const answer = item.querySelector('.faq-answer');\n                answer.classList.toggle('open');\n            });\n        });\n    </script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_w3P7Uw": {
+      "type": "multi-column",
+      "blocks": {
+        "item_J7FDGf": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eR9Y7E": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wf7UrW": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_J7FDGf",
+        "item_eR9Y7E",
+        "item_wf7UrW"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "timeline_QpMLMJ": {
+      "type": "timeline",
+      "blocks": {
+        "slide_abanCt": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "navigation_label": "1953",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "slide_dQpwfE": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1960",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "slide_fXyxDj": {
+          "type": "slide",
+          "settings": {
+            "navigation_label": "1966",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_abanCt",
+        "slide_dQpwfE",
+        "slide_fXyxDj"
+      ],
+      "disabled": true,
+      "name": "Timeline",
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_rYc93H": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<!-- SECTION PULMEOR RESPONSIVE 2 COLS ON MOBILE -->\n<style>\n  .pulmeor-section {\n    background-color: #f4fef8;\n    padding: 40px 20px;\n    font-family: 'Helvetica Neue', sans-serif;\n  }\n  .pulmeor-section h2 {\n    text-align: center;\n    font-size: 28px;\n    color: #1c3e3b;\n    margin-bottom: 12px;\n  }\n  .pulmeor-section p.subtitle {\n    text-align: center;\n    font-size: 16px;\n    color: #444;\n    max-width: 600px;\n    margin: 0 auto 32px;\n  }\n  .pulmeor-grid {\n    display: grid;\n   grid-template-columns: repeat(2, 1fr);\n    gap: 16px;\n    justify-items: center;\n  }\n  .pulmeor-box {\n    background: white;\n    border-radius: 10px;\n    padding: 20px;\n    width: 100%;\n    max-width: 200px;\n    text-align: center;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.05);\n  }\n  .pulmeor-box.red h4 {\n    color: #c94c4c;\n  }\n  .pulmeor-box.green h4 {\n    color: #1c8d62;\n  }\n  .pulmeor-box img {\n    height: 40px;\n    margin-bottom: 12px;\n  }\n  .pulmeor-box p {\n    font-size: 14px;\n    font-weight: bold;\n    color: #333;\n  }\n  .pulmeor-box h4 {\n    font-size: 14px;\n    margin-bottom: 6px;\n  }\n</style>\n\n<section class=\"pulmeor-section\">\n  <h2>Respirez pleinement, <em>naturellement</em>\n</h2>\n  <p class=\"subtitle\">Libérez vos voies respiratoires, calmez votre toux, et retrouvez une respiration facile grâce à la puissance naturelle du Tiger Milk.</p>\n  <div class=\"pulmeor-grid\">\n\n    <!-- Bloc 1 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-cough.svg\" alt=\"Toux persistante\">\n      <h4>Dites adieu à</h4>\n      <p>Toux chronique</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-breathing.svg\" alt=\"Respiration claire\">\n      <h4>Profitez de</h4>\n      <p>Poumons dégagés</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-congestion.svg\" alt=\"Poitrine lourde\">\n      <h4>Oubliez</h4>\n      <p>Congestion thoracique</p>\n    </div>\n\n    <!-- Bloc 4 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-steady.svg\" alt=\"Souffle stable\">\n      <h4>Accueillez</h4>\n      <p>Souffle régulier</p>\n    </div>\n\n    <!-- Bloc 5 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-gasping.svg\" alt=\"Essoufflement rapide\">\n      <h4>Finissez-en avec</h4>\n      <p>L’essoufflement</p>\n    </div>\n\n    <!-- Bloc 6 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-fresh.svg\" alt=\"Air frais\">\n      <h4>Reprenez</h4>\n      <p>Air frais &amp; liberté</p>\n    </div>\n\n  </div>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "custom_html_YNFWGG",
+    "main",
+    "logo_list_6UAx67",
+    "image_with_text_overlay_a4PFQE",
+    "video_bmYKnx",
+    "image_with_text_overlay_YPa6E9",
+    "rich_text_pXMXPC",
+    "testimonial7_7dWXE7",
+    "logo_list_Acd3KB",
+    "press_i76YMm",
+    "slideshow_CNtLfz",
+    "slideshow_kRJtLk",
+    "slideshow_bNcEd3",
+    "scrolling_text_krqdEt",
+    "producttab1_nkeK7i",
+    "slideshow_89zcP7",
+    "related-products",
+    "174335336512796468",
+    "1743354028910fe231",
+    "rich_text_jx94H8",
+    "custom_html_Gdbh8T",
+    "multi_column_w3P7Uw",
+    "timeline_QpMLMJ",
+    "custom_html_rYc93H"
+  ]
+}
