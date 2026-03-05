@@ -112,12 +112,6 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_pw7bUk": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% assign delivery_timestamp = 'now' | date: \"%s\" | plus: 691200 %}\n{% assign day = delivery_timestamp | date: \"%-d\" %}\n{% assign month_number = delivery_timestamp | date: \"%-m\" %}\n\n{% case month_number %}\n  {% when '1' %}{% assign month_fr = 'janvier' %}\n  {% when '2' %}{% assign month_fr = 'février' %}\n  {% when '3' %}{% assign month_fr = 'mars' %}\n  {% when '4' %}{% assign month_fr = 'avril' %}\n  {% when '5' %}{% assign month_fr = 'mai' %}\n  {% when '6' %}{% assign month_fr = 'juin' %}\n  {% when '7' %}{% assign month_fr = 'juillet' %}\n  {% when '8' %}{% assign month_fr = 'août' %}\n  {% when '9' %}{% assign month_fr = 'septembre' %}\n  {% when '10' %}{% assign month_fr = 'octobre' %}\n  {% when '11' %}{% assign month_fr = 'novembre' %}\n  {% when '12' %}{% assign month_fr = 'décembre' %}\n{% endcase %}\n\n<div style=\"background-color: #eaffdf; padding: 10px 20px; border-radius: 10px; text-align: center; font-family: 'Montserrat', sans-serif; color: #004d33;\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"#004d33\" viewBox=\"0 0 16 16\" style=\"vertical-align: middle; margin-right: 8px;\">\n    <path d=\"M8 3.5a.5.5 0 0 1 .5.5v4l3 1.5a.5.5 0 0 1-.5.866l-3.5-1.75A.5.5 0 0 1 7.5 8V4a.5.5 0 0 1 .5-.5z\"/>\n    <path d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14z\"/>\n  </svg>\n  Commandez tout de suite pour une livraison le \n  <strong style=\"text-decoration: underline;\">{{ day }} {{ month_fr }}</strong>\n</div>"
-          }
-        },
         "liquid_6fma8h": {
           "type": "liquid",
           "settings": {
@@ -164,7 +158,6 @@
         "liquid_dkQBnY",
         "liquid_XG4JhE",
         "buy_buttons",
-        "liquid_pw7bUk",
         "liquid_6fma8h",
         "liquid_XUdLp4",
         "liquid_qz7N4b",
@@ -734,6 +727,7 @@
     },
     "scrolling_text_krqdEt": {
       "type": "scrolling-text",
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "text": "Mieux respirer |    Santé améliorée | Liberté retrouvée |  Sommeil apaisé | Immunité boostée   | Bien-être durable | Vitalité renforcée | Sérénité retrouvée |",
