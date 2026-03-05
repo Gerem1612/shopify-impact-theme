@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_html_YNFWGG": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "html": "<section style=\"width: 100%; margin: 0; padding: 12px 16px; font-family: 'Poppins', sans-serif; background: #ffffff;\">\n  <h1 style=\"font-size: 18px; font-weight: 600; color: #3E5E49; margin: 0;\">\n    Capsules naturelles à base de Tiger Milk Mushroom\n  </h1>\n\n  <p style=\"font-size: 13px; font-weight: 500; color: #3E5E49; margin: 4px 0 6px;\">\n    Le secret d'une respiration retrouvée\n  </p>\n\n  <div style=\"display: flex; align-items: center; gap: 6px; font-size: 13px; line-height: 1;\">\n    <span style=\"color: #f5c518;\">★ ★ ★ ★ ☆</span>\n    <span style=\"color: #3E5E49;\">3,910 avis vérifiés</span>\n  </div>\n</section>\n\n<!-- Police Google Fonts -->\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap\" rel=\"stylesheet\">",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -34,21 +21,14 @@
         },
         "liquid_CzdGpj": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
-            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap\">\n  <style>\n    .stock-banner {\n      background-color: #ffe0e0;\n      padding: 10px 16px;\n      border-radius: 8px;\n      display: inline-flex;\n      align-items: center;\n      justify-content: center;\n      font-family: 'Montserrat', sans-serif;\n      max-width: 100%;\n    }\n    \n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: #ff3333;\n      border-radius: 50%;\n      display: inline-block;\n      margin-right: 10px;\n      animation: blink 1.5s infinite;\n    }\n    \n    .banner-text {\n      color: #ff3333;\n      font-size: 15px;\n      font-weight: 500;\n    }\n    \n    @keyframes blink {\n      0% { opacity: 1; }\n      50% { opacity: 0.3; }\n      100% { opacity: 1; }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"stock-banner\">\n    <span class=\"dot\"></span>\n    <span class=\"banner-text\">Forte Demande : Stocks Limités !</span>\n  </div>\n</body>\n</html>"
+            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #D84D68;\"></div>\n  </div>\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      ⚡ Offer ending soon\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      Only {{ pourcentage_restant }}% left in stock\n    </span>\n  </div>\n</div>"
           }
         },
-        "liquid_kqWfWi": {
+        "liquid_4cYYie": {
           "type": "liquid",
           "settings": {
-            "liquid": "{%- assign stock_total = 500 -%}\n{%- assign stock_restant = 30 -%}\n{%- assign pourcentage_restant = stock_restant | times: 100 | divided_by: stock_total -%}\n\n<div class=\"stock-bar-wrapper\" style=\"margin-bottom: 1.5rem;\">\n\n  <!-- Barre de progression -->\n  <div style=\"width: 100%; height: 8px; background-color: #eee; border-radius: 4px; overflow: hidden;\">\n    <div style=\"height: 100%; width: {{ pourcentage_restant }}%; background-color: #D84D68;\"></div>\n  </div>\n\n  <!-- Texte sous la barre -->\n  <div style=\"display: flex; justify-content: space-between; margin-top: 5px;\">\n    <span style=\"font-size: 13px; color: #555;\">\n      L’offre se termine bientôt\n    </span>\n    <span style=\"font-size: 13px; font-weight: 600; color: #e67e22;\">\n      {{ pourcentage_restant }}% du stock restant\n    </span>\n  </div>\n\n</div> <!-- ✅ Ce div ferme correctement le bloc -->\n\n<!-- ❌ SUPPRIMÉ : </div> en trop ici -->"
-          }
-        },
-        "liquid_4czDdp": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n\n  <!-- Badge gauche : texte vert, bord fin, EN GRAS -->\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700; /* ✅ mis en gras */\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    SOLDES D’ÉTÉ\n  </span>\n\n  <!-- Badge droite : fond vert + texte blanc -->\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    2 ACHETÉS = 1 OFFERTE\n  </span>\n\n</div>"
+            "liquid": "<div style=\"display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem;\">\n  <span style=\"\n    padding: 4px 10px;\n    border: 1px solid #A8BBA2;\n    color: #A8BBA2;\n    font-weight: 700;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n    background-color: transparent;\n  \">\n    SPRING SALE\n  </span>\n  <span style=\"\n    padding: 4px 10px;\n    background-color: #7DA17F;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 12px;\n    border-radius: 4px;\n    text-transform: uppercase;\n  \">\n    BUY 1 + GET 1 FREE\n  </span>\n</div>"
           }
         },
         "liquid_g8KCbn": {
@@ -60,7 +40,7 @@
         "liquid_7Rb7qj": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"text-align:center; margin-top:20px;\">\n\n  <!-- Titre principal -->\n  <h2 style=\"font-size:26px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1b4332; font-weight:800; margin:0 0 6px;\">\n    PULMEOR<sup style=\"font-size:13px; vertical-align:top;\">®</sup>\n  </h2>\n\n  <!-- Sous-titre gras + vert -->\n  <p style=\"font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A8BBA2; font-weight:700; margin:0 0 10px;\">\n    Confort respiratoire révolutionné tout au long de la journée\n  </p>\n\n  <!-- Claim ligne 1 -->\n  <p style=\"font-size:13px; color:#444; margin:0;\">\n    <span style=\"font-size:14px;\">🏆</span>\n    <strong>Complément respiratoire naturel</strong> <em><strong>n°1 en 2024</strong></em>\n  </p>\n\n  <!-- Claim ligne 2 corrigée -->\n  <p style=\"font-size:12.5px; color:#666; margin:2px 0 0;\">\n    <span style=\"font-size:14px;\">🩺</span>\n    <strong>Conseillé par les experts</strong> en bien-être respiratoire\n  </p>\n\n</div>"
+            "liquid": "<div style=\"text-align:center; margin-top:20px;\">\n  <!-- Main title -->\n  <h2 style=\"font-size:26px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1b4332; font-weight:800; margin:0 0 6px;\">\n    PULMEOR<sup style=\"font-size:13px; vertical-align:top;\">®</sup>\n  </h2>\n  <!-- Subtitle -->\n  <p style=\"font-size:16px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#A8BBA2; font-weight:700; margin:0 0 10px;\">\n    Revolutionary respiratory comfort — all day long\n  </p>\n  <!-- Claim line 1 -->\n  <p style=\"font-size:13px; color:#444; margin:0;\">\n    <span style=\"font-size:14px;\">🏆</span>\n    <strong>America's #1 natural lung supplement</strong> <em><strong>in 2025</strong></em>\n  </p>\n  <!-- Claim line 2 -->\n  <p style=\"font-size:12.5px; color:#666; margin:2px 0 0;\">\n    <span style=\"font-size:14px;\">🩺</span>\n    <strong>Trusted by respiratory wellness experts</strong> nationwide\n  </p>\n</div>"
           }
         },
         "separator_8CWPGB": {
@@ -70,7 +50,7 @@
         "liquid_nQ3Ui7": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div id=\"benefits-bullets-lungs-fa\">\n  <div class=\"bb-card\">\n    <ul class=\"bb-grid\" role=\"list\">\n      <!-- 1 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-lungs\"></i>\n        </span>\n        <span class=\"bb-text\">Soulagement <strong>immédiat</strong><br>des mucosités et de la toux</span>\n      </li>\n\n      <!-- 2 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-wind\"></i>\n        </span>\n        <span class=\"bb-text\">Respirez plus <strong>profondément</strong>,<br>bougez <strong>librement</strong></span>\n      </li>\n\n      <!-- 3 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-shield-halved\"></i>\n        </span>\n        <span class=\"bb-text\">Un soutien pulmonaire naturel<br>qui fonctionne <strong>vraiment</strong></span>\n      </li>\n\n      <!-- 4 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-capsules\"></i>\n        </span>\n        <span class=\"bb-text\"><strong>2 gélules</strong> par jour – matin et soir</span>\n      </li>\n    </ul>\n  </div>\n</div>\n\n<style>\n  /* Scope local */\n  #benefits-bullets-lungs-fa .bb-card {\n    background:#fff;\n    border:1px solid #e5e7eb;\n    border-radius:14px;\n    padding:14px;\n  }\n  #benefits-bullets-lungs-fa .bb-grid {\n    display:grid;\n    grid-template-columns:repeat(2,minmax(0,1fr));\n    gap:12px 18px;\n    margin:0;\n    padding:0;\n    list-style:none;\n  }\n  #benefits-bullets-lungs-fa .bb-item {\n    display:flex;\n    align-items:flex-start;\n    gap:10px;\n  }\n  #benefits-bullets-lungs-fa .bb-ico {\n    display:inline-flex;\n    width:26px;height:26px;\n    align-items:center;justify-content:center;\n    background:#f3f4f6;\n    border-radius:999px;\n    color:#A8BBA2; /* Couleur demandée */\n    font-size:16px;\n  }\n  #benefits-bullets-lungs-fa .bb-text {\n    font-size:14px; line-height:1.3; color:#111827;\n  }\n  #benefits-bullets-lungs-fa .bb-text strong {\n    font-weight:600;\n    color:#111;\n  }\n\n  /* Mobile: 1 colonne */\n  @media (max-width: 640px) {\n    #benefits-bullets-lungs-fa .bb-grid {grid-template-columns:1fr;}\n  }\n</style>"
+            "liquid": "<div id=\"benefits-bullets-lungs-fa\">\n  <div class=\"bb-card\">\n    <ul class=\"bb-grid\" role=\"list\">\n      <!-- 1 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-lungs\"></i>\n        </span>\n        <span class=\"bb-text\">Join thousands who say —<br><strong>it actually works</strong></span>\n      </li>\n\n      <!-- 2 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-wind\"></i>\n        </span>\n        <span class=\"bb-text\">Breaks down mucus &<br><strong>promotes lung comfort</strong></span>\n      </li>\n\n      <!-- 3 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-shield-halved\"></i>\n        </span>\n        <span class=\"bb-text\">Soothes airways — ideal for<br><strong>dryness, irritation & coughs</strong></span>\n      </li>\n\n      <!-- 4 -->\n      <li class=\"bb-item\">\n        <span class=\"bb-ico\" aria-hidden=\"true\">\n          <i class=\"fa-solid fa-capsules\"></i>\n        </span>\n        <span class=\"bb-text\">Just <strong>2 capsules</strong> a day —<br>morning & night</span>\n      </li>\n    </ul>\n  </div>\n</div>\n\n<style>\n  #benefits-bullets-lungs-fa .bb-card {\n    background:#fff;\n    border:1px solid #e5e7eb;\n    border-radius:14px;\n    padding:14px;\n  }\n  #benefits-bullets-lungs-fa .bb-grid {\n    display:grid;\n    grid-template-columns:repeat(2,minmax(0,1fr));\n    gap:12px 18px;\n    margin:0;\n    padding:0;\n    list-style:none;\n  }\n  #benefits-bullets-lungs-fa .bb-item {\n    display:flex;\n    align-items:flex-start;\n    gap:10px;\n  }\n  #benefits-bullets-lungs-fa .bb-ico {\n    display:inline-flex;\n    width:26px;height:26px;\n    align-items:center;justify-content:center;\n    background:#f3f4f6;\n    border-radius:999px;\n    color:#A8BBA2;\n    font-size:16px;\n  }\n  #benefits-bullets-lungs-fa .bb-text {\n    font-size:14px; line-height:1.3; color:#111827;\n  }\n  #benefits-bullets-lungs-fa .bb-text strong {\n    font-weight:600;\n    color:#111;\n  }\n\n  @media (max-width: 640px) {\n    #benefits-bullets-lungs-fa .bb-grid {grid-template-columns:1fr;}\n  }\n</style>"
           }
         },
         "text_BcdmzT": {
@@ -170,8 +150,7 @@
       "block_order": [
         "title",
         "liquid_CzdGpj",
-        "liquid_kqWfWi",
-        "liquid_4czDdp",
+        "liquid_4cYYie",
         "liquid_g8KCbn",
         "liquid_7Rb7qj",
         "separator_8CWPGB",
@@ -199,8 +178,8 @@
         "full_width": false,
         "show_fixed_add_to_cart": false,
         "desktop_media_width": 40,
-        "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "contained",
+        "desktop_media_layout": "grid",
+        "mobile_media_size": "expanded",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": false,
@@ -1111,7 +1090,6 @@
     }
   },
   "order": [
-    "custom_html_YNFWGG",
     "main",
     "logo_list_6UAx67",
     "image_with_text_overlay_a4PFQE",
