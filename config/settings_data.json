@@ -80,6 +80,11 @@
         "type": "shopify://apps/sales-pop-order-sales-popup/blocks/app-embed/186a4bd9-a884-4fa6-909b-ea21f3455d23",
         "disabled": true,
         "settings": {}
+      },
+      "15557474716127144420": {
+        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
