@@ -17,12 +17,13 @@
         "message_7zFgrn": {
           "type": "message",
           "settings": {
-            "text": "Livraison offerte 🚚",
+            "text": "Spring Sale | Save Up to 60% OFF",
             "url": ""
           }
         },
         "message_QBtaWg": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "👋Bonjour Décembre | Jusqu'à -50% de réduction",
             "url": ""
