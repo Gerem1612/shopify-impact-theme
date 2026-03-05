@@ -185,80 +185,6 @@
         "input_text_color": "#14a16c"
       }
     },
-    "logo_list_6UAx67": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_JH7tqc": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/png-transparent-france-5-tv-hd-logo.png",
-            "logo_width": 110,
-            "link": ""
-          }
-        },
-        "logo_fbqpbG": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/100a_LMDLS_logo_lmdls-650x480_c426d8c9-5b2e-4e7c-9406-9a78e951aef1.jpg",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_UXiJLE": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Logo_Institut_Pasteur_svg.png",
-            "logo_width": 160,
-            "link": ""
-          }
-        },
-        "logo_9NyPkk": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/PubMed-Logo.wine.png",
-            "logo_width": 220,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_JH7tqc",
-        "logo_fbqpbG",
-        "logo_UXiJLE",
-        "logo_9NyPkk"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": false,
-        "stack_mobile": false,
-        "title": "Ils parlent de nous",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 6,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "image_with_text_overlay_a4PFQE": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Design_sans_titre_10_35acfd43-b300-4d91-9410-8b77fb62ff06.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "video_bmYKnx": {
       "type": "video",
       "blocks": {
@@ -329,17 +255,6 @@
     },
     "rich_text_pXMXPC": {
       "type": "rich-text",
-      "blocks": {
-        "richtext_rUTakK": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>Déjà adopté par des milliers de personnes</h1><h4>Pulmeor, notre formule 100 % naturelle et bio, booste votre respiration et soulage rapidement les symptômes liés à l’asthme, la sinusite, la bronchite et la toux.</h4><h2>Respirez mieux. Vivez pleinement.<br/><br/></h2>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_rUTakK"
-      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -347,172 +262,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": "#a8bba2"
-      }
-    },
-    "testimonial7_7dWXE7": {
-      "type": "testimonial7",
-      "blocks": {
-        "image_fEEFWD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/9_avr._2025_00_16_25.png"
-          }
-        },
-        "image_6KCCmD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_41_16.png"
-          }
-        },
-        "image_QtjHTm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_49_02.png"
-          }
-        },
-        "image_EznQJt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_avr._2025_00_58_49.png"
-          }
-        },
-        "testimonial_VPh8aT": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "text": "J'avais l'habitude de me réveiller chaque matin avec du mucus dans la gorge, ce qui me prenait une éternité à dégager. Depuis que je prends Pulmeor, mes matins sont tellement meilleurs – je me réveille avec des voies respiratoires dégagées et sans irritation !",
-            "author": "Mireille.E",
-            "verified": "Achat vérifié"
-          }
-        },
-        "testimonial_rbpzcx": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "text": "Bien que je porte toujours ma ventoline, j'ai remarqué que j'en ai beaucoup moins besoin depuis que je prends Pulmeor. Ma respiration se fait plus stable, et je n'ai plus autant de crises.",
-            "author": "Chloe K.",
-            "verified": "Achat vérifié"
-          }
-        },
-        "testimonial_WtjCCh": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "text": "En vieillissant, j'ai remarqué que ma capacité pulmonaire diminuait. Pulmeor m'a aidé à maintenir ma santé et je me sens beaucoup plus à l'aise en marchant ou en faisant des activités physiques !",
-            "author": "Bernard.P",
-            "verified": "Achat vérifié"
-          }
-        },
-        "testimonial_B3WCik": {
-          "type": "testimonial",
-          "settings": {
-            "rating": 5,
-            "text": "On ne manque jamais un jour de prendre Pulmeor  ! C'est devenu un pilier dans notre routine à cause de l'énorme amélioration de nos fonctions pulmonaires. Nous nous sentons plus en forme, plus énergique, et on respire sans effort chaque jour !",
-            "author": "Chantal & Edmond A.",
-            "verified": "Achat vérifié"
-          }
-        }
-      },
-      "block_order": [
-        "image_fEEFWD",
-        "image_6KCCmD",
-        "image_QtjHTm",
-        "image_EznQJt",
-        "testimonial_VPh8aT",
-        "testimonial_rbpzcx",
-        "testimonial_WtjCCh",
-        "testimonial_B3WCik"
-      ],
-      "settings": {
-        "hide_images": true,
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "jost_n6",
-        "heading_size": 36,
-        "heading_size_mobile": 30,
-        "heading_height": 150,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "layout": "image_testimonial",
-        "layout_mobile": "image_testimonial",
-        "layout_gap": 24,
-        "layout_gap_mobile": 24,
-        "layout_mt": 36,
-        "image_row": "2",
-        "image_row_mobile": "2",
-        "image_gap": 12,
-        "image_gap_mobile": 4,
-        "image_radius": 8,
-        "image_border_thickness": 0,
-        "image_ratio": "square",
-        "testimonials_style_mobile": "grid",
-        "testimonials_row": "2",
-        "testimonials_row_mobile": "2",
-        "testimonials_gap": 12,
-        "testimonials_gap_mobile": 12,
-        "testimonial_padding_vertical": 12,
-        "testimonial_padding_horizontal": 12,
-        "testimonial_radius": 8,
-        "testimonial_border_thickness": 1,
-        "stars_size": 20,
-        "testimonial_text_custom": false,
-        "testimonial_text_font": "josefin_sans_n4",
-        "testimonial_text_size": 14,
-        "testimonial_text_size_mobile": 14,
-        "testimonial_text_height": 150,
-        "testimonial_text_mt": 8,
-        "testimonial_author_custom": false,
-        "testimonial_author_font": "josefin_sans_n4",
-        "testimonial_author_size": 14,
-        "testimonial_author_size_mobile": 14,
-        "testimonial_author_height": 150,
-        "testimonial_author_mt": 12,
-        "testimonial_verified_custom": false,
-        "testimonial_verified_font": "josefin_sans_n4",
-        "testimonial_verified_size": 10,
-        "testimonial_verified_size_mobile": 10,
-        "testimonial_verified_height": 150,
-        "button": "",
-        "button_url": "",
-        "button_use_icon": false,
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 18,
-        "button_size_mobile": 16,
-        "button_height": 100,
-        "button_align": "center",
-        "button_align_mobile": "center",
-        "button_mt": 24,
-        "button_padding_vertical": 16,
-        "button_padding_horizontal": 50,
-        "button_radius": 12,
-        "button_border_thickness": 2,
-        "heading_color": "#13193b",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "button_color": "#000000",
-        "button_hover_color": "#000000",
-        "button_bg_color": "#ffffff",
-        "button_bg_hover_color": "#ffffff",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "image_border_color": "#000000",
-        "testimonial_bg_color": "#ffffff",
-        "testimonial_border_color": "#a8bba2",
-        "stars_color": "#f7dc5a",
-        "testimonial_text_color": "#000000",
-        "testimonial_author_color": "#000000",
-        "testimonial_verified_color": "#999999",
-        "testimonial_pagination_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 96,
-        "padding_bottom": 96,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "content_width": 140,
-        "border_thickness": 0
       }
     },
     "logo_list_Acd3KB": {
@@ -686,33 +435,6 @@
     },
     "slideshow_bNcEd3": {
       "type": "slideshow",
-      "blocks": {
-        "image_cHMPhc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Benefices_ingredients_6b2c5987-870c-4934-b8aa-8f5797178b65.png",
-            "mobile_image": "shopify://shop_images/Benefices_ingredients_mobile.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_cHMPhc"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -836,33 +558,6 @@
     },
     "slideshow_89zcP7": {
       "type": "slideshow",
-      "blocks": {
-        "image_rBka3A": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._pilules.png",
-            "mobile_image": "shopify://shop_images/Le_premier_rituel_naturel_concu_pour_renforcer_vos_poumons_valide_par_la_science._mobile_pilules.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_rBka3A"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -927,40 +622,6 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
-      }
-    },
-    "rich_text_jx94H8": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_kL8Mkc": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1>FOIRE AUX QUESTIONS</h1><h1></h1><h4>Sélectionnez l'objet de votre question ci dessous :</h4>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_kL8Mkc"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#13193b"
-      }
-    },
-    "custom_html_Gdbh8T": {
-      "type": "custom-html",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Pulmeor - FAQ</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n        .faq-section {\n            padding: 2rem 1rem;\n            max-width: 1000px;\n            margin: auto;\n        }\n        .faq-menu {\n            display: flex;\n            gap: 1rem;\n            justify-content: center;\n            flex-wrap: wrap;\n            margin-bottom: 2rem;\n        }\n        .faq-menu a {\n            padding: 0.75rem 1.5rem;\n            background-color: #14A16C;\n            color: #fff;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n        }\n        .faq-menu a:hover {\n            background-color: #108456;\n        }\n        .faq-block {\n            margin-bottom: 2rem;\n            background-color: white;\n            border-radius: 8px;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n            padding: 1rem;\n        }\n        .faq-block h2 {\n            font-size: 1.8rem;\n            margin-bottom: 1rem;\n            color: #14A16C;\n            border-bottom: 2px solid #14A16C;\n            padding-bottom: 0.5rem;\n        }\n        .faq-item {\n            border-bottom: 1px solid #ddd;\n            padding: 1rem 0;\n        }\n        .faq-question {\n            font-weight: bold;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            cursor: pointer;\n            color: #14A16C;\n            transition: color 0.3s ease;\n        }\n        .faq-question:hover {\n            color: #108456;\n        }\n        .faq-answer {\n            display: none;\n            padding-top: 0.5rem;\n            color: #555;\n        }\n        .faq-answer.open {\n            display: block;\n        }\n        @media (max-width: 768px) {\n            .faq-question {\n                font-size: 1rem;\n            }\n            .faq-block h2 {\n                font-size: 1.5rem;\n            }\n        }\n    </style>\n\n\n    <div class=\"faq-section\">\n        <div class=\"faq-menu\">\n            <a href=\"#sante\">🩺 Santé</a>\n            <a href=\"#produit\">💊 Produits</a>\n            <a href=\"#commander\">📦 Commandes</a>\n        </div>\n\n        <div class=\"faq-block\" id=\"sante\">\n            <h2>🩺 Santé</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quand puis-je constater les effets de Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Chaque corps réagit différemment. Certains ressentent les bienfaits dès 1 à 2 semaines, d'autres autour de 6 à 8 semaines. La régularité est la clé !</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Puis-je prendre Pulmeor avec d'autres médicaments ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, sans souci connu. On conseille simplement un délai de 2 heures entre Pulmeor et vos médicaments. En cas de traitement lourd, demandez l'avis de votre médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Dois-je arrêter mon traitement si je prends Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas du tout ! Pulmeor est un complément alimentaire. Il ne remplace pas un traitement médical mais peut le compléter naturellement.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor a-t-il des effets secondaires ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun effet secondaire majeur signalé. Une légère hausse des mucosités peut arriver au début : c'est une réaction normale de nettoyage respiratoire.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je suis malade / enceinte / sous traitement, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Par précaution, demandez toujours l'avis de votre professionnel de santé avant de commencer.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je suis diabétique, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, Pulmeor ne contient ni sucre ajouté ni ingrédients problématiques pour les personnes diabétiques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">J'ai des problèmes rénaux / je suis en dialyse, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Mieux vaut éviter. Nous vous recommandons de demander l'avis de votre médecin avant toute prise.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je fais de l'œdème pulmonaire, puis-je prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non. Cette situation nécessite une prise en charge médicale urgente. Parlez-en avec votre médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pourquoi je ressens chaleur / constipation / nausées ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Il peut s'agir d'une réponse naturelle de votre corps. Si c'est gênant, arrêtez quelques jours, hydratez-vous bien, puis reprenez doucement.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pourquoi je tousse ou ai plus de mucus au début ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">C'est un bon signe ! Vos voies respiratoires s'activent pour évacuer les toxines. Cela s'atténue généralement en quelques jours.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Aliments à éviter pendant la cure ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Évitez les aliments gras, très froids ou très épicés. Et buvez beaucoup d'eau, surtout tiède, pour soutenir le processus.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Dois-je arrêter Pulmeor si je vais mieux ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas nécessairement. Vous pouvez continuer en entretien, 1 gélule par jour, pour maintenir vos résultats et votre bien-être.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Allergie aux champignons ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor contient un extrait de champignon. En cas d'allergie connue, mieux vaut ne pas en consommer sans l'avis d'un médecin.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il compatible avec intolérance au fructose ou à l'histamine ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui. Pulmeor ne contient ni fructose ni ingrédients riches en histamine. Il convient à la plupart des régimes spécifiques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il un médicament ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, c'est un complément alimentaire naturel, à base de champignon médicinal.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Qui peut prendre Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Toute personne adulte souhaitant renforcer sa santé respiratoire. Il est particulièrement utile en période de fatigue ou de froid.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor est-il adapté aux enfants ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor est réservé aux adultes. Il n'est pas recommandé pour les enfants.</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"faq-block\" id=\"produit\">\n            <h2>💊 Produits</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quels sont les ingrédients exacts ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Chaque gélule contient 300 mg d'extrait de Lignosus rhinocerus, dont 150 mg de bêta-glucanes, avec une enveloppe végétale HPMC.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la posologie ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">1 gélule par jour, avec un grand verre d'eau, de préférence après un repas.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Faut-il réfrigérer le produit ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, il suffit de le conserver dans un endroit sec, frais et à l'abri de la lumière.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la durée de conservation ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pulmeor se conserve 24 mois à partir de sa fabrication.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la composition de l'enveloppe ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">L'enveloppe est 100 % végétale, en hydroxypropylméthylcellulose (HPMC), sans additifs controversés.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il gluten / produits laitiers / allergènes ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, Pulmeor est sans gluten, sans lactose, sans soja, sans fruits à coque. Il convient à la plupart des régimes.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il des stéroïdes ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun stéroïde ni substance dopante n'est présent dans Pulmeor.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Pulmeor contient-il de la caféine ou des stimulants ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Non, Pulmeor est 100 % sans stimulant, ni caféine. Il peut être pris le matin ou le soir.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la différence avec d'autres champignons (Lingzhi) ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Le Lignosus cible principalement les voies respiratoires. Le Lingzhi agit davantage sur le foie. Ils sont complémentaires, mais différents.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quelle est la différence entre Pulmeor et les versions sauvages ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Notre Lignosus est cultivé dans des conditions contrôlées pour garantir sécurité, qualité et efficacité constantes.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Quel est le goût de Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Aucun goût particulier : Pulmeor est en gélule, donc facile et neutre à avaler !</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"faq-block\" id=\"commander\">\n            <h2>📦 Commandes</h2>\n            <div class=\"faq-items\">\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Est-ce un achat unique ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui ! Aucun abonnement caché, aucun prélèvement automatique.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Livrez-vous dans le monde entier ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, nous livrons partout. La livraison standard est gratuite sur de nombreuses zones.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un abonnement ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Pas encore, mais on y travaille. Inscrivez-vous à notre newsletter pour rester informé.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Où acheter Pulmeor ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Uniquement sur notre site officiel, pour vous garantir la qualité et la fraîcheur.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un programme ambassadeur ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, et on serait ravi de collaborer avec vous ! Écrivez-nous si Pulmeor vous plaît.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Avez-vous un programme grossiste ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Oui, contactez-nous si vous êtes intéressé par la revente ou la distribution.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Est-ce que votre site est sécurisé ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Absolument. Paiement sécurisé et données cryptées, comme chez les banques.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Délai de livraison ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Expédition sous 24 à 48h. Comptez entre 7 à 14 jours ouvrés pour recevoir votre colis.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Comment suivre ma commande ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Un mail avec un lien de suivi vous est envoyé dès que votre colis est expédié.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Moyens de paiement ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Visa, Mastercard, Amex, PayPal… Paiement simple et sécurisé.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Politique de retour ? <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Vous avez 30 jours pour nous retourner un produit non ouvert. On vous rembourse sans souci.</div>\n                </div>\n                <div class=\"faq-item\">\n                    <div class=\"faq-question\">Je veux annuler ma commande. <span>➕</span>\n</div>\n                    <div class=\"faq-answer\">Écrivez-nous dans les 24h après achat si votre colis n'a pas encore été expédié.</div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <script>\n        document.querySelectorAll('.faq-item').forEach(item => {\n            item.addEventListener('click', () => {\n                const answer = item.querySelector('.faq-answer');\n                answer.classList.toggle('open');\n            });\n        });\n    </script>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multi_column_w3P7Uw": {
@@ -1068,29 +729,13 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_html_rYc93H": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<!-- SECTION PULMEOR RESPONSIVE 2 COLS ON MOBILE -->\n<style>\n  .pulmeor-section {\n    background-color: #f4fef8;\n    padding: 40px 20px;\n    font-family: 'Helvetica Neue', sans-serif;\n  }\n  .pulmeor-section h2 {\n    text-align: center;\n    font-size: 28px;\n    color: #1c3e3b;\n    margin-bottom: 12px;\n  }\n  .pulmeor-section p.subtitle {\n    text-align: center;\n    font-size: 16px;\n    color: #444;\n    max-width: 600px;\n    margin: 0 auto 32px;\n  }\n  .pulmeor-grid {\n    display: grid;\n   grid-template-columns: repeat(2, 1fr);\n    gap: 16px;\n    justify-items: center;\n  }\n  .pulmeor-box {\n    background: white;\n    border-radius: 10px;\n    padding: 20px;\n    width: 100%;\n    max-width: 200px;\n    text-align: center;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.05);\n  }\n  .pulmeor-box.red h4 {\n    color: #c94c4c;\n  }\n  .pulmeor-box.green h4 {\n    color: #1c8d62;\n  }\n  .pulmeor-box img {\n    height: 40px;\n    margin-bottom: 12px;\n  }\n  .pulmeor-box p {\n    font-size: 14px;\n    font-weight: bold;\n    color: #333;\n  }\n  .pulmeor-box h4 {\n    font-size: 14px;\n    margin-bottom: 6px;\n  }\n</style>\n\n<section class=\"pulmeor-section\">\n  <h2>Respirez pleinement, <em>naturellement</em>\n</h2>\n  <p class=\"subtitle\">Libérez vos voies respiratoires, calmez votre toux, et retrouvez une respiration facile grâce à la puissance naturelle du Tiger Milk.</p>\n  <div class=\"pulmeor-grid\">\n\n    <!-- Bloc 1 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-cough.svg\" alt=\"Toux persistante\">\n      <h4>Dites adieu à</h4>\n      <p>Toux chronique</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-breathing.svg\" alt=\"Respiration claire\">\n      <h4>Profitez de</h4>\n      <p>Poumons dégagés</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-congestion.svg\" alt=\"Poitrine lourde\">\n      <h4>Oubliez</h4>\n      <p>Congestion thoracique</p>\n    </div>\n\n    <!-- Bloc 4 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-steady.svg\" alt=\"Souffle stable\">\n      <h4>Accueillez</h4>\n      <p>Souffle régulier</p>\n    </div>\n\n    <!-- Bloc 5 -->\n    <div class=\"pulmeor-box red\">\n      <img src=\"/icons/icon-gasping.svg\" alt=\"Essoufflement rapide\">\n      <h4>Finissez-en avec</h4>\n      <p>L’essoufflement</p>\n    </div>\n\n    <!-- Bloc 6 -->\n    <div class=\"pulmeor-box green\">\n      <img src=\"/icons/icon-fresh.svg\" alt=\"Air frais\">\n      <h4>Reprenez</h4>\n      <p>Air frais &amp; liberté</p>\n    </div>\n\n  </div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "main",
-    "logo_list_6UAx67",
-    "image_with_text_overlay_a4PFQE",
     "video_bmYKnx",
     "image_with_text_overlay_YPa6E9",
     "rich_text_pXMXPC",
-    "testimonial7_7dWXE7",
     "logo_list_Acd3KB",
     "press_i76YMm",
     "slideshow_CNtLfz",
@@ -1102,10 +747,7 @@
     "related-products",
     "174335336512796468",
     "1743354028910fe231",
-    "rich_text_jx94H8",
-    "custom_html_Gdbh8T",
     "multi_column_w3P7Uw",
-    "timeline_QpMLMJ",
-    "custom_html_rYc93H"
+    "timeline_QpMLMJ"
   ]
 }
